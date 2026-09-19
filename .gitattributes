@@ -1,0 +1,4 @@
+* text=auto eol=lf
+experiments/**/raw/** -text
+experiments/**/analysis/** -text
+*.csv whitespace=cr-at-eol

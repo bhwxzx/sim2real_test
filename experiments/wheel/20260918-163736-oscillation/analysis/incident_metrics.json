@@ -1,0 +1,109 @@
+{
+  "source": {
+    "bag": "/home/nvidia/debug_bags/lw_real_20260918-163736",
+    "count": 3613,
+    "sha256": "04c48a8e050580c99c3cc7bb90bed23b03052293adbb403f4394befc30f0e37c",
+    "names": [
+      "right_hip_now",
+      "left_hip_now",
+      "right_thigh_now",
+      "left_thigh_now",
+      "right_shank_now",
+      "left_shank_now",
+      "right_foot_now",
+      "left_foot_now",
+      "right_wheel_now",
+      "left_wheel_now",
+      "right_hip_target",
+      "left_hip_target",
+      "right_thigh_target",
+      "left_thigh_target",
+      "right_shank_target",
+      "left_shank_target",
+      "right_foot_target",
+      "left_foot_target",
+      "right_wheel_target",
+      "left_wheel_target",
+      "imu_ang_vel",
+      "imu_quat_w",
+      "imu_quat_x",
+      "imu_quat_y",
+      "imu_quat_z",
+      "cmd_vel"
+    ]
+  },
+  "policy_start_s": 64.003259295,
+  "inferred_getdown_s": 64.58331122,
+  "policy_window_s": 0.5800519249999923,
+  "pre_entry_roll_pitch_deg": [
+    0.8276452868297679,
+    2.7197338532862467
+  ],
+  "command_absmax": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "device_torque_absmax": [
+    138.26617431640625,
+    131.037841796875,
+    51.135528564453125,
+    39.21855163574219,
+    79.75579833984375,
+    39.21855163574219,
+    6.461538314819336,
+    5.066667556762695,
+    22.509889602661133,
+    3.0197792053222656
+  ],
+  "debug_PD_torque_absmax": [
+    301.2947082519531,
+    376.7683410644531,
+    86.01934051513672,
+    72.8124771118164,
+    110.48783111572266,
+    82.63467407226562,
+    12.189201354980469,
+    9.780241012573242,
+    11.212453842163086,
+    2.3423380851745605
+  ],
+  "target_min": [
+    -3.3725662231445312,
+    -2.1085197925567627,
+    0.44552671909332275,
+    -1.6406439542770386,
+    -1.3913578987121582,
+    -0.14586324989795685,
+    -0.07836688309907913,
+    -0.4253388047218323,
+    -21.732601165771484,
+    -3.9603826999664307
+  ],
+  "target_max": [
+    1.8843481540679932,
+    3.678147315979004,
+    2.137138843536377,
+    -0.4059288203716278,
+    -0.012597739696502686,
+    1.265181541442871,
+    0.6154872179031372,
+    0.1670834869146347,
+    0.7887486815452576,
+    4.129672527313232
+  ],
+  "model_sha256": "b5f71d83ce6b8f9acdf73b8e7c4093fefc747db8ec9a08ae6bce72cdb5e9626e",
+  "replay_last19frames_max_abs_error": 4.291534423828125e-06,
+  "feedback_repeat_max_s": {
+    "right_hip_now": 0,
+    "left_hip_now": 0,
+    "right_thigh_now": 0,
+    "left_thigh_now": 0,
+    "right_shank_now": 0,
+    "left_shank_now": 0,
+    "right_foot_now": 0,
+    "left_foot_now": 0,
+    "right_wheel_now": 0,
+    "left_wheel_now": 0
+  }
+}

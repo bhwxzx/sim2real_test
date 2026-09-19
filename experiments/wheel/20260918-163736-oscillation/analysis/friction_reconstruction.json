@@ -1,0 +1,966 @@
+{
+  "source": {
+    "bag": "/home/nvidia/debug_bags/lw_real_20260918-163736",
+    "count": 3613,
+    "sha256": "04c48a8e050580c99c3cc7bb90bed23b03052293adbb403f4394befc30f0e37c",
+    "names": [
+      "right_hip_now",
+      "left_hip_now",
+      "right_thigh_now",
+      "left_thigh_now",
+      "right_shank_now",
+      "left_shank_now",
+      "right_foot_now",
+      "left_foot_now",
+      "right_wheel_now",
+      "left_wheel_now",
+      "right_hip_target",
+      "left_hip_target",
+      "right_thigh_target",
+      "left_thigh_target",
+      "right_shank_target",
+      "left_shank_target",
+      "right_foot_target",
+      "left_foot_target",
+      "right_wheel_target",
+      "left_wheel_target",
+      "imu_ang_vel",
+      "imu_quat_w",
+      "imu_quat_x",
+      "imu_quat_y",
+      "imu_quat_z",
+      "cmd_vel"
+    ]
+  },
+  "policy_start_index": 3200,
+  "policy_stop_exclusive": 3229,
+  "policy_start_s": 64.003259295,
+  "formula": "clip(B*v+C_sign*clip(v/0.2,-1,1),-8,8)",
+  "caveat": "50Hz debug samples; estimate only, not logged 500Hz feedforward or synchronized CAN commands. No physical friction model; not a no-compensation closed-loop simulation. Policy boundaries inferred from targets.",
+  "windows": {
+    "first_300ms": {
+      "relative_first_s": 0.0,
+      "relative_last_s": 0.3000067090000016,
+      "joints": [
+        {
+          "joint": "right_hip_now",
+          "samples": 16,
+          "ff_absmax_Nm": 1.6745517578125,
+          "damping_absmax_Nm": 22.5091552734375,
+          "pd_absmax_Nm": 108.93726861476898,
+          "device_torque_absmax_Nm": 23.882781982421875,
+          "speed_absmax": 7.5030517578125,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 2,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.10789699267937061
+        },
+        {
+          "joint": "left_hip_now",
+          "samples": 16,
+          "ff_absmax_Nm": 1.5578534545898437,
+          "damping_absmax_Nm": 22.03296661376953,
+          "pd_absmax_Nm": 103.33967649936676,
+          "device_torque_absmax_Nm": 22.5152587890625,
+          "speed_absmax": 7.344322204589844,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 2,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.12244205971003251
+        },
+        {
+          "joint": "right_thigh_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.5379560363769531,
+          "damping_absmax_Nm": 5.109889984130859,
+          "pd_absmax_Nm": 31.451474905014038,
+          "device_torque_absmax_Nm": 13.821731567382812,
+          "speed_absmax": 1.7032966613769531,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 3,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.22599731541340617
+        },
+        {
+          "joint": "left_thigh_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.6347862304687499,
+          "damping_absmax_Nm": 5.25640869140625,
+          "pd_absmax_Nm": 27.891272842884064,
+          "device_torque_absmax_Nm": 12.74725341796875,
+          "speed_absmax": 1.75213623046875,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 3,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.2578368520578201
+        },
+        {
+          "joint": "right_shank_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.48025645446777343,
+          "damping_absmax_Nm": 3.864469528198242,
+          "pd_absmax_Nm": 22.832162976264954,
+          "device_torque_absmax_Nm": 11.379730224609375,
+          "speed_absmax": 1.288156509399414,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 8,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.2623077095733689
+        },
+        {
+          "joint": "left_shank_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.5111624786376954,
+          "damping_absmax_Nm": 3.205129623413086,
+          "pd_absmax_Nm": 15.723423466086388,
+          "device_torque_absmax_Nm": 9.5238037109375,
+          "speed_absmax": 1.0683765411376953,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 10,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.2941965385536062
+        },
+        {
+          "joint": "right_foot_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.5406486034393311,
+          "damping_absmax_Nm": 0.7726505279541015,
+          "pd_absmax_Nm": 2.463778352737427,
+          "device_torque_absmax_Nm": 0.7316246032714844,
+          "speed_absmax": 0.5518932342529297,
+          "ff_exceeds_damping_samples": 14,
+          "low_speed_nonzero_samples": 11,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 1.158229705740976
+        },
+        {
+          "joint": "left_foot_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.6467365112304688,
+          "damping_absmax_Nm": 1.04615478515625,
+          "pd_absmax_Nm": 2.380200171470642,
+          "device_torque_absmax_Nm": 1.7025642395019531,
+          "speed_absmax": 0.74725341796875,
+          "ff_exceeds_damping_samples": 5,
+          "low_speed_nonzero_samples": 3,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.8006707170444453
+        },
+        {
+          "joint": "right_wheel_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.36964295005798337,
+          "damping_absmax_Nm": 0.5989017486572266,
+          "pd_absmax_Nm": 1.186481773853302,
+          "device_torque_absmax_Nm": 0.8307685852050781,
+          "speed_absmax": 1.1978034973144531,
+          "ff_exceeds_damping_samples": 15,
+          "low_speed_nonzero_samples": 9,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 1.766184968315567
+        },
+        {
+          "joint": "left_wheel_now",
+          "samples": 16,
+          "ff_absmax_Nm": 0.3655001258850098,
+          "damping_absmax_Nm": 0.7307701110839844,
+          "pd_absmax_Nm": 1.6174639463424683,
+          "device_torque_absmax_Nm": 1.2000007629394531,
+          "speed_absmax": 1.4615402221679688,
+          "ff_exceeds_damping_samples": 14,
+          "low_speed_nonzero_samples": 13,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 1.3671948790209525
+        }
+      ]
+    },
+    "policy_all": {
+      "relative_first_s": 0.0,
+      "relative_last_s": 0.5600331469999986,
+      "joints": [
+        {
+          "joint": "right_hip_now",
+          "samples": 29,
+          "ff_absmax_Nm": 3.4693064666748046,
+          "damping_absmax_Nm": 52.289377212524414,
+          "pd_absmax_Nm": 301.29471015930176,
+          "device_torque_absmax_Nm": 138.26617431640625,
+          "speed_absmax": 17.429792404174805,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 2,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.07381173092290604
+        },
+        {
+          "joint": "left_hip_now",
+          "samples": 29,
+          "ff_absmax_Nm": 4.133785296630859,
+          "damping_absmax_Nm": 63.31502151489258,
+          "pd_absmax_Nm": 376.7683296203613,
+          "device_torque_absmax_Nm": 131.037841796875,
+          "speed_absmax": 21.10500717163086,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 2,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.07562025177325797
+        },
+        {
+          "joint": "right_thigh_now",
+          "samples": 29,
+          "ff_absmax_Nm": 2.8625275634765623,
+          "damping_absmax_Nm": 43.68132019042969,
+          "pd_absmax_Nm": 86.01934146881104,
+          "device_torque_absmax_Nm": 51.135528564453125,
+          "speed_absmax": 14.560440063476562,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 3,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.09739687818583531
+        },
+        {
+          "joint": "left_thigh_now",
+          "samples": 29,
+          "ff_absmax_Nm": 1.58404140625,
+          "damping_absmax_Nm": 21.00732421875,
+          "pd_absmax_Nm": 72.81247740983963,
+          "device_torque_absmax_Nm": 39.21855163574219,
+          "speed_absmax": 7.00244140625,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 3,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.11383902485962455
+        },
+        {
+          "joint": "right_shank_now",
+          "samples": 29,
+          "ff_absmax_Nm": 2.4516165969848633,
+          "damping_absmax_Nm": 35.40293025970459,
+          "pd_absmax_Nm": 110.48783218860626,
+          "device_torque_absmax_Nm": 79.75579833984375,
+          "speed_absmax": 11.800976753234863,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 9,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.09054608158884181
+        },
+        {
+          "joint": "left_shank_now",
+          "samples": 29,
+          "ff_absmax_Nm": 1.6925154663085937,
+          "damping_absmax_Nm": 24.26740264892578,
+          "pd_absmax_Nm": 82.63467192649841,
+          "device_torque_absmax_Nm": 39.21855163574219,
+          "speed_absmax": 8.089134216308594,
+          "ff_exceeds_damping_samples": 0,
+          "low_speed_nonzero_samples": 10,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.11510311912575537
+        },
+        {
+          "joint": "right_foot_now",
+          "samples": 29,
+          "ff_absmax_Nm": 2.3948680992126463,
+          "damping_absmax_Nm": 7.678632354736328,
+          "pd_absmax_Nm": 12.189201545715331,
+          "device_torque_absmax_Nm": 6.461538314819336,
+          "speed_absmax": 5.484737396240234,
+          "ff_exceeds_damping_samples": 15,
+          "low_speed_nonzero_samples": 12,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.3985269800154087
+        },
+        {
+          "joint": "left_foot_now",
+          "samples": 29,
+          "ff_absmax_Nm": 1.877879117012024,
+          "damping_absmax_Nm": 5.846153831481933,
+          "pd_absmax_Nm": 9.780241537094117,
+          "device_torque_absmax_Nm": 5.066667556762695,
+          "speed_absmax": 4.175824165344238,
+          "ff_exceeds_damping_samples": 7,
+          "low_speed_nonzero_samples": 4,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.5371259835908284
+        },
+        {
+          "joint": "right_wheel_now",
+          "samples": 29,
+          "ff_absmax_Nm": 1.1695001049041747,
+          "damping_absmax_Nm": 6.19230842590332,
+          "pd_absmax_Nm": 11.212453842163086,
+          "device_torque_absmax_Nm": 22.509889602661133,
+          "speed_absmax": 12.38461685180664,
+          "ff_exceeds_damping_samples": 18,
+          "low_speed_nonzero_samples": 10,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.39314688765361644
+        },
+        {
+          "joint": "left_wheel_now",
+          "samples": 29,
+          "ff_absmax_Nm": 0.5807856483459473,
+          "damping_absmax_Nm": 2.2362632751464844,
+          "pd_absmax_Nm": 2.342338189482689,
+          "device_torque_absmax_Nm": 3.0197792053222656,
+          "speed_absmax": 4.472526550292969,
+          "ff_exceeds_damping_samples": 20,
+          "low_speed_nonzero_samples": 16,
+          "ff_clip_samples": 0,
+          "ff_abs_sum_over_damping_abs_sum": 0.5811364337465974
+        }
+      ]
+    }
+  },
+  "selected_frames": [
+    {
+      "relative_ms": -19.99,
+      "hip_q": [
+        -0.031472206115722656,
+        0.032998085021972656
+      ],
+      "hip_q_target": [
+        0.0,
+        0.0
+      ],
+      "hip_v": [
+        -0.0061054229736328125,
+        -0.018314361572265625
+      ],
+      "hip_ff": [
+        -0.010811483001708984,
+        -0.03243107147216797
+      ],
+      "hip_damping": [
+        0.018316268920898438,
+        0.054943084716796875
+      ],
+      "hip_pd": [
+        2.8508148193359375,
+        -2.914884567260742
+      ],
+      "hip_torque": [
+        4.8351593017578125,
+        -5.4212493896484375
+      ]
+    },
+    {
+      "relative_ms": 0.0,
+      "hip_q": [
+        -0.031472206115722656,
+        0.032998085021972656
+      ],
+      "hip_q_target": [
+        0.11503993719816208,
+        -0.09573007375001907
+      ],
+      "hip_v": [
+        -0.0061054229736328125,
+        -0.0061054229736328125
+      ],
+      "hip_ff": [
+        -0.010811483001708984,
+        -0.010811483001708984
+      ],
+      "hip_damping": [
+        0.018316268920898438,
+        0.018316268920898438
+      ],
+      "hip_pd": [
+        13.204409167170525,
+        -11.567218020558357
+      ],
+      "hip_torque": [
+        5.8119659423828125,
+        -6.398040771484375
+      ]
+    },
+    {
+      "relative_ms": 19.987,
+      "hip_q": [
+        -0.02002716064453125,
+        0.02460479736328125
+      ],
+      "hip_q_target": [
+        0.20515753328800201,
+        -0.18366143107414246
+      ],
+      "hip_v": [
+        0.6410255432128906,
+        -0.4945049285888672
+      ],
+      "hip_ff": [
+        0.34589741821289066,
+        -0.4074064910888672
+      ],
+      "hip_damping": [
+        -1.9230766296386719,
+        1.4835147857666016
+      ],
+      "hip_pd": [
+        18.343545824289322,
+        -17.260445773601532
+      ],
+      "hip_torque": [
+        11.965805053710938,
+        -11.4774169921875
+      ]
+    },
+    {
+      "relative_ms": 39.99,
+      "hip_q": [
+        -0.00209808349609375,
+        0.01087188720703125
+      ],
+      "hip_q_target": [
+        0.186771959066391,
+        -0.1816139817237854
+      ],
+      "hip_v": [
+        0.8608055114746094,
+        -0.6410255432128906
+      ],
+      "hip_ff": [
+        0.38563363647460935,
+        -0.43389741821289063
+      ],
+      "hip_damping": [
+        -2.582416534423828,
+        1.9230766296386719
+      ],
+      "hip_pd": [
+        14.415887296199799,
+        -15.400651574134827
+      ],
+      "hip_torque": [
+        16.654449462890625,
+        -16.654449462890625
+      ]
+    },
+    {
+      "relative_ms": 60.012,
+      "hip_q": [
+        0.00247955322265625,
+        0.00820159912109375
+      ],
+      "hip_q_target": [
+        0.044458597898483276,
+        -0.053189024329185486
+      ],
+      "hip_v": [
+        0.05494499206542969,
+        -0.018314361572265625
+      ],
+      "hip_ff": [
+        0.07312079544067383,
+        -0.03243107147216797
+      ],
+      "hip_damping": [
+        -0.16483497619628906,
+        0.054943084716796875
+      ],
+      "hip_pd": [
+        3.6132790446281433,
+        -5.470213025808334
+      ],
+      "hip_torque": [
+        14.993896484375,
+        -15.77532958984375
+      ]
+    },
+    {
+      "relative_ms": 80.037,
+      "hip_q": [
+        -0.01811981201171875,
+        0.02422332763671875
+      ],
+      "hip_q_target": [
+        -0.006389151327311993,
+        0.0012580882757902145
+      ],
+      "hip_v": [
+        -1.2271060943603516,
+        0.8852252960205078
+      ],
+      "hip_ff": [
+        -0.5398607818603516,
+        0.39004873352050784
+      ],
+      "hip_damping": [
+        3.6813182830810547,
+        -2.6556758880615234
+      ],
+      "hip_pd": [
+        4.737077744677663,
+        -4.722547430545092
+      ],
+      "hip_torque": [
+        7.374847412109375,
+        -8.058609008789062
+      ]
+    },
+    {
+      "relative_ms": 99.99,
+      "hip_q": [
+        -0.038720130920410156,
+        0.037957191467285156
+      ],
+      "hip_q_target": [
+        0.05447594076395035,
+        -0.038630492985248566
+      ],
+      "hip_v": [
+        -0.9462757110595703,
+        0.5433464050292969
+      ],
+      "hip_ff": [
+        -0.4890866485595703,
+        0.3282370300292969
+      ],
+      "hip_damping": [
+        2.838827133178711,
+        -1.6300392150878906
+      ],
+      "hip_pd": [
+        11.226473584771156,
+        -8.522930815815926
+      ],
+      "hip_torque": [
+        4.9328460693359375,
+        -4.8351593017578125
+      ]
+    },
+    {
+      "relative_ms": 120.007,
+      "hip_q": [
+        -0.037957191467285156,
+        0.034523963928222656
+      ],
+      "hip_q_target": [
+        0.21711896359920502,
+        -0.18109281361103058
+      ],
+      "hip_v": [
+        0.2625160217285156,
+        -0.33577537536621094
+      ],
+      "hip_ff": [
+        0.27746289672851565,
+        -0.37870818786621097
+      ],
+      "hip_damping": [
+        -0.7875480651855469,
+        1.0073261260986328
+      ],
+      "hip_pd": [
+        22.16930589079857,
+        -18.39818385243416
+      ],
+      "hip_torque": [
+        8.840042114257812,
+        -7.863250732421875
+      ]
+    },
+    {
+      "relative_ms": 139.995,
+      "hip_q": [
+        -0.00591278076171875,
+        0.01201629638671875
+      ],
+      "hip_q_target": [
+        0.242758110165596,
+        -0.21478402614593506
+      ],
+      "hip_v": [
+        1.788766860961914,
+        -1.1538467407226562
+      ],
+      "hip_ff": [
+        0.5534090484619141,
+        -0.5266154907226562
+      ],
+      "hip_damping": [
+        -5.366300582885742,
+        3.4615402221679688
+      ],
+      "hip_pd": [
+        17.014079600572586,
+        -16.950488805770874
+      ],
+      "hip_torque": [
+        16.75213623046875,
+        -16.068374633789062
+      ]
+    },
+    {
+      "relative_ms": 160.016,
+      "hip_q": [
+        0.01773834228515625,
+        0.00209808349609375
+      ],
+      "hip_q_target": [
+        -0.04303686320781708,
+        0.032644372433423996
+      ],
+      "hip_v": [
+        1.0073261260986328,
+        -0.27472496032714844
+      ],
+      "hip_ff": [
+        0.4121245635986328,
+        -0.3676702728271484
+      ],
+      "hip_damping": [
+        -3.0219783782958984,
+        0.8241748809814453
+      ],
+      "hip_pd": [
+        -8.491746872663498,
+        3.5733408853411674
+      ],
+      "hip_torque": [
+        15.091567993164062,
+        -16.26373291015625
+      ]
+    },
+    {
+      "relative_ms": 180.002,
+      "hip_q": [
+        -0.01583099365234375,
+        0.032235145568847656
+      ],
+      "hip_q_target": [
+        -0.1417541205883026,
+        0.1318233162164688
+      ],
+      "hip_v": [
+        -2.326007843017578,
+        1.7765560150146484
+      ],
+      "hip_ff": [
+        -0.738542218017578,
+        0.5512013275146485
+      ],
+      "hip_damping": [
+        6.978023529052734,
+        -5.329668045043945
+      ],
+      "hip_pd": [
+        -4.355057895183563,
+        3.6332673132419586
+      ],
+      "hip_torque": [
+        1.8070831298828125,
+        -2.881561279296875
+      ]
+    },
+    {
+      "relative_ms": 200.033,
+      "hip_q": [
+        -0.06733036041259766,
+        0.06504154205322266
+      ],
+      "hip_q_target": [
+        -0.016936665400862694,
+        0.04836641997098923
+      ],
+      "hip_v": [
+        -2.4725265502929688,
+        1.5323562622070312
+      ],
+      "hip_ff": [
+        -0.7650328002929687,
+        0.5070500122070313
+      ],
+      "hip_damping": [
+        7.417579650878906,
+        -4.597068786621094
+      ],
+      "hip_pd": [
+        11.953012201935053,
+        -6.097829774022102
+      ],
+      "hip_torque": [
+        -1.3186798095703125,
+        2.100128173828125
+      ]
+    },
+    {
+      "relative_ms": 220.016,
+      "hip_q": [
+        -0.07190799713134766,
+        0.06504154205322266
+      ],
+      "hip_q_target": [
+        0.3890201449394226,
+        -0.3419416844844818
+      ],
+      "hip_v": [
+        0.5677661895751953,
+        -0.5433464050292969
+      ],
+      "hip_ff": [
+        0.3326521270751953,
+        -0.4162370300292969
+      ],
+      "hip_damping": [
+        -1.703298568725586,
+        1.6300392150878906
+      ],
+      "hip_pd": [
+        39.78023421764374,
+        -34.99845117330551
+      ],
+      "hip_torque": [
+        6.6910858154296875,
+        -4.5421295166015625
+      ]
+    },
+    {
+      "relative_ms": 240.001,
+      "hip_q": [
+        0.00858306884765625,
+        -0.00324249267578125
+      ],
+      "hip_q_target": [
+        0.266854465007782,
+        -0.2604875862598419
+      ],
+      "hip_v": [
+        4.413919448852539,
+        -3.754579544067383
+      ],
+      "hip_ff": [
+        1.028036636352539,
+        -0.9968279815673828
+      ],
+      "hip_damping": [
+        -13.241758346557617,
+        11.263738632202148
+      ],
+      "hip_pd": [
+        10.002667307853699,
+        -11.888319790363312
+      ],
+      "hip_torque": [
+        23.882781982421875,
+        -22.5152587890625
+      ]
+    },
+    {
+      "relative_ms": 260.009,
+      "hip_q": [
+        0.039101600646972656,
+        -0.02269744873046875
+      ],
+      "hip_q_target": [
+        -0.5229329466819763,
+        0.5236502885818481
+      ],
+      "hip_v": [
+        0.8608055114746094,
+        -0.3113555908203125
+      ],
+      "hip_ff": [
+        0.38563363647460935,
+        -0.3742930908203125
+      ],
+      "hip_damping": [
+        -2.582416534423828,
+        0.9340667724609375
+      ],
+      "hip_pd": [
+        -53.165525794029236,
+        50.10536313056946
+      ],
+      "hip_torque": [
+        11.282058715820312,
+        -11.672775268554688
+      ]
+    },
+    {
+      "relative_ms": 280.028,
+      "hip_q": [
+        -0.07686710357666016,
+        0.09441566467285156
+      ],
+      "hip_q_target": [
+        -0.5232478976249695,
+        0.4870936870574951
+      ],
+      "hip_v": [
+        -7.5030517578125,
+        7.344322204589844
+      ],
+      "hip_ff": [
+        -1.6745517578125,
+        1.5578534545898437
+      ],
+      "hip_damping": [
+        22.5091552734375,
+        -22.03296661376953
+      ],
+      "hip_pd": [
+        -17.66511619091034,
+        13.308055400848389
+      ],
+      "hip_torque": [
+        -23.589736938476562,
+        21.538467407226562
+      ]
+    },
+    {
+      "relative_ms": 300.007,
+      "hip_q": [
+        -0.15354347229003906,
+        0.17032909393310547
+      ],
+      "hip_q_target": [
+        0.9968380331993103,
+        -0.9235549569129944
+      ],
+      "hip_v": [
+        -1.8009777069091797,
+        1.6300373077392578
+      ],
+      "hip_ff": [
+        -0.6436167694091797,
+        0.5247107452392578
+      ],
+      "hip_damping": [
+        5.402933120727539,
+        -4.890111923217773
+      ],
+      "hip_pd": [
+        108.93726861476898,
+        -103.33967649936676
+      ],
+      "hip_torque": [
+        -15.384613037109375,
+        9.035415649414062
+      ]
+    }
+  ],
+  "exploratory_pd_vs_reported_torque_lag_scan": [
+    {
+      "window": "first_300ms",
+      "joint": 0,
+      "pd_lead_frames": 0,
+      "correlation": -0.27011729424628317
+    },
+    {
+      "window": "first_300ms",
+      "joint": 0,
+      "pd_lead_frames": 1,
+      "correlation": 0.96387788684511
+    },
+    {
+      "window": "first_300ms",
+      "joint": 0,
+      "pd_lead_frames": 2,
+      "correlation": 0.537556996197687
+    },
+    {
+      "window": "first_300ms",
+      "joint": 0,
+      "pd_lead_frames": 3,
+      "correlation": -0.6639763255917969
+    },
+    {
+      "window": "first_300ms",
+      "joint": 0,
+      "pd_lead_frames": 4,
+      "correlation": -0.6863381534554125
+    },
+    {
+      "window": "first_300ms",
+      "joint": 1,
+      "pd_lead_frames": 0,
+      "correlation": -0.2115545249001036
+    },
+    {
+      "window": "first_300ms",
+      "joint": 1,
+      "pd_lead_frames": 1,
+      "correlation": 0.9720933108509838
+    },
+    {
+      "window": "first_300ms",
+      "joint": 1,
+      "pd_lead_frames": 2,
+      "correlation": 0.4259582269720879
+    },
+    {
+      "window": "first_300ms",
+      "joint": 1,
+      "pd_lead_frames": 3,
+      "correlation": -0.7445407726600543
+    },
+    {
+      "window": "first_300ms",
+      "joint": 1,
+      "pd_lead_frames": 4,
+      "correlation": -0.5188191766570625
+    },
+    {
+      "window": "policy_all",
+      "joint": 0,
+      "pd_lead_frames": 0,
+      "correlation": -0.480261413860857
+    },
+    {
+      "window": "policy_all",
+      "joint": 0,
+      "pd_lead_frames": 1,
+      "correlation": 0.8670631188322973
+    },
+    {
+      "window": "policy_all",
+      "joint": 0,
+      "pd_lead_frames": 2,
+      "correlation": 0.18188754274784832
+    },
+    {
+      "window": "policy_all",
+      "joint": 0,
+      "pd_lead_frames": 3,
+      "correlation": -0.8065877188133476
+    },
+    {
+      "window": "policy_all",
+      "joint": 0,
+      "pd_lead_frames": 4,
+      "correlation": 0.2527099484313682
+    },
+    {
+      "window": "policy_all",
+      "joint": 1,
+      "pd_lead_frames": 0,
+      "correlation": -0.4386226766697913
+    },
+    {
+      "window": "policy_all",
+      "joint": 1,
+      "pd_lead_frames": 1,
+      "correlation": 0.8276760045656054
+    },
+    {
+      "window": "policy_all",
+      "joint": 1,
+      "pd_lead_frames": 2,
+      "correlation": 0.224009050400272
+    },
+    {
+      "window": "policy_all",
+      "joint": 1,
+      "pd_lead_frames": 3,
+      "correlation": -0.6846925220151738
+    },
+    {
+      "window": "policy_all",
+      "joint": 1,
+      "pd_lead_frames": 4,
+      "correlation": 0.23322161589330942
+    }
+  ],
+  "lag_caveat": "Different debug snapshot phases, motor torque filtering, unsynchronized feedback and gain changes can all affect this scan; cannot infer physical USB/CAN delay from peak correlation."
+}

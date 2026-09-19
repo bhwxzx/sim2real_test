@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "robot": "LW",
+  "timezone": "Asia/Shanghai",
+  "archive_date": "2026-09-19",
+  "source_repository": "https://github.com/bhwxzx/rl_sar.git",
+  "source_repository_head_at_archive": "a6e330a55ac0aef001799a9b24d1fa85d7c79f1e",
+  "test_time_source_revision_verified": false,
+  "experiments": [
+    {
+      "id": "20260918-113020-forward-backward",
+      "mode": "leg",
+      "outcome": "forward_backward_completed_with_late_instability",
+      "path": "experiments/leg/20260918-113020-forward-backward",
+      "readme": "experiments/leg/20260918-113020-forward-backward/README.md",
+      "manifest": "experiments/leg/20260918-113020-forward-backward/manifest.json",
+      "message_count": 5491,
+      "archived_file_count": 12,
+      "archived_bytes": 14269626
+    },
+    {
+      "id": "20260918-163736-oscillation",
+      "mode": "wheel",
+      "outcome": "oscillation",
+      "path": "experiments/wheel/20260918-163736-oscillation",
+      "readme": "experiments/wheel/20260918-163736-oscillation/README.md",
+      "manifest": "experiments/wheel/20260918-163736-oscillation/manifest.json",
+      "message_count": 3613,
+      "archived_file_count": 20,
+      "archived_bytes": 6555322
+    }
+  ]
+}

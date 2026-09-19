@@ -1,0 +1,82 @@
+{
+  "experiment_id": "20260918-113020-forward-backward",
+  "mode": "leg",
+  "outcome": "forward_backward_completed_with_late_instability",
+  "archived_at": "2026-09-19",
+  "original_message_count": 5491,
+  "files": [
+    {
+      "path": "raw/lw_real_20260918-113020/lw_real_20260918-113020_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20260918-113020/lw_real_20260918-113020_0.db3",
+      "bytes": 7639040,
+      "sha256": "da7cd59afd133d4e03bc7210cab2eff8b978bdb5a6d3d85c7fd361b7441e83d1"
+    },
+    {
+      "path": "raw/lw_real_20260918-113020/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20260918-113020/metadata.yaml",
+      "bytes": 1025,
+      "sha256": "a7d6696d8a0b8e41f021c0c3b74e7e22c8de01c9a93694cb5a4284c7a8ca7b82"
+    },
+    {
+      "path": "analysis/all_joint_feedback_repeats.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/all_joint_feedback_repeats.json",
+      "bytes": 528512,
+      "sha256": "21f63e06e60882aaaaccabac7e5440fd912e4a78b503cbf26ddfb27eb877da53"
+    },
+    {
+      "path": "analysis/all_joint_feedback_review.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/all_joint_feedback_review.md",
+      "bytes": 2964,
+      "sha256": "50667660d00be867b02c31fbb05a366ad6ed69322e3fe46ce36ade541e024495"
+    },
+    {
+      "path": "analysis/analysis.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/analysis.md",
+      "bytes": 6129,
+      "sha256": "886836bc822d91bbac8f76e9d44e3a159762c5eceb0248046c9d0bbdfd7371a0"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/decoded.npz",
+      "bytes": 3517582,
+      "sha256": "fe20408a4d62435caa947bc066d8f0636e372e8f02db32ca57c353d140568535"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/metrics.json",
+      "bytes": 18145,
+      "sha256": "01eef389000edf3862ad790ff0e8c03e2b41c2a98e6588b841772bba52f423a5"
+    },
+    {
+      "path": "analysis/right_ankle_feedback_freeze.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/right_ankle_feedback_freeze.png",
+      "bytes": 200211,
+      "sha256": "ea7b1a3f35820c4fcbf3ca18b686f33c91e248285b0e8b5226ae8637c1c5e573"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/source.json",
+      "bytes": 750,
+      "sha256": "511dbd82190df2f1277fb76efbe6d9720c4a0454935dce8ae5240223077e55cd"
+    },
+    {
+      "path": "analysis/walking_overview.pdf",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/walking_overview.pdf",
+      "bytes": 100654,
+      "sha256": "344947b7232ec4f33af90a934c3231c6d58d562362ae23182f7b2a2cbcea0593"
+    },
+    {
+      "path": "analysis/walking_overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/walking_overview.png",
+      "bytes": 439184,
+      "sha256": "9c567e9834c0efd2d078b8cfa616d83b26ed6defc5e4bf2ee4d8e73f5ecf2cca"
+    },
+    {
+      "path": "analysis/walking_timeline.csv",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-113020/walking_timeline.csv",
+      "bytes": 1815430,
+      "sha256": "8c6d5045c5a6978ab3f6b9e4714420ade4098b4d0a1f46347bb0984033b9a982"
+    }
+  ],
+  "provenance_note": "User confirmed the run identity on 2026-09-19. Forward/backward completion does not mean whole-run stability acceptance. Actual test-time source revision is not verified."
+}

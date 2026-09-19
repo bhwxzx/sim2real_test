@@ -1,0 +1,130 @@
+{
+  "experiment_id": "20260918-163736-oscillation",
+  "mode": "wheel",
+  "outcome": "oscillation",
+  "archived_at": "2026-09-19",
+  "original_message_count": 3613,
+  "files": [
+    {
+      "path": "raw/lw_real_20260918-163736/lw_real_20260918-163736_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20260918-163736/lw_real_20260918-163736_0.db3",
+      "bytes": 5038080,
+      "sha256": "04c48a8e050580c99c3cc7bb90bed23b03052293adbb403f4394befc30f0e37c"
+    },
+    {
+      "path": "raw/lw_real_20260918-163736/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20260918-163736/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "f88236b5857a09f9c3f06d8261f41f4f52379542a447af1f944181b07083afdf"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/decoded.npz",
+      "bytes": 270918,
+      "sha256": "629a2a8ca5ad80a446ad3c588e2559f215997faf31ac1ca96daa3add61b73c66"
+    },
+    {
+      "path": "analysis/friction_reconstruction.csv",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/friction_reconstruction.csv",
+      "bytes": 123550,
+      "sha256": "f1207ddfb68d97b31d5cd026a6d2d58b83a55c84cc194830d23a3104c9d6ead2"
+    },
+    {
+      "path": "analysis/friction_reconstruction.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/friction_reconstruction.json",
+      "bytes": 25310,
+      "sha256": "34f495ee4be98b9c30a5be319fd2ea2d7412d2a707e559e90c6736dce7c1c69f"
+    },
+    {
+      "path": "analysis/friction_reconstruction.pdf",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/friction_reconstruction.pdf",
+      "bytes": 24289,
+      "sha256": "5e6ebe39d82cb728e2511f6e2d80d117e65f47f6816c0b8e93ad55627642e53c"
+    },
+    {
+      "path": "analysis/friction_reconstruction.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/friction_reconstruction.png",
+      "bytes": 365892,
+      "sha256": "c244e34b2de82958752b95ef410e9ecdf959336378dace5ea262b1f92f05b313"
+    },
+    {
+      "path": "analysis/friction_reconstruction_review.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/friction_reconstruction_review.md",
+      "bytes": 5418,
+      "sha256": "200bbcf72372a51cd4b999a842cabd88eafe41d9bebea68b24e22fd67d734ccd"
+    },
+    {
+      "path": "analysis/incident_metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/incident_metrics.json",
+      "bytes": 2577,
+      "sha256": "de496087e0c26f8072e6df5f8cc8ba40e9d489bb6d5f61dbf9016c4cceae0360"
+    },
+    {
+      "path": "analysis/incident_window.csv",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/incident_window.csv",
+      "bytes": 50754,
+      "sha256": "dde8d36bd2d6855e1dfb76534e745cdbc4f18a73b3343715390dbcefa17d7341"
+    },
+    {
+      "path": "analysis/offline_replay.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/offline_replay.json",
+      "bytes": 9150,
+      "sha256": "6450adb038d0fa26f6e4774bd0fbf590284f8c33c04451aefa374cd86f9c7a73"
+    },
+    {
+      "path": "analysis/oscillation_channel_replay.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/oscillation_channel_replay.npz",
+      "bytes": 11436,
+      "sha256": "0147641b5c8e246c510e2ca1631f616af885ed6a0492082f199a66c2164fd958"
+    },
+    {
+      "path": "analysis/oscillation_onset.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/oscillation_onset.png",
+      "bytes": 257942,
+      "sha256": "a0a164535d63aee8eb07eebd514457ffc899f02ec1986c70b590bdcd9eff054f"
+    },
+    {
+      "path": "analysis/oscillation_onset_review.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/oscillation_onset_review.json",
+      "bytes": 44506,
+      "sha256": "a0ed9d531693c3c7071511034deadf15a9b5b03cb12eef0b789b75c8371aa624"
+    },
+    {
+      "path": "analysis/oscillation_onset_review.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/oscillation_onset_review.md",
+      "bytes": 5043,
+      "sha256": "5bc2e78484763d7901d6c7b862b9bd7a90e94eafa81b5704411982a8641ea2af"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/source.json",
+      "bytes": 750,
+      "sha256": "d80f350439f718d35ba6faa8fae7fd99105e82f4761ae7b65a8c88c186b6d4e3"
+    },
+    {
+      "path": "analysis/static_input_counterfactual.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/static_input_counterfactual.json",
+      "bytes": 1325,
+      "sha256": "03099c0c65edb3597f0189790216b14f4002581c225a0a85f3ba0079f1aa954f"
+    },
+    {
+      "path": "analysis/wheel_loco_incident_review.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/wheel_loco_incident_review.md",
+      "bytes": 7230,
+      "sha256": "98abc3da24602fd39003d861e5ca60f4eba20101960469851405d4eb92340652"
+    },
+    {
+      "path": "analysis/wheel_loco_instability.pdf",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/wheel_loco_instability.pdf",
+      "bytes": 24907,
+      "sha256": "281ae32f9bb2b28f9074d3d22f21ef07993f6f03c559ad1bf86e975d8d6fff56"
+    },
+    {
+      "path": "analysis/wheel_loco_instability.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260918-163736/wheel_loco_instability.png",
+      "bytes": 285222,
+      "sha256": "cb8691d5620ed5bb87dee15adec52f81b0ca5be72755563bcb13ff6eb61113c7"
+    }
+  ],
+  "provenance_note": "Source paths are archival provenance. Use repository-relative path to access each file. Actual test-time source revision is not verified."
+}
