@@ -10,3 +10,6 @@
 8. 当前归档采用普通 Git。未来大体积视频或长时间 bag 应先选择 Git LFS 或外部对象存储，并在仓库保留下载定位、大小和哈希；避免反复修改同一大型二进制文件。
 9. 在仓库根目录更新 SHA256SUMS（不纳入 .git 和校验文件自身），运行 `sha256sum -c SHA256SUMS` 及 `git diff --check`，检查本次暂存文件后提交。
 10. 读取 metadata.yaml / SQLite 或 `ros2 bag info` 即可检查归档。数据回放与硬件运行是独立任务，归档不表示已做新的实机验收。
+
+11. 每场提供一份 `exports/joint_states.csv`，覆盖全部已录制消息与数值通道。保留时间戳和原始数值，不插值、重采样、滤波或手工编辑。字段说明放 `exports/README.md`，逐值校验结果放 `exports/validation.json`，并在 manifest.json 的 derived_exports 登记派生文件哈希。
+12. 原 bag 为原始依据，CSV 为通用读取入口，NPZ 为可选的 Python 分析副本；现有 NPZ 和专题 CSV 保留。再导出使用 `tools/export_joint_states_csv.py` 并选择新的输出路径，核验后再决定是否替换旧导出。

@@ -78,5 +78,22 @@
       "sha256": "8c6d5045c5a6978ab3f6b9e4714420ade4098b4d0a1f46347bb0984033b9a982"
     }
   ],
-  "provenance_note": "User confirmed the run identity on 2026-09-19. Forward/backward completion does not mean whole-run stability acceptance. Actual test-time source revision is not verified."
+  "provenance_note": "User confirmed the run identity on 2026-09-19. Forward/backward completion does not mean whole-run stability acceptance. Actual test-time source revision is not verified.",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5269,
+      "sha256": "c5f6deb6737f75e1aa5615cfa1e7f3a14f05408dd4a022c3ba5a945fe70e56bb"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 6760948,
+      "sha256": "1e4edb1b1df04598c9b6716b46f538767c438df0cd0fbe2c26e22f39ecc0e5ff"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1151,
+      "sha256": "bed2174a57aae180fbb34d318c6e433c62d4918ad6f8a3fc551e3c015453ebe0"
+    }
+  ]
 }

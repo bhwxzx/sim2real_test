@@ -17,6 +17,7 @@
 
 - raw/：原始 bag。
 - analysis/：相关报告及派生产物。
+- exports/：全量 CSV、字段说明与逐值校验结果。
 - manifest.json：文件来源与完整性。
 
 ## 限制和未解决问题

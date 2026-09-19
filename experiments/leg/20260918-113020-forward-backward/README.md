@@ -29,3 +29,7 @@
 4. [文件来源与哈希](manifest.json)
 
 原始 bag 位于 `raw/lw_real_20260918-113020/`。记录未含真实机身速度/位移、FSM 或每电机原始总线帧，因此不能仅凭前后方向指令证明运动距离、速度跟踪精度或反馈异常的唯一来源。实际测试所用部署包、配置与模型快照未在本次核验或归档。
+
+## 全量 CSV
+
+[exports/joint_states.csv](exports/joint_states.csv) 提供本场全部消息和数值字段，无需 ROS 2 即可读取。列含义和单位见 [exports/README.md](exports/README.md)，与原始 bag、既有 NPZ 的逐值比对结果见 [exports/validation.json](exports/validation.json)。

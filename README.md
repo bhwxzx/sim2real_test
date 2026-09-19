@@ -19,6 +19,7 @@ sim2real_test/
     │       ├── README.md
     │       ├── manifest.json        # 原路径、大小和 SHA-256
     │       ├── raw/<原始bag目录>/    # metadata.yaml 与全部 db3 分片
+    │       ├── exports/             # 全量 CSV、字段说明与逐值校验
     │       └── analysis/            # 既有报告、指标、图表、解码数据
     └── leg/                         # 双足模式，采用相同结构
 ```
@@ -47,3 +48,14 @@ sha256sum -c SHA256SUMS
 |---|---|---|
 | 双轮 | [20260918-163736](experiments/wheel/20260918-163736-oscillation/README.md) | 接管后振荡，原因未确定 |
 | 双足 | [20260918-113020](experiments/leg/20260918-113020-forward-backward/README.md) | 用户确认对应前进、后退完成测试；保留末尾反馈异常与失稳分析，不标为整场稳定性验收通过 |
+
+## 无 ROS 2 读取全量数据
+
+每场的 `exports/joint_states.csv` 一条消息一行，包含全部 78 个数值通道以及时间、行号和 frame_id，共 85 列。Excel、MATLAB、Python 或 PlotJuggler 可直接读取，无需 ROS 2。绘图选择 `time_s`；Excel 导入纳秒时间戳列时请选择文本类型以保留精度。
+
+| 场次 | 全量 CSV | 行数 | 字段说明与校验 |
+|---|---|---:|---|
+| 双足前进、后退 | [joint_states.csv](experiments/leg/20260918-113020-forward-backward/exports/joint_states.csv) | 5491 | [字段说明](experiments/leg/20260918-113020-forward-backward/exports/README.md)、[验证结果](experiments/leg/20260918-113020-forward-backward/exports/validation.json) |
+| 双轮振荡 | [joint_states.csv](experiments/wheel/20260918-163736-oscillation/exports/joint_states.csv) | 3613 | [字段说明](experiments/wheel/20260918-163736-oscillation/exports/README.md)、[验证结果](experiments/wheel/20260918-163736-oscillation/exports/validation.json) |
+
+CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。

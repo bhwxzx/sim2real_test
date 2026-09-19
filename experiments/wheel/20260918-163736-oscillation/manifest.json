@@ -126,5 +126,22 @@
       "sha256": "cb8691d5620ed5bb87dee15adec52f81b0ca5be72755563bcb13ff6eb61113c7"
     }
   ],
-  "provenance_note": "Source paths are archival provenance. Use repository-relative path to access each file. Actual test-time source revision is not verified."
+  "provenance_note": "Source paths are archival provenance. Use repository-relative path to access each file. Actual test-time source revision is not verified.",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5269,
+      "sha256": "c5f6deb6737f75e1aa5615cfa1e7f3a14f05408dd4a022c3ba5a945fe70e56bb"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 4289404,
+      "sha256": "33642ddb628e12ceed6966e659ee5eea0b36148cba3a2352184df325d88da529"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1147,
+      "sha256": "8ab81c4917c555eb8c9d3c174a1b41c2fd15a14352b788f7611bb1d56b0520f0"
+    }
+  ]
 }

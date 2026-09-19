@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-19T02:27:15.063344+00:00",
+  "rows": 5491,
+  "columns": 85,
+  "numeric_channels": 78,
+  "numeric_values_compared": 428298,
+  "float64_bitwise_roundtrip": true,
+  "negative_zero_values_preserved": 1922,
+  "timestamps_exact": true,
+  "frame_ids_exact": true,
+  "bag_message_count_matches": true,
+  "decoded_npz_cross_check": true,
+  "placeholder_zero_values_checked": 109820,
+  "no_overwrite_check": true,
+  "resampling": false,
+  "filtering": false,
+  "inputs": {
+    "bag": {
+      "path": "raw/lw_real_20260918-113020/lw_real_20260918-113020_0.db3",
+      "sha256": "da7cd59afd133d4e03bc7210cab2eff8b978bdb5a6d3d85c7fd361b7441e83d1"
+    },
+    "npz": {
+      "path": "analysis/decoded.npz",
+      "sha256": "fe20408a4d62435caa947bc066d8f0636e372e8f02db32ca57c353d140568535"
+    }
+  },
+  "output": {
+    "path": "exports/joint_states.csv",
+    "bytes": 6760948,
+    "sha256": "1e4edb1b1df04598c9b6716b46f538767c438df0cd0fbe2c26e22f39ecc0e5ff"
+  },
+  "generator": {
+    "path": "tools/export_joint_states_csv.py",
+    "sha256": "0d0603d92477282d5de3e56dd53b1109d1e928d94eea7068fa1710487467af90"
+  }
+}

@@ -16,7 +16,16 @@
       "manifest": "experiments/leg/20260918-113020-forward-backward/manifest.json",
       "message_count": 5491,
       "archived_file_count": 12,
-      "archived_bytes": 14269626
+      "archived_bytes": 14269626,
+      "full_csv": {
+        "path": "experiments/leg/20260918-113020-forward-backward/exports/joint_states.csv",
+        "rows": 5491,
+        "columns": 85,
+        "bytes": 6760948,
+        "sha256": "1e4edb1b1df04598c9b6716b46f538767c438df0cd0fbe2c26e22f39ecc0e5ff",
+        "documentation": "experiments/leg/20260918-113020-forward-backward/exports/README.md",
+        "validation": "experiments/leg/20260918-113020-forward-backward/exports/validation.json"
+      }
     },
     {
       "id": "20260918-163736-oscillation",
@@ -27,7 +36,16 @@
       "manifest": "experiments/wheel/20260918-163736-oscillation/manifest.json",
       "message_count": 3613,
       "archived_file_count": 20,
-      "archived_bytes": 6555322
+      "archived_bytes": 6555322,
+      "full_csv": {
+        "path": "experiments/wheel/20260918-163736-oscillation/exports/joint_states.csv",
+        "rows": 3613,
+        "columns": 85,
+        "bytes": 4289404,
+        "sha256": "33642ddb628e12ceed6966e659ee5eea0b36148cba3a2352184df325d88da529",
+        "documentation": "experiments/wheel/20260918-163736-oscillation/exports/README.md",
+        "validation": "experiments/wheel/20260918-163736-oscillation/exports/validation.json"
+      }
     }
   ]
 }

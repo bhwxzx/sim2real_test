@@ -16,3 +16,7 @@
 原始 bag 位于 `raw/lw_real_20260918-163736/`。分析中的绝对路径与旧代码描述是当时记录，保留原文；例如其对策略入口保护的描述不代表后续 LW-080 修改后的当前实现。
 
 离线模型输出重现不等于训练部署契约完全一致，也不等于确定唯一振荡原因。重构的力矩需求与设备报告力矩应区分。实际测试所用部署包、配置与模型快照未在本次核验或归档。
+
+## 全量 CSV
+
+[exports/joint_states.csv](exports/joint_states.csv) 提供本场全部消息和数值字段，无需 ROS 2 即可读取。列含义和单位见 [exports/README.md](exports/README.md)，与原始 bag、既有 NPZ 的逐值比对结果见 [exports/validation.json](exports/validation.json)。
