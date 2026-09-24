@@ -2,3 +2,4 @@
 experiments/**/raw/** -text
 experiments/**/analysis/** -text
 *.csv whitespace=cr-at-eol
+experiments/**/context/** -text -whitespace

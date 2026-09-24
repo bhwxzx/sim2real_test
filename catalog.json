@@ -46,6 +46,33 @@
         "documentation": "experiments/wheel/20260918-163736-oscillation/exports/README.md",
         "validation": "experiments/wheel/20260918-163736-oscillation/exports/validation.json"
       }
+    },
+    {
+      "id": "20260924-170019-right-turn-instability",
+      "mode": "wheel",
+      "outcome": "right_turn_hip_oscillation_body_instability",
+      "path": "experiments/wheel/20260924-170019-right-turn-instability",
+      "readme": "experiments/wheel/20260924-170019-right-turn-instability/README.md",
+      "manifest": "experiments/wheel/20260924-170019-right-turn-instability/manifest.json",
+      "message_count": 3235,
+      "archived_file_count": 20,
+      "archived_bytes": 6578261,
+      "archive_date": "2026-09-24",
+      "source_commit_confirmed_by_operator": "a70e25bbbad014621a9ad1b4e7f15dfa45555f6d",
+      "deployment_resources_match_manifest": true,
+      "test_time_binary_independently_verified": false,
+      "context": "experiments/wheel/20260924-170019-right-turn-instability/context/README.md",
+      "full_csv": {
+        "path": "experiments/wheel/20260924-170019-right-turn-instability/exports/joint_states.csv",
+        "rows": 3235,
+        "columns": 85,
+        "bytes": 3901136,
+        "sha256": "82bd9dde4af13a0e19bcd50e58047ff0939a72ea665bc5be19a05af8649edd81",
+        "documentation": "experiments/wheel/20260924-170019-right-turn-instability/exports/README.md",
+        "validation": "experiments/wheel/20260924-170019-right-turn-instability/exports/validation.json"
+      }
     }
-  ]
+  ],
+  "updated_at": "2026-09-24T09:25:00.582053+00:00",
+  "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

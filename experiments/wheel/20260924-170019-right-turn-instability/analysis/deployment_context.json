@@ -1,0 +1,34 @@
+{
+  "confirmed_by_user": {
+    "direction": "right",
+    "fully_ground_supported": true,
+    "sling_slack": true,
+    "body_instability": true,
+    "deployment_prefix": "a70e25bbbad0",
+    "GetDown_then_CtrlC": true
+  },
+  "source_commit": "a70e25bbbad014621a9ad1b4e7f15dfa45555f6d",
+  "resources": [
+    {
+      "path": "/home/nvidia/rl_sar/build/lw_deployments/a70e25bbbad0/share/rl_sar/deployment/LW/policy/LW/base.yaml",
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9",
+      "manifest_match": true
+    },
+    {
+      "path": "/home/nvidia/rl_sar/build/lw_deployments/a70e25bbbad0/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "sha256": "5212d6c03ecbac99bcc0890e4a31a2eb034a87b47fc45efcf651babe06af1d70",
+      "manifest_match": true
+    },
+    {
+      "path": "/home/nvidia/rl_sar/build/lw_deployments/a70e25bbbad0/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "sha256": "33de9e0f5b6fc6ec8365cd323265bd3ea363330b5a867f8c37579455faefb75a",
+      "manifest_match": true
+    }
+  ],
+  "deployment_onnx_runtime": "1.22.0",
+  "python_replay_onnx_runtime": "1.23.0",
+  "replay_exact": false,
+  "fsm_transition_times_inferred": true,
+  "raw_sensor_and_control_timestamps_recorded": false,
+  "no_source_config_model_changes": true
+}
