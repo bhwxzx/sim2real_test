@@ -71,8 +71,34 @@
         "documentation": "experiments/wheel/20260924-170019-right-turn-instability/exports/README.md",
         "validation": "experiments/wheel/20260924-170019-right-turn-instability/exports/validation.json"
       }
+    },
+    {
+      "id": "20260928-151044-turn-transition-oscillation",
+      "mode": "wheel",
+      "outcome": "turn_transition_hip_oscillation_reduced_amplitude",
+      "path": "experiments/wheel/20260928-151044-turn-transition-oscillation",
+      "readme": "experiments/wheel/20260928-151044-turn-transition-oscillation/README.md",
+      "manifest": "experiments/wheel/20260928-151044-turn-transition-oscillation/manifest.json",
+      "message_count": 3930,
+      "archived_file_count": 18,
+      "archived_bytes": 8746319,
+      "archive_date": "2026-09-28",
+      "deployment_tag_confirmed_by_operator": "lw-release-20260928-01",
+      "source_commit_confirmed_by_operator": "b3b20b9bdc56d1b62b16fddc393c3abac74ca1b6",
+      "deployment_resources_match_manifest": true,
+      "test_time_binary_independently_verified": false,
+      "context": "experiments/wheel/20260928-151044-turn-transition-oscillation/context/README.md",
+      "full_csv": {
+        "path": "experiments/wheel/20260928-151044-turn-transition-oscillation/exports/joint_states.csv",
+        "rows": 3930,
+        "columns": 85,
+        "bytes": 4751752,
+        "sha256": "e36187120b5605ae0e8c752de15ede1c6e6830f9784da03d01f0aa69a733965b",
+        "documentation": "experiments/wheel/20260928-151044-turn-transition-oscillation/exports/README.md",
+        "validation": "experiments/wheel/20260928-151044-turn-transition-oscillation/exports/validation.json"
+      }
     }
   ],
-  "updated_at": "2026-09-24T09:25:00.582053+00:00",
+  "updated_at": "2026-09-28T07:38:04.566262+00:00",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

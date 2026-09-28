@@ -41,7 +41,7 @@ sha256sum -c SHA256SUMS
 
 原始数据来自 Jetson 的 `/home/nvidia/debug_bags/`，分析来自 `/home/nvidia/rl_sar/build/lw_diagnostics/`。源文件保持原样，逐文件校验后复制。历史报告和 source.json 中的绝对路径按原文保留，换机器时使用 manifest.json 的仓库内相对路径。
 
-2026-09-19 首批归档时控制代码仓库 HEAD 为 `a6e330a55ac0aef001799a9b24d1fa85d7c79f1e`；这不是那两场测试发生时版本的证明。首批未归档实际部署资源。2026-09-24 场次另附用户确认的部署标识及与清单匹配的配置、模型快照；各场版本证据和限制以场次 README、manifest.json 为准。部分资源快照不能替代完整实机部署包或证明闭环可复现。
+2026-09-19 首批归档时控制代码仓库 HEAD 为 `a6e330a55ac0aef001799a9b24d1fa85d7c79f1e`；这不是那两场测试发生时版本的证明。首批未归档实际部署资源。2026-09-24 和 2026-09-28 场次另附用户确认的部署标识及与清单匹配的配置、模型快照；各场版本证据和限制以场次 README、manifest.json 为准。部分资源快照不能替代完整实机部署包或证明闭环可复现。
 
 ## 本次归档
 
@@ -49,6 +49,7 @@ sha256sum -c SHA256SUMS
 |---|---|---|
 | 双轮 | [20260918-163736](experiments/wheel/20260918-163736-oscillation/README.md) | 接管后振荡，原因未确定 |
 | 双轮 | [20260924-170019](experiments/wheel/20260924-170019-right-turn-instability/README.md) | 右转时左髋先振荡、随后双髋放大及机身失稳；用户主动 GetDown 后 Ctrl+C，原因未确定 |
+| 双轮 | [20260928-151044](experiments/wheel/20260928-151044-turn-transition-oscillation/README.md) | 0928-01 左转后恢复前进阶段出现双髋振荡，幅度减轻但仍未稳定；后段右转前已起振，GetDown 后绳子介入 |
 | 双足 | [20260918-113020](experiments/leg/20260918-113020-forward-backward/README.md) | 用户确认对应前进、后退完成测试；保留末尾反馈异常与失稳分析，不标为整场稳定性验收通过 |
 
 ## 无 ROS 2 读取全量数据
@@ -60,5 +61,6 @@ sha256sum -c SHA256SUMS
 | 双足前进、后退 | [joint_states.csv](experiments/leg/20260918-113020-forward-backward/exports/joint_states.csv) | 5491 | [字段说明](experiments/leg/20260918-113020-forward-backward/exports/README.md)、[验证结果](experiments/leg/20260918-113020-forward-backward/exports/validation.json) |
 | 双轮振荡 | [joint_states.csv](experiments/wheel/20260918-163736-oscillation/exports/joint_states.csv) | 3613 | [字段说明](experiments/wheel/20260918-163736-oscillation/exports/README.md)、[验证结果](experiments/wheel/20260918-163736-oscillation/exports/validation.json) |
 | 双轮右转后失稳 | [joint_states.csv](experiments/wheel/20260924-170019-right-turn-instability/exports/joint_states.csv) | 3235 | [字段说明](experiments/wheel/20260924-170019-right-turn-instability/exports/README.md)、[验证结果](experiments/wheel/20260924-170019-right-turn-instability/exports/validation.json) |
+| 双轮转向后前进振荡 | [joint_states.csv](experiments/wheel/20260928-151044-turn-transition-oscillation/exports/joint_states.csv) | 3930 | [字段说明](experiments/wheel/20260928-151044-turn-transition-oscillation/exports/README.md)、[验证结果](experiments/wheel/20260928-151044-turn-transition-oscillation/exports/validation.json) |
 
 CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。
