@@ -1,0 +1,7 @@
+1790682139.7481058 [INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-09-29-19-42-19-743389-nvidia-desktop-8394
+1790682139.7484095 [INFO] [launch]: Default logging verbosity is set to INFO
+1790682139.8508847 [INFO] [ahrs_driver_node-1]: process started with pid [8413]
+1790682139.8512802 [INFO] [rl_real_LW-2]: process started with pid [8415]
+1790682240.7716784 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1790682240.8895149 [INFO] [ahrs_driver_node-1]: process has finished cleanly [pid 8413]
+1790682241.0510180 [INFO] [rl_real_LW-2]: process has finished cleanly [pid 8415]

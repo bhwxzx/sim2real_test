@@ -1,0 +1,74 @@
+{
+  "source_commit": "e959d64d0ae6fb27d736cf64c96552af15ab54a5",
+  "tag_commit": "e959d64d0ae6fb27d736cf64c96552af15ab54a5",
+  "files": [
+    {
+      "path": "policy/LW/base.yaml",
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_loco/config.yaml",
+      "sha256": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_loco/policy.onnx",
+      "sha256": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "sha256": "9f71de5ff3c140c074cb56ef37fb04fe508b8153fe62730173c43181f95ea9ff",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "sha256": "533554693f5fd66a8933cf0a339fe889d1b025d23c63a9e24e2692acac1f7268",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "sha256": "a2689e8108ba7647f99ecb59fced7f08fb385223b71e2eaba461968ee0c81902",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_loco/config.yaml",
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "sha256": "752b0895fed28f6816be509828810ea6d306e5ee5d1734d7125a71030379f255",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/config.yaml",
+      "sha256": "0dfa594e5c728d7fed2fdac290434d36e861b46b6662bf0afeadaf40a8e73341",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/policy.onnx",
+      "sha256": "4b5f68d9ec29fa8d328be62de6eef358fc48e7e8c5e1861d59e44e80cd3e97b4",
+      "matches": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/wheel_to_leg_transform_60hz.csv",
+      "sha256": "a305c32e0eca8dc3b39ebbf18128bd019197e6c48ab78c10b76f1c864e66a480",
+      "matches": true
+    }
+  ],
+  "executable_sha256": "731cd33a4234eb64c345f14e6e0c41be07faf021e9f04b0299a37a4f1dfa1940",
+  "executable_matches": true,
+  "operator_confirmation": {
+    "mode": "wheel",
+    "grounded": true,
+    "release": "lw-release-20260929-01",
+    "latest_bag_no_velocity_command": true,
+    "release_same_as_latest": true,
+    "manual_support_during_trial": true,
+    "nonzero_forward_input_recorded": true
+  },
+  "test_time_binary_independently_verified": false,
+  "base_and_wheel_config_unchanged_from_0928": true
+}

@@ -1,0 +1,170 @@
+{
+  "experiment_id": "20260929-194212-zero-command-startup-oscillation",
+  "mode": "wheel",
+  "outcome": "zero_command_startup_pitch_wheel_oscillation",
+  "archived_at": "2026-09-29",
+  "original_message_count": 4905,
+  "deployment_tag_confirmed_by_operator": "lw-release-20260929-01",
+  "source_commit_confirmed_by_operator": "e959d64d0ae6fb27d736cf64c96552af15ab54a5",
+  "deployment_resources_match_manifest": true,
+  "test_time_binary_independently_verified": false,
+  "operator_and_recording_conditions": {
+    "manual_support_during_trial": false,
+    "control_inputs_all_zero_in_recording": true,
+    "grounded_confirmed_by_operator": true,
+    "rope_restraint_after_getdown_confirmed": true,
+    "manual_support_times_recorded": false
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20260929-194212/lw_real_20260929-194212_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20260929-194212/lw_real_20260929-194212_0.db3",
+      "bytes": 6828032,
+      "sha256": "a49d102db2e9490284d357e1005aa9b358839cb167ab7430f97bc42a28fe8a6c"
+    },
+    {
+      "path": "raw/lw_real_20260929-194212/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20260929-194212/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "33983d9dc229e36e38d6382b30930d969adf309d89465639ed015f62f54b1b31"
+    },
+    {
+      "path": "analysis/analysis.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/analysis.md",
+      "bytes": 8735,
+      "sha256": "70a5a424fac185c834d7c30616b059eacb6b9b5e1ed85fc401fd613030ef66e9"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/decoded.npz",
+      "bytes": 564410,
+      "sha256": "d6cf33c85043705b39abc18fd016f72afd5650f3843e69e4155447661a6a7625"
+    },
+    {
+      "path": "analysis/deployment_context.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/deployment_context.json",
+      "bytes": 2740,
+      "sha256": "38bfe7a77b9bac625f437164407d18135309108907cb09a6fb57a604359683db"
+    },
+    {
+      "path": "analysis/logs/ahrs.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/logs/ahrs.log",
+      "bytes": 270,
+      "sha256": "5ff7e2305ec3a4e78662b3fd450dc8915a6443809b68f5d985215da6d38c927b"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/logs/launch.log",
+      "bytes": 616,
+      "sha256": "df1878752db5d34c0ff8242e36ed13a758a2b76d74e6f012d0f32474a37b4fde"
+    },
+    {
+      "path": "analysis/logs/recorder.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/logs/recorder.log",
+      "bytes": 927,
+      "sha256": "0d25c3737a10b3440d06f605003270979bc10ac8d1cdffce3f97b059c64e878e"
+    },
+    {
+      "path": "analysis/logs/rl_real.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/logs/rl_real.log",
+      "bytes": 65,
+      "sha256": "f8a1ffc28b8ae84683b0bd382a31470a0f15421919c904b3fd535b7332c59daa"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/metrics.json",
+      "bytes": 13263,
+      "sha256": "77db5e0d060b5850ef8468342ad33dcab78b25406f66c160f795d59236df7941"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/source.json",
+      "bytes": 1421,
+      "sha256": "b6d1817453e819413393e99b1ff20a90ec46ad48954f77f5f2a254d1c7dab41f"
+    },
+    {
+      "path": "analysis/startup.pdf",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/startup.pdf",
+      "bytes": 38906,
+      "sha256": "e2cd4c8b11078dc6d011595cb9da8c0cb0ef37d8da5c2a2db8d744da63f03a09"
+    },
+    {
+      "path": "analysis/startup.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/startup.png",
+      "bytes": 485667,
+      "sha256": "b658cf9c88ee8a5e2d6df5b7c11a472a521801c35796d0227b0fc7648e393e34"
+    },
+    {
+      "path": "analysis/two_trials.pdf",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/two_trials.pdf",
+      "bytes": 24610,
+      "sha256": "90aed80b688ebce133b05a513e210199cfcb567910d2e6710efe664db64022b0"
+    },
+    {
+      "path": "analysis/two_trials.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/two_trials.png",
+      "bytes": 251340,
+      "sha256": "b3388573bfa941e56aac180d678d0c59369a14dbaf96388aa25f50f003399667"
+    },
+    {
+      "path": "analysis/verification.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/bag-20260929-194212/verification.json",
+      "bytes": 281,
+      "sha256": "46037fba29dc812390bb0e4a108f4992022eb52339404abcef255abe22146b1b"
+    },
+    {
+      "path": "context/manifest.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/e959d64d0ae6/share/rl_sar/deployment/LW/manifest.yaml",
+      "bytes": 4156,
+      "sha256": "d0056cb5ccd91adef42474c2669c433f73df702633e9bc7d191f6bb6a8c40cfa"
+    },
+    {
+      "path": "context/policy/LW/base.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/e959d64d0ae6/share/rl_sar/deployment/LW/policy/LW/base.yaml",
+      "bytes": 4522,
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9"
+    },
+    {
+      "path": "context/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/e959d64d0ae6/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "bytes": 2230,
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92"
+    },
+    {
+      "path": "context/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/e959d64d0ae6/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "bytes": 809895,
+      "sha256": "752b0895fed28f6816be509828810ea6d306e5ee5d1734d7125a71030379f255"
+    }
+  ],
+  "provenance_note": "Operator confirms release; current deployment resources match manifest. Runtime binary identity not independently captured. Partial context snapshot. Source files and original absolute paths byte-preserved. Trial conditions and actual recorded control inputs are stated per experiment.",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5746,
+      "sha256": "df05d3340627b761694856922b8d57f9ad660b8bfa06e37ca359bc8eaccf4131"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 5771447,
+      "sha256": "91f14af8fa5a31bb21028ca7f3f9e713c8f538e9b9a57bef09ee6af96a5660a8"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1189,
+      "sha256": "adba57b37995ad8627e7623790d5efe0ea54677a43be03a3623791216707defa"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 2429,
+      "sha256": "4e63b538030814bf1908f64fbb037eb5d76f42bd42105fd4e79cd2a20cd92477"
+    },
+    {
+      "path": "context/README.md",
+      "bytes": 853,
+      "sha256": "7862af69055bd29883a0658d8e849505a80d6a67f885bee2d5fcf9ea87751672"
+    }
+  ]
+}

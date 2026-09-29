@@ -1,0 +1,60 @@
+{
+  "path": "/home/nvidia/debug_bags/lw_real_20260929-193808/lw_real_20260929-193808_0.db3",
+  "sha256": "99fc614352a7cc5bd64fe793c92aac0005ce13577afb20d5124df6d7c3177c31",
+  "metadata_sha256": "ec659bac000e813232648eb5c54cdc6c7c2500ec64dcc03649cb47afc52dafe5",
+  "messages": 4538,
+  "duration_s": 90.740011113,
+  "start": "2026-09-29T19:38:35.165+08:00",
+  "end": "2026-09-29T19:40:05.905+08:00",
+  "fields": [
+    "right_hip_now",
+    "left_hip_now",
+    "right_thigh_now",
+    "left_thigh_now",
+    "right_shank_now",
+    "left_shank_now",
+    "right_foot_now",
+    "left_foot_now",
+    "right_wheel_now",
+    "left_wheel_now",
+    "right_hip_target",
+    "left_hip_target",
+    "right_thigh_target",
+    "left_thigh_target",
+    "right_shank_target",
+    "left_shank_target",
+    "right_foot_target",
+    "left_foot_target",
+    "right_wheel_target",
+    "left_wheel_target",
+    "imu_ang_vel",
+    "imu_quat_w",
+    "imu_quat_x",
+    "imu_quat_y",
+    "imu_quat_z",
+    "cmd_vel"
+  ],
+  "schema_checked": true,
+  "sqlite_integrity": "ok",
+  "all_values_finite": true,
+  "frame_ids": [
+    ""
+  ],
+  "interval_ms_percentiles_0_50_95_99_100": [
+    19.415223,
+    19.998745,
+    20.0397432,
+    20.073644199999997,
+    20.558362
+  ],
+  "header_delay_ms_percentiles_0_50_95_100": [
+    0.094752,
+    0.157473,
+    0.19840015,
+    0.360001
+  ],
+  "quaternion_norm_min_max": [
+    0.9999999671146045,
+    1.0000000334994965
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "before_entry": {
+    "start_s": 40,
+    "end_s": 40.98,
+    "frames": 49,
+    "rpy_min_deg": [
+      3.369132869800021,
+      5.868482152101612,
+      94.12293245949162
+    ],
+    "rpy_max_deg": [
+      3.4693143404446523,
+      6.209806312798919,
+      94.28144449922176
+    ],
+    "gyro_abs_max_rad_s": [
+      0.022736554965376854,
+      0.036520134657621384,
+      0.026695189997553825
+    ],
+    "command_min": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "command_max": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wheel_target_min_rad_s": [
+      0.0,
+      0.0
+    ],
+    "wheel_target_max_rad_s": [
+      0.0,
+      0.0
+    ],
+    "wheel_now_min_rad_s": [
+      -0.010990142822265625,
+      -0.03296661376953125
+    ],
+    "wheel_now_max_rad_s": [
+      0.010990142822265625,
+      0.010990142822265625
+    ],
+    "wheel_effort_abs_max_Nm": [
+      0.09230804443359375,
+      0.09230804443359375
+    ],
+    "hip_target_abs_max_rad": [
+      0.0,
+      0.0
+    ],
+    "hip_position_abs_max_rad": [
+      0.02994537353515625,
+      0.02727508544921875
+    ],
+    "hip_velocity_abs_max_rad_s": [
+      0.03052520751953125,
+      0.018314361572265625
+    ],
+    "hip_effort_abs_max_Nm": [
+      4.639801025390625,
+      4.639801025390625
+    ],
+    "all_joint_velocity_abs_max_rad_s": [
+      0.03052520751953125,
+      0.018314361572265625,
+      0.03052520751953125,
+      0.018314361572265625,
+      0.03052520751953125,
+      0.03052520751953125,
+      0.0048847198486328125,
+      0.014652252197265625,
+      0.010990142822265625,
+      0.03296661376953125
+    ]
+  },
+  "policy": {
+    "start_s": 41,
+    "end_s": 42.5602,
+    "frames": 79,
+    "rpy_min_deg": [
+      3.1523361697417234,
+      -15.77144706941148,
+      94.09236272209114
+    ],
+    "rpy_max_deg": [
+      4.227587818560305,
+      14.367504212633706,
+      100.87766026720763
+    ],
+    "gyro_abs_max_rad_s": [
+      0.33924055099487305,
+      2.5704925060272217,
+      0.6089611649513245
+    ],
+    "command_min": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "command_max": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wheel_target_min_rad_s": [
+      -17.12264060974121,
+      -24.288366317749023
+    ],
+    "wheel_target_max_rad_s": [
+      30.00804901123047,
+      12.78880500793457
+    ],
+    "wheel_now_min_rad_s": [
+      -9.835163116455078,
+      -16.384614944458008
+    ],
+    "wheel_now_max_rad_s": [
+      17.96703338623047,
+      7.5054931640625
+    ],
+    "wheel_effort_abs_max_Nm": [
+      9.903297424316406,
+      8.320880889892578
+    ],
+    "hip_target_abs_max_rad": [
+      0.08046963810920715,
+      0.11166628450155258
+    ],
+    "hip_position_abs_max_rad": [
+      0.046730995178222656,
+      0.02803802490234375
+    ],
+    "hip_velocity_abs_max_rad_s": [
+      0.27472496032714844,
+      0.39682579040527344
+    ],
+    "hip_effort_abs_max_Nm": [
+      9.5238037109375,
+      10.793655395507812
+    ],
+    "all_joint_velocity_abs_max_rad_s": [
+      0.27472496032714844,
+      0.39682579040527344,
+      1.8009777069091797,
+      1.7765560150146484,
+      2.924297332763672,
+      2.0695972442626953,
+      3.120878219604492,
+      1.0305252075195312,
+      17.96703338623047,
+      16.384614944458008
+    ]
+  },
+  "after_policy": {
+    "start_s": 42.58,
+    "end_s": 45.5,
+    "frames": 146,
+    "rpy_min_deg": [
+      4.23301591483763,
+      -22.579549100245465,
+      94.98964150862142
+    ],
+    "rpy_max_deg": [
+      6.715056931255091,
+      6.993981525826374,
+      103.30153478271156
+    ],
+    "gyro_abs_max_rad_s": [
+      0.3628598153591156,
+      2.6312477588653564,
+      0.5332203507423401
+    ],
+    "command_min": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "command_max": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wheel_target_min_rad_s": [
+      0.0,
+      0.0
+    ],
+    "wheel_target_max_rad_s": [
+      0.0,
+      0.0
+    ],
+    "wheel_now_min_rad_s": [
+      -1.2417564392089844,
+      -16.846153259277344
+    ],
+    "wheel_now_max_rad_s": [
+      13.021976470947266,
+      1.3296699523925781
+    ],
+    "wheel_effort_abs_max_Nm": [
+      11.538459777832031,
+      26.386810302734375
+    ],
+    "hip_target_abs_max_rad": [
+      0.012377102859318256,
+      0.017327943816781044
+    ],
+    "hip_position_abs_max_rad": [
+      0.02765655517578125,
+      0.02460479736328125
+    ],
+    "hip_velocity_abs_max_rad_s": [
+      0.45787620544433594,
+      0.372406005859375
+    ],
+    "hip_effort_abs_max_Nm": [
+      3.76068115234375,
+      5.9096527099609375
+    ],
+    "all_joint_velocity_abs_max_rad_s": [
+      0.45787620544433594,
+      0.372406005859375,
+      2.5702075958251953,
+      2.6556777954101562,
+      1.0073261260986328,
+      1.3247871398925781,
+      0.40537261962890625,
+      0.47374916076660156,
+      13.021976470947266,
+      16.846153259277344
+    ]
+  },
+  "policy_entry_inferred_s": 41.00008937,
+  "policy_exit_inferred_s": 42.580143838,
+  "initial_peaks": {
+    "pitch_max": [
+      [
+        42.04009,
+        14.3675
+      ]
+    ],
+    "pitch_min": [
+      [
+        41.6201,
+        -12.2015
+      ],
+      [
+        42.4201,
+        -15.7714
+      ]
+    ],
+    "right_wheel_target_max": [
+      [
+        41.64012,
+        20.2192
+      ],
+      [
+        42.4401,
+        30.008
+      ]
+    ],
+    "right_wheel_target_min": [
+      [
+        41.3001,
+        -9.4936
+      ],
+      [
+        42.08008,
+        -17.1226
+      ]
+    ],
+    "right_wheel_feedback_max": [
+      [
+        41.76009,
+        10.8022
+      ],
+      [
+        42.56008,
+        17.967
+      ]
+    ],
+    "right_wheel_feedback_min": [
+      [
+        41.42014,
+        -6.7802
+      ],
+      [
+        42.2201,
+        -9.8352
+      ]
+    ]
+  },
+  "right_wheel_target_feedback_lag_exploratory": {
+    "lag_samples": 6,
+    "lag_s_approx": 0.12,
+    "correlation": 0.9901041606489408
+  },
+  "wheel_target_opposite_axis_correlation": -0.9965090640339653,
+  "wheel_feedback_opposite_axis_correlation": -0.9948049663700828,
+  "wheel_target_tracking_error_rms_rad_s": [
+    10.496178083134462,
+    8.845657585862487
+  ],
+  "imu_pitch_consistency": {
+    "correlation": 0.9991740610539148,
+    "rmse_rad_s": 0.04944184383260408
+  },
+  "selected_frames": [
+    {
+      "time_s": 40.980121089,
+      "pitch_deg": 6.196332371820515,
+      "gyro_y_rad_s": 0.03190252557396889,
+      "right_wheel_target_rad_s": 0.0,
+      "right_wheel_feedback_rad_s": 0.010990142822265625,
+      "left_wheel_target_rad_s": 0.0,
+      "left_wheel_feedback_rad_s": -0.010990142822265625
+    },
+    {
+      "time_s": 41.00008937,
+      "pitch_deg": 6.229247668793102,
+      "gyro_y_rad_s": 0.037227813154459,
+      "right_wheel_target_rad_s": 0.2056356966495514,
+      "right_wheel_feedback_rad_s": -0.010990142822265625,
+      "left_wheel_target_rad_s": -0.47982919216156006,
+      "left_wheel_feedback_rad_s": -0.010990142822265625
+    },
+    {
+      "time_s": 41.300104135,
+      "pitch_deg": 5.0810370640370905,
+      "gyro_y_rad_s": -0.5238314270973206,
+      "right_wheel_target_rad_s": -9.493619918823242,
+      "right_wheel_feedback_rad_s": -3.7692298889160156,
+      "left_wheel_target_rad_s": 8.503190994262695,
+      "left_wheel_feedback_rad_s": 2.7582435607910156
+    },
+    {
+      "time_s": 41.420139129,
+      "pitch_deg": -0.8065404848663591,
+      "gyro_y_rad_s": -1.1487812995910645,
+      "right_wheel_target_rad_s": -3.6033706665039062,
+      "right_wheel_feedback_rad_s": -6.780220031738281,
+      "left_wheel_target_rad_s": 4.372697830200195,
+      "left_wheel_feedback_rad_s": 5.857143402099609
+    },
+    {
+      "time_s": 41.620097869,
+      "pitch_deg": -12.201507530450451,
+      "gyro_y_rad_s": 0.15013153851032257,
+      "right_wheel_target_rad_s": 19.819433212280273,
+      "right_wheel_feedback_rad_s": 4.032966613769531,
+      "left_wheel_target_rad_s": -15.593083381652832,
+      "left_wheel_feedback_rad_s": -3.5274734497070312
+    },
+    {
+      "time_s": 41.640118789,
+      "pitch_deg": -11.91793707646796,
+      "gyro_y_rad_s": 0.48073530197143555,
+      "right_wheel_target_rad_s": 20.219219207763672,
+      "right_wheel_feedback_rad_s": 5.725273132324219,
+      "left_wheel_target_rad_s": -15.600617408752441,
+      "left_wheel_feedback_rad_s": -4.956043243408203
+    },
+    {
+      "time_s": 41.760091831,
+      "pitch_deg": -3.8835302061952217,
+      "gyro_y_rad_s": 1.4856514930725098,
+      "right_wheel_target_rad_s": 13.30391788482666,
+      "right_wheel_feedback_rad_s": 10.802196502685547,
+      "left_wheel_target_rad_s": -12.028392791748047,
+      "left_wheel_feedback_rad_s": -9.10988998413086
+    },
+    {
+      "time_s": 42.040085933,
+      "pitch_deg": 14.367504212633706,
+      "gyro_y_rad_s": -0.13355319201946259,
+      "right_wheel_target_rad_s": -15.454105377197266,
+      "right_wheel_feedback_rad_s": -1.1538467407226562,
+      "left_wheel_target_rad_s": 11.984375953674316,
+      "left_wheel_feedback_rad_s": -0.010990142822265625
+    },
+    {
+      "time_s": 42.080082301,
+      "pitch_deg": 13.297383235648729,
+      "gyro_y_rad_s": -0.9037456512451172,
+      "right_wheel_target_rad_s": -17.12264060974121,
+      "right_wheel_feedback_rad_s": -4.164836883544922,
+      "left_wheel_target_rad_s": 12.78880500793457,
+      "left_wheel_feedback_rad_s": 2.3406600952148438
+    },
+    {
+      "time_s": 42.220101832,
+      "pitch_deg": 1.5313026872159257,
+      "gyro_y_rad_s": -1.9804567098617554,
+      "right_wheel_target_rad_s": -5.533621788024902,
+      "right_wheel_feedback_rad_s": -9.835163116455078,
+      "left_wheel_target_rad_s": 5.170752048492432,
+      "left_wheel_feedback_rad_s": 7.3076934814453125
+    },
+    {
+      "time_s": 42.420100283,
+      "pitch_deg": -15.77144706941148,
+      "gyro_y_rad_s": 0.48852697014808655,
+      "right_wheel_target_rad_s": 29.961069107055664,
+      "right_wheel_feedback_rad_s": 8.978023529052734,
+      "left_wheel_target_rad_s": -24.141727447509766,
+      "left_wheel_feedback_rad_s": -7.043956756591797
+    },
+    {
+      "time_s": 42.440096116,
+      "pitch_deg": -14.949205000212165,
+      "gyro_y_rad_s": 1.1273419857025146,
+      "right_wheel_target_rad_s": 30.00804901123047,
+      "right_wheel_feedback_rad_s": 11.263736724853516,
+      "left_wheel_target_rad_s": -24.288366317749023,
+      "left_wheel_feedback_rad_s": -9.021976470947266
+    },
+    {
+      "time_s": 42.56007943,
+      "pitch_deg": -2.71592811623037,
+      "gyro_y_rad_s": 2.5704925060272217,
+      "right_wheel_target_rad_s": 17.506868362426758,
+      "right_wheel_feedback_rad_s": 17.96703338623047,
+      "left_wheel_target_rad_s": -17.220481872558594,
+      "left_wheel_feedback_rad_s": -16.384614944458008
+    },
+    {
+      "time_s": 42.580143838,
+      "pitch_deg": 0.2387290374250883,
+      "gyro_y_rad_s": 2.6312477588653564,
+      "right_wheel_target_rad_s": 0.0,
+      "right_wheel_feedback_rad_s": 13.021976470947266,
+      "left_wheel_target_rad_s": 0.0,
+      "left_wheel_feedback_rad_s": -16.846153259277344
+    }
+  ],
+  "right_wheel_peak_lags_s": [
+    0.12004,
+    0.11997,
+    0.14002,
+    0.11998
+  ],
+  "peak_lag_note": "Four manually paired extrema from initial_peaks; 50 Hz asynchronous snapshots, not pure communication latency.",
+  "pitch_cycle_spacing_s": [
+    0.7999999999999972
+  ],
+  "activation_target_step": {
+    "before_time_s": 40.980121089,
+    "after_time_s": 41.00008937,
+    "position_target_before_rad": [
+      0.0,
+      0.0,
+      0.7329999804496765,
+      -0.7329999804496765,
+      -0.1745000034570694,
+      0.1745000034570694,
+      0.0,
+      0.0
+    ],
+    "position_target_after_rad": [
+      0.025141818448901176,
+      -0.01911366544663906,
+      0.5823932886123657,
+      -0.6001686453819275,
+      -0.09242311120033264,
+      0.08903347700834274,
+      -0.006471632048487663,
+      -0.00658730324357748
+    ],
+    "position_target_step_rad": [
+      0.025141818448901176,
+      -0.01911366544663906,
+      -0.1506066918373108,
+      0.13283133506774902,
+      0.08207689225673676,
+      -0.08546652644872665,
+      -0.006471632048487663,
+      -0.00658730324357748
+    ],
+    "feedback_position_before_rad": [
+      -0.02994537353515625,
+      0.02727508544921875,
+      0.794804573059082,
+      -0.792515754699707,
+      -0.21953964233398438,
+      0.21305370330810547,
+      0.00171661376953125,
+      -0.00667572021484375
+    ],
+    "feedback_position_after_rad": [
+      -0.02994537353515625,
+      0.02727508544921875,
+      0.794041633605957,
+      -0.7921342849731445,
+      -0.21915817260742188,
+      0.21267223358154297,
+      0.00171661376953125,
+      -0.00667572021484375
+    ],
+    "pitch_entry_deg": 6.229247668793102,
+    "roll_entry_deg": 3.4066062374459483
+  },
+  "local_event_times": {
+    "policy_entry": "2026-09-29T19:43:03.690+08:00",
+    "getdown": "2026-09-29T19:43:05.270+08:00"
+  },
+  "paired_right_wheel_peak_lags": [
+    {
+      "target_s": 41.3001,
+      "feedback_s": 41.42014,
+      "lag_s": 0.12004
+    },
+    {
+      "target_s": 41.64012,
+      "feedback_s": 41.76009,
+      "lag_s": 0.11997
+    },
+    {
+      "target_s": 42.08008,
+      "feedback_s": 42.2201,
+      "lag_s": 0.14002
+    },
+    {
+      "target_s": 42.4401,
+      "feedback_s": 42.56008,
+      "lag_s": 0.11998
+    }
+  ],
+  "policy_mean_abs_hip_velocity_rad_s": [
+    0.05169931242737589,
+    0.09312064738213262
+  ]
+}

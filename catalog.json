@@ -97,8 +97,74 @@
         "documentation": "experiments/wheel/20260928-151044-turn-transition-oscillation/exports/README.md",
         "validation": "experiments/wheel/20260928-151044-turn-transition-oscillation/exports/validation.json"
       }
+    },
+    {
+      "id": "20260929-193808-startup-oscillation-manual-support",
+      "mode": "wheel",
+      "outcome": "startup_oscillation_with_manual_support_and_forward_input",
+      "path": "experiments/wheel/20260929-193808-startup-oscillation-manual-support",
+      "readme": "experiments/wheel/20260929-193808-startup-oscillation-manual-support/README.md",
+      "manifest": "experiments/wheel/20260929-193808-startup-oscillation-manual-support/manifest.json",
+      "message_count": 4538,
+      "archived_file_count": 10,
+      "archived_bytes": 7717279,
+      "archive_date": "2026-09-29",
+      "deployment_tag_confirmed_by_operator": "lw-release-20260929-01",
+      "source_commit_confirmed_by_operator": "e959d64d0ae6fb27d736cf64c96552af15ab54a5",
+      "deployment_resources_match_manifest": true,
+      "test_time_binary_independently_verified": false,
+      "operator_and_recording_conditions": {
+        "manual_support_during_trial": true,
+        "control_inputs_all_zero_in_recording": false,
+        "grounded_confirmed_by_operator": null,
+        "rope_restraint_after_getdown_confirmed": null,
+        "manual_support_times_recorded": false
+      },
+      "context": "experiments/wheel/20260929-193808-startup-oscillation-manual-support/context/README.md",
+      "full_csv": {
+        "path": "experiments/wheel/20260929-193808-startup-oscillation-manual-support/exports/joint_states.csv",
+        "rows": 4538,
+        "columns": 85,
+        "bytes": 5402725,
+        "sha256": "f996199a588cb6695290ab9c75334145ad106a3e5c4a4a7e49688eca8cbfb1bf",
+        "documentation": "experiments/wheel/20260929-193808-startup-oscillation-manual-support/exports/README.md",
+        "validation": "experiments/wheel/20260929-193808-startup-oscillation-manual-support/exports/validation.json"
+      }
+    },
+    {
+      "id": "20260929-194212-zero-command-startup-oscillation",
+      "mode": "wheel",
+      "outcome": "zero_command_startup_pitch_wheel_oscillation",
+      "path": "experiments/wheel/20260929-194212-zero-command-startup-oscillation",
+      "readme": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/README.md",
+      "manifest": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/manifest.json",
+      "message_count": 4905,
+      "archived_file_count": 20,
+      "archived_bytes": 9043109,
+      "archive_date": "2026-09-29",
+      "deployment_tag_confirmed_by_operator": "lw-release-20260929-01",
+      "source_commit_confirmed_by_operator": "e959d64d0ae6fb27d736cf64c96552af15ab54a5",
+      "deployment_resources_match_manifest": true,
+      "test_time_binary_independently_verified": false,
+      "operator_and_recording_conditions": {
+        "manual_support_during_trial": false,
+        "control_inputs_all_zero_in_recording": true,
+        "grounded_confirmed_by_operator": true,
+        "rope_restraint_after_getdown_confirmed": true,
+        "manual_support_times_recorded": false
+      },
+      "context": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/context/README.md",
+      "full_csv": {
+        "path": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/joint_states.csv",
+        "rows": 4905,
+        "columns": 85,
+        "bytes": 5771447,
+        "sha256": "91f14af8fa5a31bb21028ca7f3f9e713c8f538e9b9a57bef09ee6af96a5660a8",
+        "documentation": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/README.md",
+        "validation": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/validation.json"
+      }
     }
   ],
-  "updated_at": "2026-09-28T07:38:04.566262+00:00",
+  "updated_at": "2026-09-29T12:06:48.405675+00:00",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

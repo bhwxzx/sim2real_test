@@ -1,0 +1,12 @@
+{
+  "messages": 4905,
+  "active_policy_frames": 79,
+  "commands_all_zero": true,
+  "sqlite_metadata_npz_consistent": true,
+  "bag_sha256_still_matches": true,
+  "metrics_recomputed": true,
+  "report_utf8_cjk_characters": 1925,
+  "plots_visually_checked": [
+    "startup.png"
+  ]
+}
