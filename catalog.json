@@ -163,8 +163,47 @@
         "documentation": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/README.md",
         "validation": "experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/validation.json"
       }
+    },
+    {
+      "id": "20260930-213510-hip-oscillation-body-instability",
+      "mode": "wheel",
+      "outcome": "forward_deceleration_hip_oscillation_body_instability",
+      "path": "experiments/wheel/20260930-213510-hip-oscillation-body-instability",
+      "readme": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/README.md",
+      "manifest": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/manifest.json",
+      "message_count": 3508,
+      "archived_file_count": 16,
+      "archived_bytes": 6604651,
+      "archive_date": "2026-09-30",
+      "deployment_tag_confirmed_by_operator": "lw-release-20260930-01",
+      "source_commit_confirmed_by_operator": "03104469746402c407e54c4142ad0a8c9d8710af",
+      "deployment_resources_match_manifest": true,
+      "test_time_binary_independently_verified": false,
+      "operator_and_recording_conditions": {
+        "mode": "wheel",
+        "manual_support_during_trial": false,
+        "grounded_confirmed_by_operator": true,
+        "rope_slack_before_instability_confirmed": true,
+        "motion_input_present_in_recording": true,
+        "forward_input_present_during_wheel_policy": true,
+        "yaw_input_zero_during_wheel_policy": true,
+        "getdown_pressed_after_instability_confirmed": true,
+        "body_instability_confirmed_by_operator": true,
+        "manual_support_times_recorded": false,
+        "getdown_trajectory_observed_in_bag": false
+      },
+      "context": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/context/README.md",
+      "full_csv": {
+        "path": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/joint_states.csv",
+        "rows": 3508,
+        "columns": 85,
+        "bytes": 4230116,
+        "sha256": "99cd5bfa1de43cb56ec0224b2f8b3dff58eb30752c483c7efa09992f437d902a",
+        "documentation": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/README.md",
+        "validation": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/validation.json"
+      }
     }
   ],
-  "updated_at": "2026-09-29T12:06:48.405675+00:00",
+  "updated_at": "2026-09-30T14:47:27.470686+00:00",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

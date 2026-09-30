@@ -1,0 +1,185 @@
+{
+  "criterion": "first abs hip velocity threshold crossing in pre-GetDown incident window",
+  "cases": [
+    {
+      "bag": "20260918-163736",
+      "description": "接管即双髋振荡",
+      "window_s": [
+        63.8,
+        64.583
+      ],
+      "sha256": "04c48a8e050580c99c3cc7bb90bed23b03052293adbb403f4394befc30f0e37c",
+      "frames": 3613,
+      "median_debug_interval_ms": 19.99882299999811,
+      "thresholds": {
+        "0.3": {
+          "right_s": 64.023161355,
+          "left_s": 64.023161355,
+          "right_value_rad_s": 0.6410255432128906,
+          "left_value_rad_s": -0.4945049285888672,
+          "leader": "same_debug_frame",
+          "lead_ms": 0.0
+        },
+        "0.5": {
+          "right_s": 64.023161355,
+          "left_s": 64.043172229,
+          "right_value_rad_s": 0.6410255432128906,
+          "left_value_rad_s": -0.6410255432128906,
+          "leader": "right",
+          "lead_ms": 20.01087400000756
+        },
+        "1.0": {
+          "right_s": 64.083233212,
+          "left_s": 64.143165857,
+          "right_value_rad_s": -1.2271060943603516,
+          "left_value_rad_s": -1.1538467407226562,
+          "leader": "right",
+          "lead_ms": 59.932645000003504
+        },
+        "2.0": {
+          "right_s": 64.183203638,
+          "left_s": 64.243186783,
+          "right_value_rad_s": -2.326007843017578,
+          "left_value_rad_s": -3.754579544067383,
+          "leader": "right",
+          "lead_ms": 59.9831450000039
+        }
+      }
+    },
+    {
+      "bag": "20260924-170019",
+      "description": "右转后双髋失稳",
+      "window_s": [
+        57.5,
+        58.546
+      ],
+      "sha256": "65e208556a75936f7efa9f7e2ddfd623d7061472615a5e689fba885bf171af1f",
+      "frames": 3235,
+      "median_debug_interval_ms": 20.00242699999788,
+      "thresholds": {
+        "0.3": {
+          "right_s": 58.16644856800001,
+          "left_s": 57.926431084,
+          "right_value_rad_s": 1.1782665252685547,
+          "left_value_rad_s": -0.34798622131347656,
+          "leader": "left",
+          "lead_ms": 240.01748400000622
+        },
+        "0.5": {
+          "right_s": 58.16644856800001,
+          "left_s": 57.986439135000005,
+          "right_value_rad_s": 1.1782665252685547,
+          "left_value_rad_s": 0.6043949127197266,
+          "leader": "left",
+          "lead_ms": 180.00943300000216
+        },
+        "1.0": {
+          "right_s": 58.16644856800001,
+          "left_s": 58.08644546,
+          "right_value_rad_s": 1.1782665252685547,
+          "left_value_rad_s": 1.0195369720458984,
+          "leader": "left",
+          "lead_ms": 80.00310800000676
+        },
+        "2.0": {
+          "right_s": 58.20645033,
+          "left_s": 58.146450344,
+          "right_value_rad_s": -2.2161178588867188,
+          "left_value_rad_s": -2.631258010864258,
+          "leader": "left",
+          "lead_ms": 59.999986000001115
+        }
+      }
+    },
+    {
+      "bag": "20260928-151044",
+      "description": "转向后再次前进时振荡",
+      "window_s": [
+        62.95,
+        65.403
+      ],
+      "sha256": "5f945a77514cc1752e82d4c069096dba9633233434fc3bbc6f9f2672d37a7258",
+      "frames": 3930,
+      "median_debug_interval_ms": 20.00040900000144,
+      "thresholds": {
+        "0.3": {
+          "right_s": 63.263321167,
+          "left_s": 63.363332462,
+          "right_value_rad_s": -0.5799751281738281,
+          "left_value_rad_s": -0.3235645294189453,
+          "leader": "right",
+          "lead_ms": 100.01129500000161
+        },
+        "0.5": {
+          "right_s": 63.263321167,
+          "left_s": 63.383388055000005,
+          "right_value_rad_s": -0.5799751281738281,
+          "left_value_rad_s": -0.7875461578369141,
+          "leader": "right",
+          "lead_ms": 120.06688800000376
+        },
+        "1.0": {
+          "right_s": 63.283319733000006,
+          "left_s": 63.463336653000006,
+          "right_value_rad_s": -1.0561656951904297,
+          "left_value_rad_s": -1.7032966613769531,
+          "leader": "right",
+          "lead_ms": 180.0169199999999
+        },
+        "2.0": {
+          "right_s": 63.403339707,
+          "left_s": 63.523319167000004,
+          "right_value_rad_s": -2.7777786254882812,
+          "left_value_rad_s": 3.363859176635742,
+          "leader": "right",
+          "lead_ms": 119.97946000000326
+        }
+      }
+    },
+    {
+      "bag": "20260930-213510",
+      "description": "前进减速后剧烈振荡",
+      "window_s": [
+        69.35,
+        70.145
+      ],
+      "sha256": "7edffb1e9b03671c6d16178c99e86eca617757dd4b107805a41e5d3faf5a2680",
+      "frames": 3508,
+      "median_debug_interval_ms": 19.999716000000944,
+      "thresholds": {
+        "0.3": {
+          "right_s": 69.703268647,
+          "left_s": 69.503262035,
+          "right_value_rad_s": -0.6043949127197266,
+          "left_value_rad_s": 0.33577537536621094,
+          "leader": "left",
+          "lead_ms": 200.0066119999957
+        },
+        "0.5": {
+          "right_s": 69.703268647,
+          "left_s": 69.543272631,
+          "right_value_rad_s": -0.6043949127197266,
+          "left_value_rad_s": -0.628814697265625,
+          "leader": "left",
+          "lead_ms": 159.996016000008
+        },
+        "1.0": {
+          "right_s": 69.743280108,
+          "left_s": 69.623265727,
+          "right_value_rad_s": 1.2148971557617188,
+          "left_value_rad_s": 1.1782665252685547,
+          "leader": "left",
+          "lead_ms": 120.01438099999007
+        },
+        "2.0": {
+          "right_s": 69.763285935,
+          "left_s": 69.723276266,
+          "right_value_rad_s": 2.9365081787109375,
+          "left_value_rad_s": 2.826618194580078,
+          "leader": "left",
+          "lead_ms": 40.0096689999998
+        }
+      }
+    }
+  ]
+}

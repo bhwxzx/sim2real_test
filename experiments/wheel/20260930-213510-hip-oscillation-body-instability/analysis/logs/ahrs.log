@@ -1,0 +1,3 @@
+[INFO] [1790775336.298826776] [ahrs_bringup]: FDILink serial port initialized: /dev/fdilink_ahrs at 921600 baud, timeout 20 ms
+[INFO] [1790775336.299152551] [ahrs_bringup]: ahrsBringup::processLoop: start
+[INFO] [1790775417.376332087] [rclcpp]: signal_handler(signum=2)
