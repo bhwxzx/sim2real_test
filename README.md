@@ -25,7 +25,7 @@ sim2real_test/
     └── leg/                         # 双足模式，采用相同结构
 ```
 
-场次名称取原始 bag 目录时间，时区为 Asia/Shanghai；准确采样起点以 metadata.yaml 为准。场次清单见 [catalog.json](catalog.json)。同场连续录制保留完整 bag，阶段范围记入说明，不为前进、后退复制两份相同数据。
+场次名称取原始 bag 目录时间，时区为 Asia/Shanghai；准确采样起点以 metadata.yaml 为准；原始录制缺少该文件时，以 SQLite 消息时间为准并在场次说明中注明。场次清单见 [catalog.json](catalog.json)。同场连续录制保留完整 bag，阶段范围记入说明，不为前进、后退复制两份相同数据。
 
 ## 使用
 
@@ -43,6 +43,8 @@ sha256sum -c SHA256SUMS
 
 2026-09-19 首批归档时控制代码仓库 HEAD 为 `a6e330a55ac0aef001799a9b24d1fa85d7c79f1e`；这不是那两场测试发生时版本的证明。首批未归档实际部署资源。2026-09-24、2026-09-28、2026-09-29 和 2026-09-30 场次另附用户确认的部署标识及与清单匹配的配置、模型快照；各场版本证据和限制以场次 README、manifest.json 为准。部分资源快照不能替代完整实机部署包或证明闭环可复现。
 
+2026-10-02 两场归档另含短运动记录与运动中反复髋部振荡记录。实际加载版本未确认；第二场 context 明确标为现有部署包参考快照。第一场原始录制缺少 metadata.yaml，保留原状，未重建元数据。
+
 ## 本次归档
 
 | 模式 | 场次 | 现场结果与范围 |
@@ -53,6 +55,8 @@ sha256sum -c SHA256SUMS
 | 双轮 | [20260929-193808](experiments/wheel/20260929-193808-startup-oscillation-manual-support/README.md) | 0929-01 同版测试，期间人工扶持且有短暂前进指令；不作为自由运动对照 |
 | 双轮 | [20260929-194212](experiments/wheel/20260929-194212-zero-command-startup-oscillation/README.md) | 0929-01 无手动触碰、全程零指令，接管后轮速与俯仰往复，GetDown 后绳子介入 |
 | 双轮 | [20260930-213510](experiments/wheel/20260930-213510-hip-oscillation-body-instability/README.md) | 0930-01 前进指令回零后双髋目标快速放大、机身失稳；GetDown 未进入已保存的记录，原因尚未唯一确定 |
+| 双轮 | [20261002-120757](experiments/wheel/20261002-120757-short-motion-recording/README.md) | 仅覆盖约3秒策略运动，原录制缺少metadata.yaml；不足以判断整场表现 |
+| 双轮 | [20261002-121836](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/README.md) | 运动中两组明显双髋振荡及末段短振荡；GetDown后另发生IMU过期停机，根因未定 |
 | 双足 | [20260918-113020](experiments/leg/20260918-113020-forward-backward/README.md) | 用户确认对应前进、后退完成测试；保留末尾反馈异常与失稳分析，不标为整场稳定性验收通过 |
 
 ## 无 ROS 2 读取全量数据
@@ -68,5 +72,7 @@ sha256sum -c SHA256SUMS
 | 双轮启动摆动（人工扶持） | [joint_states.csv](experiments/wheel/20260929-193808-startup-oscillation-manual-support/exports/joint_states.csv) | 4538 | [字段说明](experiments/wheel/20260929-193808-startup-oscillation-manual-support/exports/README.md)、[验证结果](experiments/wheel/20260929-193808-startup-oscillation-manual-support/exports/validation.json) |
 | 双轮零指令启动摆动 | [joint_states.csv](experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/joint_states.csv) | 4905 | [字段说明](experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/README.md)、[验证结果](experiments/wheel/20260929-194212-zero-command-startup-oscillation/exports/validation.json) |
 | 双轮前进减速后髋部失稳 | [joint_states.csv](experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/joint_states.csv) | 3508 | [字段说明](experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/README.md)、[验证结果](experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/validation.json) |
+| 1002双轮短运动记录 | [joint_states.csv](experiments/wheel/20261002-120757-short-motion-recording/exports/joint_states.csv) | 2490 | [字段说明](experiments/wheel/20261002-120757-short-motion-recording/exports/README.md)、[验证结果](experiments/wheel/20261002-120757-short-motion-recording/exports/validation.json) |
+| 1002双轮运动髋部振荡 | [joint_states.csv](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/joint_states.csv) | 3533 | [字段说明](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/README.md)、[验证结果](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/validation.json) |
 
 CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。

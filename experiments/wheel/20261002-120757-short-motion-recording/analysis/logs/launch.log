@@ -1,0 +1,4 @@
+1790914123.7162728 [INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-10-02-12-08-43-714069-nvidia-desktop-9004
+1790914123.7165713 [INFO] [launch]: Default logging verbosity is set to INFO
+1790914123.8171883 [INFO] [ahrs_driver_node-1]: process started with pid [9025]
+1790914123.8175704 [INFO] [rl_real_LW-2]: process started with pid [9027]

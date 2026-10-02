@@ -202,8 +202,84 @@
         "documentation": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/README.md",
         "validation": "experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/validation.json"
       }
+    },
+    {
+      "id": "20261002-120757-short-motion-recording",
+      "mode": "wheel",
+      "outcome": "short_motion_recording_insufficient_coverage",
+      "path": "experiments/wheel/20261002-120757-short-motion-recording",
+      "readme": "experiments/wheel/20261002-120757-short-motion-recording/README.md",
+      "manifest": "experiments/wheel/20261002-120757-short-motion-recording/manifest.json",
+      "message_count": 2490,
+      "archived_file_count": 8,
+      "archived_bytes": 3995848,
+      "archive_date": "2026-10-02",
+      "test_time_source_commit": null,
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": false,
+      "operator_and_recording_conditions": {
+        "mode": "wheel",
+        "grounded_confirmed_by_operator": true,
+        "oscillation_during_motion_reported": true,
+        "manual_support_during_trial": null,
+        "rope_load_or_slack": null,
+        "firmware_version": null,
+        "synchronized_video_available": false,
+        "getdown_before_imu_stale_confirmed": null
+      },
+      "full_csv": {
+        "path": "experiments/wheel/20261002-120757-short-motion-recording/exports/joint_states.csv",
+        "rows": 2490,
+        "columns": 85,
+        "bytes": 2975553,
+        "sha256": "dc36939cc13011195306896b7b07e772a48a0757757b9904cdc0333705d7dee5",
+        "documentation": "experiments/wheel/20261002-120757-short-motion-recording/exports/README.md",
+        "validation": "experiments/wheel/20261002-120757-short-motion-recording/exports/validation.json"
+      }
+    },
+    {
+      "id": "20261002-121836-motion-hip-oscillation-imu-stale",
+      "mode": "wheel",
+      "outcome": "recurrent_motion_hip_oscillation_getdown_then_imu_stale",
+      "path": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale",
+      "readme": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/README.md",
+      "manifest": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/manifest.json",
+      "message_count": 3533,
+      "archived_file_count": 17,
+      "archived_bytes": 7493718,
+      "archive_date": "2026-10-02",
+      "test_time_source_commit": null,
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "mode": "wheel",
+        "grounded_confirmed_by_operator": true,
+        "oscillation_during_motion_reported": true,
+        "manual_support_during_trial": null,
+        "rope_load_or_slack": null,
+        "firmware_version": null,
+        "synchronized_video_available": false,
+        "getdown_before_imu_stale_confirmed": true
+      },
+      "full_csv": {
+        "path": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/joint_states.csv",
+        "rows": 3533,
+        "columns": 85,
+        "bytes": 4282555,
+        "sha256": "73c42d31ec44377b78ad121f7940e94c2f748dcd4d496092bdc75a874fa185dd",
+        "documentation": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/README.md",
+        "validation": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/validation.json"
+      },
+      "reference_bundle": {
+        "source_commit": "2e74c528fb8639ecdb1695160cefa7105f8b2a1e",
+        "path": "context/reference_bundle",
+        "resources_match_own_manifest": true,
+        "test_time_use_verified": false,
+        "scope": "Partial reference snapshot of an existing bundle inspected after the test, not evidence that this process loaded it."
+      },
+      "context": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/context/README.md"
     }
   ],
-  "updated_at": "2026-09-30T14:47:27.470686+00:00",
+  "updated_at": "2026-10-02T04:56:31.466435+00:00",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

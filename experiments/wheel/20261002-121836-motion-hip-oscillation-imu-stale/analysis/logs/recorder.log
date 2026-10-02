@@ -1,0 +1,10 @@
+[INFO] [1790914716.812003690] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1790914716.815583840] [rosbag2_storage]: Opened database '/home/nvidia/debug_bags/lw_real_20261002-121836/lw_real_20261002-121836_0.db3' for READ_WRITE.
+[INFO] [1790914716.817791663] [rosbag2_recorder]: Listening for topics...
+[INFO] [1790914716.817815012] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1790914716.818055183] [rosbag2_recorder]: Recording...
+[INFO] [1790914750.560194854] [rosbag2_recorder]: Subscribed to topic '/LW_joint_states'
+[INFO] [1790914750.560287168] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1790914826.783454739] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1790914826.784952408] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1790914826.785058305] [rosbag2_recorder]: Recording stopped

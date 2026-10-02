@@ -1,0 +1,162 @@
+{
+  "experiment_id": "20261002-121836-motion-hip-oscillation-imu-stale",
+  "mode": "wheel",
+  "outcome": "recurrent_motion_hip_oscillation_getdown_then_imu_stale",
+  "archived_at": "2026-10-02",
+  "original_message_count": 3533,
+  "test_time_source_commit": null,
+  "deployment_tag_confirmed_by_operator": null,
+  "test_time_binary_independently_verified": false,
+  "raw_metadata_present": true,
+  "operator_and_recording_conditions": {
+    "mode": "wheel",
+    "grounded_confirmed_by_operator": true,
+    "oscillation_during_motion_reported": true,
+    "manual_support_during_trial": null,
+    "rope_load_or_slack": null,
+    "firmware_version": null,
+    "synchronized_video_available": false,
+    "getdown_before_imu_stale_confirmed": true
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20261002-121836/lw_real_20261002-121836_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261002-121836/lw_real_20261002-121836_0.db3",
+      "bytes": 4927488,
+      "sha256": "e55197e714a6dceb579fcd6b2ed7f921e55ec407bc2a77b8b6b53999072c2460"
+    },
+    {
+      "path": "raw/lw_real_20261002-121836/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261002-121836/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "3931cb9e358636ae683e7a5994b81886de9be4cc9100a244c29397543958c514"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/lw_real_20261002-121836.npz",
+      "bytes": 396400,
+      "sha256": "74dd860e90cb5efd3215711ad1311f38f69c87c39b8c705686133c1ae2f2ee3f"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/lw_real_20261002-121836-source.json",
+      "bytes": 928,
+      "sha256": "e3795aabcad353f98378277237de00778c4e3c22945680bc7b1827e4fe690865"
+    },
+    {
+      "path": "analysis/121836-motion.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/121836-motion.png",
+      "bytes": 800844,
+      "sha256": "f145e02811f4f3e1ffc623d424dacb78acf5c6b3ce71675e5b289f2a0c51f116"
+    },
+    {
+      "path": "analysis/121836-onset.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/121836-onset.png",
+      "bytes": 326807,
+      "sha256": "315c649b8b471c1d9aa0d9a328cae348897da4413e96d70dc39df29ce224a8c7"
+    },
+    {
+      "path": "analysis/121836-getdown.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/121836-getdown.png",
+      "bytes": 191460,
+      "sha256": "960d4337f55a108f9440705c7321e24f977d8ec6894d52b337ca50f625e2a328"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/.ros/log/2026-10-02-12-19-10-128266-nvidia-desktop-5295/launch.log",
+      "bytes": 616,
+      "sha256": "e7cb9dd18258a3b578b49c9a4d334c4eb01dfa20e45e7fcdddc4b6f31553bf06"
+    },
+    {
+      "path": "analysis/logs/ahrs.log",
+      "source_path": "/home/nvidia/.ros/log/ahrs_driver_node_5314_1790914750261.log",
+      "bytes": 270,
+      "sha256": "58a18d37217be23b7b9887c20ea917d7ea3859617d380f8e3d5282056db1dd3f"
+    },
+    {
+      "path": "analysis/logs/rl_real.log",
+      "source_path": "/home/nvidia/.ros/log/rl_real_LW_5316_1790914750438.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/logs/recorder.log",
+      "source_path": "/home/nvidia/.ros/log/python3_5189_1790914716783.log",
+      "bytes": 927,
+      "sha256": "4a6518ec9bca718050f6edbff4e8451ae061d7431ede5e0e070defa4b4a2e6e4"
+    },
+    {
+      "path": "analysis/analysis.txt",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/analysis.txt",
+      "bytes": 7352,
+      "sha256": "09eab9cd321ab448160265290cb7e5ffcbc457a92247d15c974c3de051bf6860"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/metrics.json",
+      "bytes": 12151,
+      "sha256": "57e34dbff681543a55651a45b9393836271407f50913afad88a130a13bbac0ce"
+    },
+    {
+      "path": "context/reference_bundle/manifest.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/2e74c528fb86/share/rl_sar/deployment/LW/manifest.yaml",
+      "bytes": 4156,
+      "sha256": "bd0f0f08ff051d677dafb4b196e420dd97001cd38cf7ac722251114e7140f1ea"
+    },
+    {
+      "path": "context/reference_bundle/policy/LW/base.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/2e74c528fb86/share/rl_sar/deployment/LW/policy/LW/base.yaml",
+      "bytes": 4522,
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9"
+    },
+    {
+      "path": "context/reference_bundle/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/2e74c528fb86/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "bytes": 2230,
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92"
+    },
+    {
+      "path": "context/reference_bundle/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/2e74c528fb86/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "bytes": 816544,
+      "sha256": "1bf82546c08e2f7e3eb28df9ab6f54244e7d8b72aa6bbf11cf6a02a4209a482a"
+    }
+  ],
+  "provenance_note": "Original bag and existing analysis/logs copied byte-for-byte. Operator confirmed wheel mode, fully grounded and shaking during motion; manual assistance/rope loading and exact loaded release are not independently known. First trial has no metadata.yaml and only about 3 seconds of policy-related telemetry.",
+  "reference_bundle": {
+    "source_commit": "2e74c528fb8639ecdb1695160cefa7105f8b2a1e",
+    "path": "context/reference_bundle",
+    "resources_match_own_manifest": true,
+    "test_time_use_verified": false,
+    "scope": "Partial reference snapshot of an existing bundle inspected after the test, not evidence that this process loaded it."
+  },
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5683,
+      "sha256": "c3bb1f092cac6a90e77fa25d38259a68fa6a4ee07697a05a55dce7395614bb9b"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 4282555,
+      "sha256": "73c42d31ec44377b78ad121f7940e94c2f748dcd4d496092bdc75a874fa185dd"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1235,
+      "sha256": "5cebcb26cb8e235d70b15f7ec1a4b8161c1d311bec0a311139ed308f49746e10"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 3195,
+      "sha256": "225078600826a2166b7281026e33bcfe2d5f960529157b11a4cf7ef191f74d15"
+    },
+    {
+      "path": "context/README.md",
+      "bytes": 965,
+      "sha256": "867843ed323ec3a095a2c6ad32de07f1da4be0bb87c237a359d2761395eefeaa"
+    }
+  ]
+}

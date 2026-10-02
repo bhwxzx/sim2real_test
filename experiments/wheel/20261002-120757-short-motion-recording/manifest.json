@@ -1,0 +1,96 @@
+{
+  "experiment_id": "20261002-120757-short-motion-recording",
+  "mode": "wheel",
+  "outcome": "short_motion_recording_insufficient_coverage",
+  "archived_at": "2026-10-02",
+  "original_message_count": 2490,
+  "test_time_source_commit": null,
+  "deployment_tag_confirmed_by_operator": null,
+  "test_time_binary_independently_verified": false,
+  "raw_metadata_present": false,
+  "operator_and_recording_conditions": {
+    "mode": "wheel",
+    "grounded_confirmed_by_operator": true,
+    "oscillation_during_motion_reported": true,
+    "manual_support_during_trial": null,
+    "rope_load_or_slack": null,
+    "firmware_version": null,
+    "synchronized_video_available": false,
+    "getdown_before_imu_stale_confirmed": null
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20261002-120757/lw_real_20261002-120757_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261002-120757/lw_real_20261002-120757_0.db3",
+      "bytes": 3477504,
+      "sha256": "f34884f8b83bbf1614b9836a50131d2356ba38202902ff6ee751cff701162286"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/lw_real_20261002-120757.npz",
+      "bytes": 198756,
+      "sha256": "4c1ed17fbf9ce622ad0e9ad98a57e7fa3e7018a2c6d0342f29c866d34e0dcc10"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/lw_real_20261002-120757-source.json",
+      "bytes": 934,
+      "sha256": "71cd64bfd451bfc98f1fbfeaff7db249c47c4e45113ba5c4401fad2e7beba620"
+    },
+    {
+      "path": "analysis/120757-motion.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/motion-20261002-readonly/120757-motion.png",
+      "bytes": 318285,
+      "sha256": "6aff941ab377f879201ad476ee95a3b5c576bccc3842e891233fc57975862999"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/.ros/log/2026-10-02-12-08-43-714069-nvidia-desktop-9004/launch.log",
+      "bytes": 369,
+      "sha256": "6efbc51ffcdd862d2dfb061116d90eb100f8f0a84f691a079e1a4815f9c26211"
+    },
+    {
+      "path": "analysis/logs/ahrs.log",
+      "source_path": "/home/nvidia/.ros/log/ahrs_driver_node_9025_1790914123830.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/logs/rl_real.log",
+      "source_path": "/home/nvidia/.ros/log/rl_real_LW_9027_1790914123979.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/logs/recorder.log",
+      "source_path": "/home/nvidia/.ros/log/python3_8763_1790914078395.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "provenance_note": "Original bag and existing analysis/logs copied byte-for-byte. Operator confirmed wheel mode, fully grounded and shaking during motion; manual assistance/rope loading and exact loaded release are not independently known. First trial has no metadata.yaml and only about 3 seconds of policy-related telemetry.",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5872,
+      "sha256": "2e4681b0e5c2ca7a3975dffbb481671faaf033defb811a090a0f4e8b4a215031"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 2975553,
+      "sha256": "dc36939cc13011195306896b7b07e772a48a0757757b9904cdc0333705d7dee5"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1262,
+      "sha256": "041e43d10ddd38f42e8ed095ee2ee2555f9e5990178c5416ed846eca4c64acb7"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 1991,
+      "sha256": "83e2a9e61ced2739fd444fcfb8ab587f2b65fc36bb8f36111a4d579785d2fa44"
+    }
+  ]
+}

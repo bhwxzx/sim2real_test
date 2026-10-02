@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-02T04:54:16.021526+00:00",
+  "rows": 3533,
+  "columns": 85,
+  "numeric_channels": 78,
+  "numeric_values_compared": 275574,
+  "float64_bitwise_roundtrip": true,
+  "negative_zero_values_preserved": 635,
+  "timestamps_exact": true,
+  "frame_ids_exact": true,
+  "bag_message_count_matches": true,
+  "metadata_message_count_matches": true,
+  "metadata_status": "present_and_matches",
+  "decoded_npz_cross_check": true,
+  "placeholder_zero_values_checked": 70660,
+  "no_overwrite_check": true,
+  "resampling": false,
+  "filtering": false,
+  "inputs": {
+    "bag": {
+      "path": "raw/lw_real_20261002-121836/lw_real_20261002-121836_0.db3",
+      "sha256": "e55197e714a6dceb579fcd6b2ed7f921e55ec407bc2a77b8b6b53999072c2460"
+    },
+    "npz": {
+      "path": "analysis/decoded.npz",
+      "sha256": "74dd860e90cb5efd3215711ad1311f38f69c87c39b8c705686133c1ae2f2ee3f"
+    }
+  },
+  "output": {
+    "path": "exports/joint_states.csv",
+    "bytes": 4282555,
+    "sha256": "73c42d31ec44377b78ad121f7940e94c2f748dcd4d496092bdc75a874fa185dd"
+  },
+  "generator": {
+    "path": "tools/export_joint_states_csv.py",
+    "sha256": "0d0603d92477282d5de3e56dd53b1109d1e928d94eea7068fa1710487467af90"
+  }
+}

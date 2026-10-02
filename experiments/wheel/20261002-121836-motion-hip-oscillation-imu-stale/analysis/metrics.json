@@ -1,0 +1,485 @@
+{
+  "definition": "Time relative to first bag message; policy interval inferred from nonzero wheel targets, not recorded FSM. PD effort is reconstructed with configured rl gains; feedback effort is motor-board estimate. Frequencies use interpolated 50 Hz data and Welch, not a measured plant resonance.",
+  "windows": [
+    {
+      "label": "early motion",
+      "relative_window_s": [
+        42.935420808,
+        50.5
+      ],
+      "wall_clock": [
+        "2026-10-02T12:19:53.497710+08:00",
+        "2026-10-02T12:20:01.062289+08:00"
+      ],
+      "frames": 379,
+      "roll_deg_range": [
+        1.0682144004345695,
+        2.1981945199346535
+      ],
+      "pitch_deg_range": [
+        -4.952105311827755,
+        3.53731496342021
+      ],
+      "hip_target_absmax_rad": [
+        0.06488741934299469,
+        0.04651613533496857
+      ],
+      "hip_position_absmax_rad": [
+        0.034142494201660156,
+        0.032998085021972656
+      ],
+      "hip_velocity_absmax_rad_s": [
+        0.3601951599121094,
+        0.25030517578125
+      ],
+      "hip_velocity_rms_rad_s": [
+        0.046023389638735875,
+        0.04837369273188182
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.00821658968925476,
+        0.010385146364569664
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        6.3932623863220215,
+        6.29312801361084
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        6.2026824951171875,
+        6.3003692626953125
+      ],
+      "wheel_target_absmax_rad_s": [
+        9.297451972961426,
+        9.117740631103516
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        5.791210174560547,
+        5.74725341796875
+      ]
+    },
+    {
+      "label": "first hip burst",
+      "relative_window_s": [
+        50.8,
+        53.4
+      ],
+      "wall_clock": [
+        "2026-10-02T12:20:01.362289+08:00",
+        "2026-10-02T12:20:03.962290+08:00"
+      ],
+      "frames": 130,
+      "roll_deg_range": [
+        0.40152035243866907,
+        4.942404957369856
+      ],
+      "pitch_deg_range": [
+        -8.484780178661623,
+        3.0960583791446012
+      ],
+      "hip_target_absmax_rad": [
+        0.21801626682281494,
+        0.2649787664413452
+      ],
+      "hip_position_absmax_rad": [
+        0.12378883361816406,
+        0.10662269592285156
+      ],
+      "hip_velocity_absmax_rad_s": [
+        4.30402946472168,
+        4.621490478515625
+      ],
+      "hip_velocity_rms_rad_s": [
+        1.6213140182274544,
+        1.3086440971841522
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.27754319459199905,
+        0.38614100217819214
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        18.692604064941406,
+        30.520687103271484
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        10.207565307617188,
+        15.4822998046875
+      ],
+      "wheel_target_absmax_rad_s": [
+        11.755416870117188,
+        12.641410827636719
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        7.703296661376953,
+        7.901100158691406
+      ],
+      "welch_dominant_hz_0_8_to_23": {
+        "hip_right_target": 8.203125,
+        "hip_left_target": 8.59375,
+        "hip_right_velocity": 8.203125,
+        "hip_left_velocity": 8.59375,
+        "pitch": 1.171875,
+        "wheel_right_velocity": 1.171875
+      }
+    },
+    {
+      "label": "between bursts",
+      "relative_window_s": [
+        53.5,
+        56.5
+      ],
+      "wall_clock": [
+        "2026-10-02T12:20:04.062289+08:00",
+        "2026-10-02T12:20:07.062289+08:00"
+      ],
+      "frames": 149,
+      "roll_deg_range": [
+        1.152181496562556,
+        2.293030195229989
+      ],
+      "pitch_deg_range": [
+        -4.968468546931963,
+        1.6522215352905467
+      ],
+      "hip_target_absmax_rad": [
+        0.06645441800355911,
+        0.051874998956918716
+      ],
+      "hip_position_absmax_rad": [
+        0.01354217529296875,
+        0.032235145568847656
+      ],
+      "hip_velocity_absmax_rad_s": [
+        0.1892547607421875,
+        0.2625160217285156
+      ],
+      "hip_velocity_rms_rad_s": [
+        0.048893725892370114,
+        0.05999407841531841
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.008522992953658104,
+        0.014913724269717932
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        6.018400192260742,
+        6.661171913146973
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        6.2026824951171875,
+        6.398040771484375
+      ],
+      "wheel_target_absmax_rad_s": [
+        7.518093109130859,
+        8.18355655670166
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        6.010990142822266,
+        5.637363433837891
+      ],
+      "welch_dominant_hz_0_8_to_23": {
+        "hip_right_target": 1.5625,
+        "hip_left_target": 1.953125,
+        "hip_right_velocity": 2.34375,
+        "hip_left_velocity": 6.25,
+        "pitch": 1.171875,
+        "wheel_right_velocity": 1.171875
+      }
+    },
+    {
+      "label": "second hip burst",
+      "relative_window_s": [
+        56.6,
+        58.6
+      ],
+      "wall_clock": [
+        "2026-10-02T12:20:07.162290+08:00",
+        "2026-10-02T12:20:09.162290+08:00"
+      ],
+      "frames": 100,
+      "roll_deg_range": [
+        1.2160566697892525,
+        4.623757466342892
+      ],
+      "pitch_deg_range": [
+        -7.459318221088324,
+        0.3524931215102943
+      ],
+      "hip_target_absmax_rad": [
+        0.23560850322246552,
+        0.24893240630626678
+      ],
+      "hip_position_absmax_rad": [
+        0.11615943908691406,
+        0.11234474182128906
+      ],
+      "hip_velocity_absmax_rad_s": [
+        4.487178802490234,
+        4.023199081420898
+      ],
+      "hip_velocity_rms_rad_s": [
+        1.7000972178126663,
+        1.4432218385976234
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.2723226249217987,
+        0.3913414478302002
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        17.658918380737305,
+        31.757402420043945
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        10.207565307617188,
+        16.166061401367188
+      ],
+      "wheel_target_absmax_rad_s": [
+        8.604373931884766,
+        8.105084419250488
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        5.725273132324219,
+        6.1868133544921875
+      ],
+      "welch_dominant_hz_0_8_to_23": {
+        "hip_right_target": 8.5,
+        "hip_left_target": 8.5,
+        "hip_right_velocity": 8.5,
+        "hip_left_velocity": 8.5,
+        "pitch": 1.0,
+        "wheel_right_velocity": 1.0
+      }
+    },
+    {
+      "label": "smaller motion",
+      "relative_window_s": [
+        58.6,
+        59.8
+      ],
+      "wall_clock": [
+        "2026-10-02T12:20:09.162290+08:00",
+        "2026-10-02T12:20:10.362289+08:00"
+      ],
+      "frames": 60,
+      "roll_deg_range": [
+        2.022837103512576,
+        4.843624889276395
+      ],
+      "pitch_deg_range": [
+        -5.770076987121708,
+        3.636320641825688
+      ],
+      "hip_target_absmax_rad": [
+        0.09053902328014374,
+        0.08409776538610458
+      ],
+      "hip_position_absmax_rad": [
+        0.052453041076660156,
+        0.043679237365722656
+      ],
+      "hip_velocity_absmax_rad_s": [
+        0.9096450805664062,
+        0.5799751281738281
+      ],
+      "hip_velocity_rms_rad_s": [
+        0.31009982287864934,
+        0.23111571127234917
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.033878757152706385,
+        0.023013579193502665
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        6.737443923950195,
+        8.26382064819336
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        6.984130859375,
+        8.058609008789062
+      ],
+      "wheel_target_absmax_rad_s": [
+        16.349790573120117,
+        11.325072288513184
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        10.626373291015625,
+        8.670330047607422
+      ]
+    },
+    {
+      "label": "last short burst",
+      "relative_window_s": [
+        59.8,
+        60.2023
+      ],
+      "wall_clock": [
+        "2026-10-02T12:20:10.362289+08:00",
+        "2026-10-02T12:20:10.764589+08:00"
+      ],
+      "frames": 21,
+      "roll_deg_range": [
+        1.1522361223087578,
+        4.937211771674734
+      ],
+      "pitch_deg_range": [
+        -5.1594752615793436,
+        -1.3418751646478542
+      ],
+      "hip_target_absmax_rad": [
+        0.1130618304014206,
+        0.13704508543014526
+      ],
+      "hip_position_absmax_rad": [
+        0.059319496154785156,
+        0.07991886138916016
+      ],
+      "hip_velocity_absmax_rad_s": [
+        1.6544570922851562,
+        2.8632469177246094
+      ],
+      "hip_velocity_rms_rad_s": [
+        0.7187445527894324,
+        1.4154167614322741
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.1347549445927143,
+        0.12020863220095634
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        11.515953063964844,
+        9.875837326049805
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        9.328445434570312,
+        7.374847412109375
+      ],
+      "wheel_target_absmax_rad_s": [
+        8.334601402282715,
+        7.143930435180664
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        4.450550079345703,
+        4.4945068359375
+      ],
+      "welch_dominant_hz_0_8_to_23": {
+        "hip_right_target": 9.523809523809524,
+        "hip_left_target": 9.523809523809524,
+        "hip_right_velocity": 9.523809523809524,
+        "hip_left_velocity": 9.523809523809524,
+        "pitch": 2.380952380952381,
+        "wheel_right_velocity": 2.380952380952381
+      }
+    },
+    {
+      "label": "all policy",
+      "relative_window_s": [
+        42.935420808,
+        60.2023
+      ],
+      "wall_clock": [
+        "2026-10-02T12:19:53.497710+08:00",
+        "2026-10-02T12:20:10.764589+08:00"
+      ],
+      "frames": 864,
+      "roll_deg_range": [
+        0.40152035243866907,
+        4.942404957369856
+      ],
+      "pitch_deg_range": [
+        -8.484780178661623,
+        3.636320641825688
+      ],
+      "hip_target_absmax_rad": [
+        0.23560850322246552,
+        0.2649787664413452
+      ],
+      "hip_position_absmax_rad": [
+        0.12378883361816406,
+        0.11234474182128906
+      ],
+      "hip_velocity_absmax_rad_s": [
+        4.487178802490234,
+        4.621490478515625
+      ],
+      "hip_velocity_rms_rad_s": [
+        0.8666051019380959,
+        0.7438517107954453
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.27754319459199905,
+        0.3913414478302002
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        18.692604064941406,
+        31.757402420043945
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        10.207565307617188,
+        16.166061401367188
+      ],
+      "wheel_target_absmax_rad_s": [
+        16.349790573120117,
+        12.641410827636719
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        10.626373291015625,
+        8.670330047607422
+      ]
+    },
+    {
+      "label": "getdown and rest",
+      "relative_window_s": [
+        60.222,
+        70.673
+      ],
+      "wall_clock": [
+        "2026-10-02T12:20:10.784289+08:00",
+        "2026-10-02T12:20:21.235290+08:00"
+      ],
+      "frames": 523,
+      "roll_deg_range": [
+        -5.050692147731772,
+        14.198842275555975
+      ],
+      "pitch_deg_range": [
+        -77.13862624532442,
+        -1.9298349748681172
+      ],
+      "hip_target_absmax_rad": [
+        0.06938711553812027,
+        0.032507892698049545
+      ],
+      "hip_position_absmax_rad": [
+        0.2885866165161133,
+        0.3480968475341797
+      ],
+      "hip_velocity_absmax_rad_s": [
+        0.7875461578369141,
+        1.25152587890625
+      ],
+      "hip_velocity_rms_rad_s": [
+        0.12958952157827486,
+        0.16617339566994258
+      ],
+      "hip_target_sample_step_absmax_rad": [
+        0.0004641339182853699,
+        0.00021744519472122192
+      ],
+      "hip_pd_effort_absmax_Nm": [
+        26.751331329345703,
+        31.5714054107666
+      ],
+      "hip_feedback_effort_absmax_Nm": [
+        5.030517578125,
+        5.616607666015625
+      ],
+      "wheel_target_absmax_rad_s": [
+        0.0,
+        0.0
+      ],
+      "wheel_velocity_absmax_rad_s": [
+        2.2307701110839844,
+        0.7582435607910156
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "path": "/home/nvidia/debug_bags/lw_real_20261002-120757/lw_real_20261002-120757_0.db3",
+  "sha256": "f34884f8b83bbf1614b9836a50131d2356ba38202902ff6ee751cff701162286",
+  "frames": 2490,
+  "start": "2026-10-02T12:08:44.104183+08:00",
+  "duration": 49.778653406000004,
+  "dt_ms": [
+    19.155044999999998,
+    19.998027,
+    21.013927
+  ],
+  "names": [
+    "right_hip_now",
+    "left_hip_now",
+    "right_thigh_now",
+    "left_thigh_now",
+    "right_shank_now",
+    "left_shank_now",
+    "right_foot_now",
+    "left_foot_now",
+    "right_wheel_now",
+    "left_wheel_now",
+    "right_hip_target",
+    "left_hip_target",
+    "right_thigh_target",
+    "left_thigh_target",
+    "right_shank_target",
+    "left_shank_target",
+    "right_foot_target",
+    "left_foot_target",
+    "right_wheel_target",
+    "left_wheel_target",
+    "imu_ang_vel",
+    "imu_quat_w",
+    "imu_quat_x",
+    "imu_quat_y",
+    "imu_quat_z",
+    "cmd_vel"
+  ]
+}
