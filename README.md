@@ -45,6 +45,8 @@ sha256sum -c SHA256SUMS
 
 2026-10-02 两场归档另含短运动记录与运动中反复髋部振荡记录。实际加载版本未确认；第二场 context 明确标为现有部署包参考快照。第一场原始录制缺少 metadata.yaml，保留原状，未重建元数据。
 
+2026-10-03 场次归档1003-01双轮运动改善与持续髋部偏斜记录，并附启动前人工扶稳条件、启动前后髋角度对比和长腿刚性几何估算。测试时进程文件哈希与支撑释放时刻未独立记录；本场不作为机械对齐或一般稳定性验收通过的证据。
+
 ## 本次归档
 
 | 模式 | 场次 | 现场结果与范围 |
@@ -57,6 +59,7 @@ sha256sum -c SHA256SUMS
 | 双轮 | [20260930-213510](experiments/wheel/20260930-213510-hip-oscillation-body-instability/README.md) | 0930-01 前进指令回零后双髋目标快速放大、机身失稳；GetDown 未进入已保存的记录，原因尚未唯一确定 |
 | 双轮 | [20261002-120757](experiments/wheel/20261002-120757-short-motion-recording/README.md) | 仅覆盖约3秒策略运动，原录制缺少metadata.yaml；不足以判断整场表现 |
 | 双轮 | [20261002-121836](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/README.md) | 运动中两组明显双髋振荡及末段短振荡；GetDown后另发生IMU过期停机，根因未定 |
+| 双轮 | [20261003-155617](experiments/wheel/20261003-155617-stable-motion-hip-bias/README.md) | 1003-01运动中未出现此前机身抖动崩溃，持续髋偏斜尤其左侧；启动前人工扶稳，机械形状与承载变形贡献待核实 |
 | 双足 | [20260918-113020](experiments/leg/20260918-113020-forward-backward/README.md) | 用户确认对应前进、后退完成测试；保留末尾反馈异常与失稳分析，不标为整场稳定性验收通过 |
 
 ## 无 ROS 2 读取全量数据
@@ -74,5 +77,6 @@ sha256sum -c SHA256SUMS
 | 双轮前进减速后髋部失稳 | [joint_states.csv](experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/joint_states.csv) | 3508 | [字段说明](experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/README.md)、[验证结果](experiments/wheel/20260930-213510-hip-oscillation-body-instability/exports/validation.json) |
 | 1002双轮短运动记录 | [joint_states.csv](experiments/wheel/20261002-120757-short-motion-recording/exports/joint_states.csv) | 2490 | [字段说明](experiments/wheel/20261002-120757-short-motion-recording/exports/README.md)、[验证结果](experiments/wheel/20261002-120757-short-motion-recording/exports/validation.json) |
 | 1002双轮运动髋部振荡 | [joint_states.csv](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/joint_states.csv) | 3533 | [字段说明](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/README.md)、[验证结果](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/validation.json) |
+| 1003-01双轮运动与髋偏斜 | [joint_states.csv](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/joint_states.csv) | 8892 | [字段说明](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/README.md)、[验证结果](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/validation.json) |
 
 CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。

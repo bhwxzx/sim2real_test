@@ -1,0 +1,22 @@
+{
+  "operator_confirmed_release": "1003-01",
+  "local_tag": "lw-release-20261003-01",
+  "source_commit": "3e0fb92955399c8cf2bb6a0a50fed3996e93d3e2",
+  "resources_match_manifest": true,
+  "existing_bundle_binary_matches_manifest": true,
+  "test_time_binary_independently_captured": false,
+  "resources": [
+    {
+      "path": "build/lw_deployments/3e0fb9295539/share/rl_sar/deployment/LW/policy/LW/base.yaml",
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9"
+    },
+    {
+      "path": "build/lw_deployments/3e0fb9295539/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92"
+    },
+    {
+      "path": "build/lw_deployments/3e0fb9295539/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "sha256": "ef6cf9f83ffcf559e15d1e4e8da138fcd6d0c8c0b8fd02e1de5a4f021817429b"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "operator_clarification": "Initially lowered from suspension to the ground and held upright by a person before enabling the dual-wheel policy. Ground-contact and support-release timestamps are not recorded.",
+  "joint_order": [
+    "right_hip_joint",
+    "left_hip_joint"
+  ],
+  "angle_unit": "deg",
+  "coordinate_note": "Encoder coordinates; physical joint zero is not verified.",
+  "policy_start_inferred_by": "First nonzero wheel target velocity",
+  "policy_start_relative_s": 50.739602391000005,
+  "policy_start_local": "2026-10-03T15:57:37.188+08:00",
+  "policy_end_relative_s": 163.74216074100002,
+  "windows": {
+    "initial_0_2_s": {
+      "relative_time_s": [
+        0,
+        2
+      ],
+      "local_time": [
+        "2026-10-03T15:56:46.448+08:00",
+        "2026-10-03T15:56:48.448+08:00"
+      ],
+      "frames": 101,
+      "actual_mean_deg": [
+        -22.501053844670842,
+        22.480279249492344
+      ],
+      "actual_min_deg": [
+        -22.501703050770168,
+        22.479846445426126
+      ],
+      "actual_max_deg": [
+        -22.479846445426126,
+        22.501703050770168
+      ],
+      "target_mean_deg": [
+        0.0,
+        0.0
+      ],
+      "target_min_deg": [
+        0.0,
+        0.0
+      ],
+      "target_max_deg": [
+        0.0,
+        0.0
+      ]
+    },
+    "hold_10_25_s": {
+      "relative_time_s": [
+        10,
+        25
+      ],
+      "local_time": [
+        "2026-10-03T15:56:56.448+08:00",
+        "2026-10-03T15:57:11.448+08:00"
+      ],
+      "frames": 750,
+      "actual_mean_deg": [
+        -2.921379369657441,
+        2.8957051439132933
+      ],
+      "actual_min_deg": [
+        -2.9397680602868483,
+        2.8741982442547256
+      ],
+      "actual_max_deg": [
+        -2.8086284282226033,
+        2.8960548495987664
+      ],
+      "target_mean_deg": [
+        0.0,
+        0.0
+      ],
+      "target_min_deg": [
+        0.0,
+        0.0
+      ],
+      "target_max_deg": [
+        0.0,
+        0.0
+      ]
+    },
+    "last_2_s_before_policy": {
+      "relative_time_s": [
+        48.739602391000005,
+        50.739602391000005
+      ],
+      "local_time": [
+        "2026-10-03T15:57:35.188+08:00",
+        "2026-10-03T15:57:37.188+08:00"
+      ],
+      "frames": 99,
+      "actual_mean_deg": [
+        -1.902131240923296,
+        1.6064604927869963
+      ],
+      "actual_min_deg": [
+        -1.9125076091169304,
+        1.606460492786999
+      ],
+      "actual_max_deg": [
+        -1.8906510037728896,
+        1.606460492786999
+      ],
+      "target_mean_deg": [
+        0.0,
+        0.0
+      ],
+      "target_min_deg": [
+        0.0,
+        0.0
+      ],
+      "target_max_deg": [
+        0.0,
+        0.0
+      ]
+    },
+    "first_5_s_policy": {
+      "relative_time_s": [
+        50.739602391000005,
+        55.739602391000005
+      ],
+      "local_time": [
+        "2026-10-03T15:57:37.188+08:00",
+        "2026-10-03T15:57:42.188+08:00"
+      ],
+      "frames": 250,
+      "actual_mean_deg": [
+        0.14171801048470697,
+        1.4813646492324897
+      ],
+      "actual_min_deg": [
+        -1.9125076091169304,
+        0.9070491217776934
+      ],
+      "actual_max_deg": [
+        0.9507623324657749,
+        2.393352926685828
+      ],
+      "target_mean_deg": [
+        1.5390623582175516,
+        0.4585156390222335
+      ],
+      "target_min_deg": [
+        -1.9032174846286551,
+        -3.173039297566882
+      ],
+      "target_max_deg": [
+        6.498829799505575,
+        4.6302561015642825
+      ]
+    },
+    "next_10_s_policy": {
+      "relative_time_s": [
+        55.739602391000005,
+        65.739602391
+      ],
+      "local_time": [
+        "2026-10-03T15:57:42.188+08:00",
+        "2026-10-03T15:57:52.188+08:00"
+      ],
+      "frames": 500,
+      "actual_mean_deg": [
+        0.5898223518142875,
+        0.9300422705996245
+      ],
+      "actual_min_deg": [
+        0.18578114542434682,
+        0.16392454008030602
+      ],
+      "actual_max_deg": [
+        1.278611412626387,
+        1.7813133355393254
+      ],
+      "target_mean_deg": [
+        -4.793144659895624,
+        6.2113607315506165
+      ],
+      "target_min_deg": [
+        -8.511305337975282,
+        3.0483315692666735
+      ],
+      "target_max_deg": [
+        -0.6332014381859061,
+        8.76448081371379
+      ]
+    },
+    "middle_late_policy_90_150_s": {
+      "relative_time_s": [
+        90,
+        150
+      ],
+      "local_time": [
+        "2026-10-03T15:58:16.448+08:00",
+        "2026-10-03T15:59:16.448+08:00"
+      ],
+      "frames": 3000,
+      "actual_mean_deg": [
+        0.2984300893675348,
+        -0.6529660846532089
+      ],
+      "actual_min_deg": [
+        -0.25135096145646924,
+        -1.4316076500346726
+      ],
+      "actual_max_deg": [
+        1.4753208607227541,
+        -0.16392454008030602
+      ],
+      "target_mean_deg": [
+        -14.61906769527314,
+        13.921467605908127
+      ],
+      "target_min_deg": [
+        -17.63601118228919,
+        9.39004161809598
+      ],
+      "target_max_deg": [
+        -9.80412952049082,
+        16.281482217038114
+      ]
+    }
+  },
+  "first_policy_frame": {
+    "actual_deg": [
+      -1.9125076091169304,
+      1.606460492786999
+    ],
+    "target_deg": [
+      2.1105316551851137,
+      -1.380510151080161
+    ]
+  },
+  "last_pre_policy_frame": {
+    "actual_deg": [
+      -1.9125076091169304,
+      1.606460492786999
+    ],
+    "target_deg": [
+      0.0,
+      0.0
+    ]
+  },
+  "startup_target_first_nonzero_relative_s": 3.9597440710000003
+}

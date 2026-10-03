@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "joint_order": [
+    "right_hip_now",
+    "left_hip_now",
+    "right_thigh_now",
+    "left_thigh_now",
+    "right_shank_now",
+    "left_shank_now",
+    "right_foot_now",
+    "left_foot_now",
+    "right_wheel_now",
+    "left_wheel_now"
+  ],
+  "urdf_path": "context/geometry/LW.urdf",
+  "urdf_sha256": "e416fdf3568b6a25b42c5e73e67d15b03762bf20e870d0a205e389af9dc6861e",
+  "pre_policy_window_s": [
+    48.739602391000005,
+    50.739602391000005
+  ],
+  "middle_late_policy_window_s": [
+    90,
+    150
+  ],
+  "pre_policy_joint_mean_rad": [
+    -0.033198452959157,
+    0.02803802490234375,
+    0.794041633605957,
+    -0.7905236350165473,
+    -0.22143543127811316,
+    0.21284562891179865,
+    -0.00553131103515625,
+    0.00553131103515625,
+    0.0,
+    0.0
+  ],
+  "middle_late_policy_joint_mean_rad": [
+    0.005208587646484375,
+    -0.011396408081054688,
+    0.7042199360529582,
+    -0.7186302372614543,
+    -0.15472550169626872,
+    0.1679753230412801,
+    -0.019462155977884928,
+    -0.0024803164800008136,
+    0.0,
+    0.0
+  ],
+  "assumptions": [
+    "Rigid URDF geometry; structural bending is not measured.",
+    "Base frame fixed; all non-hip angles held at middle-late mean values for the hip-only comparison.",
+    "Wheel positions are relative to the base, not measured ground displacement.",
+    "The repository URDF does not independently verify the actual training USD geometry or physical encoder zero."
+  ],
+  "small_angle_lateral_formula": "dy approximately z * dtheta, with dtheta in radians near hip zero",
+  "simple_0_45m_lever_offset_mm": {
+    "0.65": 5.104978557917539,
+    "1": 7.8535828967775805,
+    "2": 15.704773516125437,
+    "2.26": 17.745396087087588,
+    "3": 23.551180309324725
+  },
+  "legs": {
+    "right": {
+      "hip_before_deg": -1.9021312409232949,
+      "hip_after_deg": 0.2984300893675331,
+      "hip_change_deg": 2.200561330290828,
+      "neutral_hip_to_wheel_vector_m": [
+        0.10756587484354803,
+        -0.178,
+        -0.45095236554475615
+      ],
+      "vertical_lever_m": 0.45095236554475615,
+      "hip_only_wheel_change_mm": [
+        0.0,
+        -17.41265204345685,
+        6.5929977473746515
+      ],
+      "hip_only_wheel_lateral_change_mm": -17.41265204345685
+    },
+    "left": {
+      "hip_before_deg": 1.606460492786999,
+      "hip_after_deg": -0.652966084653219,
+      "hip_change_deg": -2.259426577440218,
+      "neutral_hip_to_wheel_vector_m": [
+        0.11069711750974245,
+        0.178,
+        -0.44857647884991947
+      ],
+      "vertical_lever_m": 0.44857647884991947,
+      "hip_only_wheel_change_mm": [
+        0.0,
+        17.746002645809778,
+        6.871452753968832
+      ],
+      "hip_only_wheel_lateral_change_mm": 17.746002645809778
+    }
+  }
+}

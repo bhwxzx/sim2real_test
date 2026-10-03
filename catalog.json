@@ -278,8 +278,65 @@
         "scope": "Partial reference snapshot of an existing bundle inspected after the test, not evidence that this process loaded it."
       },
       "context": "experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/context/README.md"
+    },
+    {
+      "id": "20261003-155617-stable-motion-hip-bias",
+      "mode": "wheel",
+      "outcome": "motion_without_reported_body_collapse_persistent_hip_misalignment",
+      "path": "experiments/wheel/20261003-155617-stable-motion-hip-bias",
+      "readme": "experiments/wheel/20261003-155617-stable-motion-hip-bias/README.md",
+      "manifest": "experiments/wheel/20261003-155617-stable-motion-hip-bias/manifest.json",
+      "message_count": 8892,
+      "archived_file_count": 22,
+      "archived_bytes": 16361919,
+      "archive_date": "2026-10-03",
+      "test_time_source_commit": "3e0fb92955399c8cf2bb6a0a50fed3996e93d3e2",
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "mode": "wheel",
+        "release_confirmed_by_operator": "1003-01",
+        "initial_sequence_reported": "Lowered from suspension to ground, held upright by a person, then enabled dual-wheel policy.",
+        "fully_grounded_for_policy_confirmed_by_operator": true,
+        "manual_support_before_policy_confirmed": true,
+        "manual_support_release_time_s": null,
+        "manual_support_during_policy": null,
+        "rope_load_during_policy": null,
+        "body_shaking_collapse_reported_this_trial": false,
+        "visible_hip_misalignment_persistent": true,
+        "left_misalignment_more_obvious_reported": true,
+        "long_leg_and_mechanical_bending_context_reported": true,
+        "structural_bending_quantitatively_measured": false,
+        "foot_disturbance_reported": true,
+        "foot_disturbance_count_approximate": 1,
+        "foot_disturbance_direction_reported": "fore-aft",
+        "foot_disturbance_time_s": null,
+        "firmware_version": null,
+        "synchronized_video_available": false
+      },
+      "full_csv": {
+        "path": "experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/joint_states.csv",
+        "rows": 8892,
+        "columns": 85,
+        "bytes": 11106582,
+        "sha256": "074023a84ae78c1b02881ec5ab97904c6b9cabcd2e89697307b8ebcf8afb0136",
+        "documentation": "experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/README.md",
+        "validation": "experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/validation.json"
+      },
+      "deployment_context": {
+        "operator_confirmed_release": "1003-01",
+        "local_tag": "lw-release-20261003-01",
+        "source_commit": "3e0fb92955399c8cf2bb6a0a50fed3996e93d3e2",
+        "path": "context/bundle_snapshot",
+        "resources_match_own_manifest": true,
+        "existing_bundle_binary_matches_manifest": true,
+        "test_time_binary_independently_verified": false,
+        "scope": "Partial snapshot of the release associated with the operator report; not a complete deployment or independent capture of the test process."
+      },
+      "context": "experiments/wheel/20261003-155617-stable-motion-hip-bias/context/README.md",
+      "latest_analysis_supplement": "experiments/wheel/20261003-155617-stable-motion-hip-bias/analysis/archive-review.md"
     }
   ],
-  "updated_at": "2026-10-02T04:56:31.466435+00:00",
+  "updated_at": "2026-10-03T08:37:52.011146+00:00",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }
