@@ -1,0 +1,7 @@
+1791546480.7936742 [INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-10-09-19-48-00-791528-nvidia-desktop-5124
+1791546480.7939777 [INFO] [launch]: Default logging verbosity is set to INFO
+1791546480.9085488 [INFO] [ahrs_driver_node-1]: process started with pid [5143]
+1791546480.9089069 [INFO] [rl_real_LW-2]: process started with pid [5145]
+1791546566.8678868 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1791546566.9862382 [INFO] [ahrs_driver_node-1]: process has finished cleanly [pid 5143]
+1791546567.1275780 [INFO] [rl_real_LW-2]: process has finished cleanly [pid 5145]

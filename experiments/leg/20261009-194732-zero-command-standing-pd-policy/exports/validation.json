@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-09T12:14:47.552479+00:00",
+  "rows": 4277,
+  "columns": 85,
+  "numeric_channels": 78,
+  "numeric_values_compared": 333606,
+  "float64_bitwise_roundtrip": true,
+  "negative_zero_values_preserved": 0,
+  "timestamps_exact": true,
+  "frame_ids_exact": true,
+  "bag_message_count_matches": true,
+  "metadata_message_count_matches": true,
+  "metadata_status": "present_and_matches",
+  "decoded_npz_cross_check": true,
+  "placeholder_zero_values_checked": 85540,
+  "resampling": false,
+  "filtering": false,
+  "inputs": {
+    "bag": {
+      "path": "raw/lw_real_20261009-194732/lw_real_20261009-194732_0.db3",
+      "sha256": "ef143a5af64dc3b50c37e4c7a6db8b7bf7ef91465f2b7fc65afc8e3bc014c6c8"
+    },
+    "npz": {
+      "path": "analysis/decoded.npz",
+      "sha256": "0cea46aa3f564964013567fcc081128bb88ed6f9496b2a7b3e53ba9ccc4b8247"
+    }
+  },
+  "output": {
+    "path": "exports/joint_states.csv",
+    "bytes": 5286523,
+    "sha256": "0b5b47297dda134ad20b03724963383d437a9a1d23679bbd4afeb509654f9912"
+  },
+  "generator": {
+    "path": "tools/export_joint_states_csv.py",
+    "sha256": "0d0603d92477282d5de3e56dd53b1109d1e928d94eea7068fa1710487467af90"
+  }
+}

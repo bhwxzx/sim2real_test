@@ -386,6 +386,58 @@
         "validation": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/validation.json"
       },
       "assessment": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/analysis/assessment.md"
+    },
+    {
+      "id": "20261009-194732-zero-command-standing-pd-policy",
+      "mode": "leg",
+      "outcome": "short_unassisted_standing_static_joint_errors_imu_heading_change",
+      "path": "experiments/leg/20261009-194732-zero-command-standing-pd-policy",
+      "readme": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/README.md",
+      "manifest": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/manifest.json",
+      "message_count": 4277,
+      "archived_file_count": 19,
+      "archived_bytes": 8090342,
+      "archive_date": "2026-10-09",
+      "test_time_source_commit": "8cd9a7cef928e29c534cc459552bd5a5590102ae",
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "mode": "leg",
+        "release_confirmed_by_operator": "1009-01",
+        "initial_sequence_reported": "Suspended, commanded to initial Leg pose, lowered to unsupported joint-PD standing, rope slack with no assistance, then Leg policy enabled with zero motion commands.",
+        "fixed_PD_grounded_standing_before_policy_reported": true,
+        "rope_slack_before_policy_reported": true,
+        "no_assistance_during_policy_reported": true,
+        "all_published_commands_exactly_zero": true,
+        "wheels_airborne_reported": true,
+        "wheels_almost_not_rotating_reported": true,
+        "no_body_yaw_motion_observed_by_operator": true,
+        "grounding_or_rope_slack_timestamp_s": null,
+        "firmware_version": null,
+        "synchronized_video_available": false
+      },
+      "deployment_context": {
+        "operator_confirmed_release": "1009-01",
+        "local_tag": "lw-release-20261009-01",
+        "source_commit": "8cd9a7cef928e29c534cc459552bd5a5590102ae",
+        "path": "context/bundle_snapshot",
+        "resources_match_own_manifest": true,
+        "existing_bundle_binary_matches_manifest": true,
+        "test_time_binary_independently_verified": false,
+        "scope": "Partial release snapshot of base/Leg configuration and model, associated with operator report, not complete deployment or independent capture of the test process.",
+        "leg_model_latest_change": "a41af7a06ad5b9ecd72c8a1dce15775cc299a0dd 2026-09-17T16:35:49+08:00 同步 LW 新模型、历史配置与推理测试基线（LW-076）"
+      },
+      "context": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/context/README.md",
+      "assessment": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/analysis/assessment.md",
+      "full_csv": {
+        "path": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/joint_states.csv",
+        "rows": 4277,
+        "columns": 85,
+        "bytes": 5286523,
+        "sha256": "0b5b47297dda134ad20b03724963383d437a9a1d23679bbd4afeb509654f9912",
+        "documentation": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/README.md",
+        "validation": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/validation.json"
+      }
     }
   ],
   "updated_at": "2026-10-09",

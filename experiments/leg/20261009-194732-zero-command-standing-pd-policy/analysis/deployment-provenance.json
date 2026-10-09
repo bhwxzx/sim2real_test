@@ -1,0 +1,33 @@
+{
+  "operator_confirmed_release": "1009-01",
+  "tag": "lw-release-20261009-01",
+  "release_commit": "8cd9a7cef928e29c534cc459552bd5a5590102ae",
+  "current_head_at_analysis": "88dd0d4d10a55eb5371db16555f0287b545e49b7",
+  "manifest_source_commit": "8cd9a7cef928e29c534cc459552bd5a5590102ae",
+  "resources": [
+    {
+      "path": "/home/nvidia/rl_sar/build/lw_deployments/8cd9a7cef928/share/rl_sar/deployment/LW/policy/LW/base.yaml",
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9",
+      "manifest_match": true,
+      "current_source_match": true
+    },
+    {
+      "path": "/home/nvidia/rl_sar/build/lw_deployments/8cd9a7cef928/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/config.yaml",
+      "sha256": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274",
+      "manifest_match": true,
+      "current_source_match": true
+    },
+    {
+      "path": "/home/nvidia/rl_sar/build/lw_deployments/8cd9a7cef928/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/policy.onnx",
+      "sha256": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb",
+      "manifest_match": true,
+      "current_source_match": true
+    }
+  ],
+  "existing_executable_manifest_match": true,
+  "existing_executable_sha256": "7fbeab344e4e993069ec7df11683da3a2bad5bae9594f7732b4af8dd378b6cd0",
+  "runtime_process_model_hash_independently_captured": false,
+  "leg_model_latest_change": "a41af7a06ad5b9ecd72c8a1dce15775cc299a0dd 2026-09-17T16:35:49+08:00 同步 LW 新模型、历史配置与推理测试基线（LW-076）",
+  "leg_resources_diff_1003_to_1009_empty": true,
+  "scope": "Existing release resources verified. Test process path/hash not recorded; release association relies on operator report and existing snapshot."
+}
