@@ -1,0 +1,49 @@
+{
+  "bag": "/home/nvidia/debug_bags/lw_real_20261009-163704/lw_real_20261009-163704_0.db3",
+  "sha256": "db11b978e556e44a2a5cd4f103991b9798a0d07dfa78e3a768f6fe13fff66168",
+  "count": 5179,
+  "duration_s": 103.558922271,
+  "first_ns": 1791535056462110683,
+  "last_ns": 1791535160021032954,
+  "names": [
+    "right_hip_now",
+    "left_hip_now",
+    "right_thigh_now",
+    "left_thigh_now",
+    "right_shank_now",
+    "left_shank_now",
+    "right_foot_now",
+    "left_foot_now",
+    "right_wheel_now",
+    "left_wheel_now",
+    "right_hip_target",
+    "left_hip_target",
+    "right_thigh_target",
+    "left_thigh_target",
+    "right_shank_target",
+    "left_shank_target",
+    "right_foot_target",
+    "left_foot_target",
+    "right_wheel_target",
+    "left_wheel_target",
+    "imu_ang_vel",
+    "imu_quat_w",
+    "imu_quat_x",
+    "imu_quat_y",
+    "imu_quat_z",
+    "cmd_vel"
+  ],
+  "finite": {
+    "pos": true,
+    "vel": true,
+    "eff": true
+  },
+  "dt_ms_quantiles": [
+    18.277343,
+    19.998792,
+    20.07905934,
+    21.74295
+  ],
+  "first_wall_clock": "2026-10-09T16:37:36.462111+08:00",
+  "last_wall_clock": "2026-10-09T16:39:20.021033+08:00"
+}

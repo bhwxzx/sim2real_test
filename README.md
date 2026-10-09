@@ -47,6 +47,8 @@ sha256sum -c SHA256SUMS
 
 2026-10-03 场次归档1003-01双轮运动改善与持续髋部偏斜记录，并附启动前人工扶稳条件、启动前后髋角度对比和长腿刚性几何估算。测试时进程文件哈希与支撑释放时刻未独立记录；本场不作为机械对齐或一般稳定性验收通过的证据。
 
+2026-10-09 场次归档1009-01在吊绳松弛、启动后松手的自主双轮运动与双髋逐渐外偏记录。精确松手时刻和测试进程哈希未录制，短时平稳运动不等于髋姿态/受力问题解决。
+
 ## 本次归档
 
 | 模式 | 场次 | 现场结果与范围 |
@@ -60,6 +62,7 @@ sha256sum -c SHA256SUMS
 | 双轮 | [20261002-120757](experiments/wheel/20261002-120757-short-motion-recording/README.md) | 仅覆盖约3秒策略运动，原录制缺少metadata.yaml；不足以判断整场表现 |
 | 双轮 | [20261002-121836](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/README.md) | 运动中两组明显双髋振荡及末段短振荡；GetDown后另发生IMU过期停机，根因未定 |
 | 双轮 | [20261003-155617](experiments/wheel/20261003-155617-stable-motion-hip-bias/README.md) | 1003-01运动中未出现此前机身抖动崩溃，持续髋偏斜尤其左侧；启动前人工扶稳，机械形状与承载变形贡献待核实 |
+| 双轮 | [20261009-163704](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/README.md) | 1009-01启动后松手自主运动，短时未复现剧烈髋抖动；双髋缓慢外偏、目标跟踪误差与报告力矩增大 |
 | 双足 | [20260918-113020](experiments/leg/20260918-113020-forward-backward/README.md) | 用户确认对应前进、后退完成测试；保留末尾反馈异常与失稳分析，不标为整场稳定性验收通过 |
 
 ## 无 ROS 2 读取全量数据
@@ -78,5 +81,6 @@ sha256sum -c SHA256SUMS
 | 1002双轮短运动记录 | [joint_states.csv](experiments/wheel/20261002-120757-short-motion-recording/exports/joint_states.csv) | 2490 | [字段说明](experiments/wheel/20261002-120757-short-motion-recording/exports/README.md)、[验证结果](experiments/wheel/20261002-120757-short-motion-recording/exports/validation.json) |
 | 1002双轮运动髋部振荡 | [joint_states.csv](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/joint_states.csv) | 3533 | [字段说明](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/README.md)、[验证结果](experiments/wheel/20261002-121836-motion-hip-oscillation-imu-stale/exports/validation.json) |
 | 1003-01双轮运动与髋偏斜 | [joint_states.csv](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/joint_states.csv) | 8892 | [字段说明](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/README.md)、[验证结果](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/validation.json) |
+| 1009-01自主双轮运动与髋外偏 | [joint_states.csv](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/joint_states.csv) | 5179 | [字段说明](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/README.md)、[验证结果](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/validation.json) |
 
 CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。

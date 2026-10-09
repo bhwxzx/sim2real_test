@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-09T09:20:31.668816+00:00",
+  "rows": 5179,
+  "columns": 85,
+  "numeric_channels": 78,
+  "numeric_values_compared": 403962,
+  "float64_bitwise_roundtrip": true,
+  "negative_zero_values_preserved": 1478,
+  "timestamps_exact": true,
+  "frame_ids_exact": true,
+  "bag_message_count_matches": true,
+  "metadata_message_count_matches": true,
+  "metadata_status": "present_and_matches",
+  "decoded_npz_cross_check": true,
+  "placeholder_zero_values_checked": 103580,
+  "resampling": false,
+  "filtering": false,
+  "inputs": {
+    "bag": {
+      "path": "raw/lw_real_20261009-163704/lw_real_20261009-163704_0.db3",
+      "sha256": "db11b978e556e44a2a5cd4f103991b9798a0d07dfa78e3a768f6fe13fff66168"
+    },
+    "npz": {
+      "path": "analysis/decoded.npz",
+      "sha256": "01c8826a7feb33e7e5f620dfa39ed62bc09bf5c2c6b893e01f7c9b99bc8335a4"
+    }
+  },
+  "output": {
+    "path": "exports/joint_states.csv",
+    "bytes": 6328916,
+    "sha256": "6866f6cc8c0995f8f19dabddd607b1bd1ec8089477b9676a8f18452c1b056d03"
+  },
+  "generator": {
+    "path": "tools/export_joint_states_csv.py",
+    "sha256": "0d0603d92477282d5de3e56dd53b1109d1e928d94eea7068fa1710487467af90"
+  }
+}

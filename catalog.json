@@ -335,8 +335,59 @@
       },
       "context": "experiments/wheel/20261003-155617-stable-motion-hip-bias/context/README.md",
       "latest_analysis_supplement": "experiments/wheel/20261003-155617-stable-motion-hip-bias/analysis/archive-review.md"
+    },
+    {
+      "id": "20261009-163704-autonomous-motion-hip-outward-drift",
+      "mode": "wheel",
+      "outcome": "autonomous_short_motion_progressive_bilateral_hip_outward_drift",
+      "path": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift",
+      "readme": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/README.md",
+      "manifest": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/manifest.json",
+      "message_count": 5179,
+      "archived_file_count": 19,
+      "archived_bytes": 9558806,
+      "archive_date": "2026-10-09",
+      "test_time_source_commit": "8cd9a7cef928e29c534cc459552bd5a5590102ae",
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "mode": "wheel",
+        "release_confirmed_by_operator": "1009-01",
+        "initial_sequence_reported": "Suspended first, adjusted to initial Wheel pose, lowered until rope slack, held by a person, enabled Wheel policy, person released, then autonomous commanded motion.",
+        "fully_grounded_for_policy_confirmed_by_operator": true,
+        "manual_support_before_policy_confirmed": true,
+        "manual_support_release_time_s": null,
+        "manual_support_released_after_policy_entry_reported": true,
+        "autonomous_motion_after_release_reported": true,
+        "rope_slack_after_lowering_reported": true,
+        "progressive_bilateral_outward_hip_bias_reported": true,
+        "structural_bending_quantitatively_measured": false,
+        "firmware_version": null,
+        "synchronized_video_available": false
+      },
+      "deployment_context": {
+        "operator_confirmed_release": "1009-01",
+        "local_tag": "lw-release-20261009-01",
+        "source_commit": "8cd9a7cef928e29c534cc459552bd5a5590102ae",
+        "path": "context/bundle_snapshot",
+        "resources_match_own_manifest": true,
+        "existing_bundle_binary_matches_manifest": true,
+        "test_time_binary_independently_verified": false,
+        "scope": "Partial release snapshot associated with operator report, not the complete deployment or independent capture of running test process."
+      },
+      "context": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/context/README.md",
+      "full_csv": {
+        "path": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/joint_states.csv",
+        "rows": 5179,
+        "columns": 85,
+        "bytes": 6328916,
+        "sha256": "6866f6cc8c0995f8f19dabddd607b1bd1ec8089477b9676a8f18452c1b056d03",
+        "documentation": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/README.md",
+        "validation": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/validation.json"
+      },
+      "assessment": "experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/analysis/assessment.md"
     }
   ],
-  "updated_at": "2026-10-03T08:37:52.011146+00:00",
+  "updated_at": "2026-10-09",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

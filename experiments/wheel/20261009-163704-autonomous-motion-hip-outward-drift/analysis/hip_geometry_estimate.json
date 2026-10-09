@@ -1,0 +1,21 @@
+{
+  "right": {
+    "pre_hip_deg": -1.825081187740767,
+    "late_hip_deg": 1.6235162947672213,
+    "hip_change_deg": 3.4485974825079886,
+    "neutral_hip_to_wheel_z_m": -0.44681263783163205,
+    "hip_only_wheel_y_change_mm": -26.908117415508332,
+    "outward_change_mm": 26.908117415508332,
+    "full_pose_wheel_y_change_mm": -26.587777418117604
+  },
+  "left": {
+    "pre_hip_deg": 1.5384864501670321,
+    "late_hip_deg": -1.0370959235747361,
+    "hip_change_deg": -2.575582373741768,
+    "neutral_hip_to_wheel_z_m": -0.44254184279948305,
+    "hip_only_wheel_y_change_mm": 19.926456613691997,
+    "outward_change_mm": 19.926456613691997,
+    "full_pose_wheel_y_change_mm": 19.80194417220091
+  },
+  "caveat": "URDF rigid geometry; hold late thigh/shank angles and body frame fixed for hip-only comparison. Not world-frame wheel travel, measured stance width, or structural deformation."
+}
