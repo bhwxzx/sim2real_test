@@ -3,3 +3,6 @@ experiments/**/raw/** -text
 experiments/**/analysis/** -text
 *.csv whitespace=cr-at-eol
 experiments/**/context/** -text -whitespace
+
+# Preserve verbatim pasted terminal logs, including original CRLF and spacing.
+experiments/**/analysis/terminal.log -whitespace

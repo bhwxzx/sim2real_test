@@ -1,0 +1,310 @@
+nvidia@nvidia-desktop:~/rl_sar$ PYTHONDONTWRITEBYTECODE=1 ros2 launch rl_sar rl_real_LW.launch.py \
+  enable_debug_publisher:=true debug_publish_rate_hz:=50
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-10-10-20-30-47-955202-nvidia-desktop-5532
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ahrs_driver_node-1]: process started with pid [5553]
+[INFO] [rl_real_LW-2]: process started with pid [5555]
+[rl_real_LW-2] [INFO]    [FSMManager] Registered type: LW
+[ahrs_driver_node-1] [INFO] [1791635448.128865795] [ahrs_bringup]: FDILink serial port initialized: /dev/fdilink_ahrs at 921600 baud, timeout 20 ms
+[ahrs_driver_node-1] [INFO] [1791635448.129068475] [ahrs_bringup]: ahrsBringup::processLoop: start
+[rl_real_LW-2] [INFO]    [Deployment] Verified LW bundle for source commit a5736756b397c7343c63b32f8e36749b93bb39f3 at "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW"
+[rl_real_LW-2] [Info] Serial init OK: /dev/ttyLegRight
+[rl_real_LW-2] [Info] Serial init OK: /dev/ttyLegLeft
+[rl_real_LW-2] [INFO]    [Input] Terminal keyboard enabled on /dev/tty
+[rl_real_LW-2] [INFO]    Preloading ONNX model into memory: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/policy.onnx
+[rl_real_LW-2] [INFO]    Successfully loaded ONNX model: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/policy.onnx
+[rl_real_LW-2] [INFO]    Validated model and warmed it up in 0.422 ms.
+[rl_real_LW-2] [INFO]    Preload & Warmup finished for: LW/robot_lab/leg_loco
+[rl_real_LW-2] [INFO]    Preloading ONNX model into memory: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx
+[rl_real_LW-2] [INFO]    Successfully loaded ONNX model: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx
+[rl_real_LW-2] [INFO]    Validated model and warmed it up in 0.320 ms.
+[rl_real_LW-2] [INFO]    Preload & Warmup finished for: LW/robot_lab/wheel_loco
+[rl_real_LW-2] [INFO]    Preloading ONNX model into memory: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/policy.onnx
+[rl_real_LW-2] [INFO]    Successfully loaded ONNX model: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/policy.onnx
+[rl_real_LW-2] [INFO]    Validated model and warmed it up in 0.349 ms.
+[rl_real_LW-2] [INFO]    Preload & Warmup finished for: LW/robot_lab/leg_to_wheel
+[rl_real_LW-2] [INFO]    Preloading ONNX model into memory: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_to_leg/policy.onnx
+[rl_real_LW-2] [INFO]    Successfully loaded ONNX model: /home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_to_leg/policy.onnx
+[rl_real_LW-2] [INFO]    Validated model and warmed it up in 0.203 ms.
+[rl_real_LW-2] [INFO]    Preload & Warmup finished for: LW/robot_lab/wheel_to_leg
+[rl_real_LW-2] [INFO]    MotionLoaderLW: Prepared 204 frames, 10 joints, first-frame-time=0.000s, duration=3.383s
+[rl_real_LW-2] [INFO]    MotionLoaderLW: Prepared 170 frames, 10 joints, first-frame-time=0.017s, duration=2.833s
+[rl_real_LW-2] [INFO]    [FSM] Set initial state: RLFSMStatePassive
+[rl_real_LW-2] [INFO]    [FSMManager] FSM created for type: LW
+[rl_real_LW-2] [INFO]    [Debug] Publishing /LW_joint_states at 50 Hz
+[rl_real_LW-2] [INFO]    [Loop] Loop start - name: loop_joystick, period: 10.000ms, cpu: unspecified, scheduling: SCHED_OTHER
+[rl_real_LW-2] [INFO]    [Loop] Loop start - name: loop_rl, period: 20.000ms, cpu: unspecified, scheduling: SCHED_OTHER
+[rl_real_LW-2] [INFO]    [Loop] Loop start - name: loop_control, period: 5.000ms, cpu: unspecified, scheduling: SCHED_OTHER
+[rl_real_LW-2] [WARNING] [Safety] Motors remain disabled; waiting for fresh: IMU
+[rl_real_LW-2] [INFO]    [Safety] Fresh IMU and bilateral motor feedback confirmed; control is ready
+[rl_real_LW-2] [INFO]    [LW] mode=passive, x=0.000, y=0.000, yaw=0.000, gait=0.000
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=200, wakeup_us(avg/max)=60.4/149.5, deadline_late_us(max)=149.5, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=400, wakeup_us(avg/max)=59.3/149.5, deadline_late_us(max)=149.5, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=600, wakeup_us(avg/max)=59.9/149.5, deadline_late_us(max)=149.5, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=800, wakeup_us(avg/max)=60.9/149.5, deadline_late_us(max)=149.5, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=1000, wakeup_us(avg/max)=61.5/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] 
+[rl_real_LW-2] [NOTE]    [FSM] Switch from RLFSMStatePassive to RLFSMStateGetUp_Leg
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=0.2%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=1200, wakeup_us(avg/max)=61.2/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=5.3%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=10.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=15.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=20.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=25.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=30.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=35.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=40.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=45.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=50.2%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=1400, wakeup_us(avg/max)=61.2/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=55.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=60.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=65.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=70.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=75.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=80.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=85.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=90.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=95.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=0.2%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=1600, wakeup_us(avg/max)=60.7/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=5.3%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=10.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=15.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=20.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=25.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=30.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=35.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=40.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=45.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=50.2%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=1800, wakeup_us(avg/max)=60.3/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=55.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=60.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=65.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=70.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=75.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=80.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=85.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=90.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=95.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-up-leg, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=100.0%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=2000, wakeup_us(avg/max)=60.0/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=2200, wakeup_us(avg/max)=59.5/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=2400, wakeup_us(avg/max)=59.2/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=2600, wakeup_us(avg/max)=58.9/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=2800, wakeup_us(avg/max)=58.6/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=3000, wakeup_us(avg/max)=58.5/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=3200, wakeup_us(avg/max)=58.3/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=3400, wakeup_us(avg/max)=58.3/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=3600, wakeup_us(avg/max)=58.3/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=3800, wakeup_us(avg/max)=58.2/251.4, deadline_late_us(max)=251.4, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=3999, wakeup_us(avg/max)=58.2/346.3, deadline_late_us(max)=346.3, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=4199, wakeup_us(avg/max)=58.2/346.3, deadline_late_us(max)=346.3, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=4399, wakeup_us(avg/max)=58.2/346.3, deadline_late_us(max)=346.3, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=4599, wakeup_us(avg/max)=58.2/346.3, deadline_late_us(max)=346.3, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=4799, wakeup_us(avg/max)=58.2/346.3, deadline_late_us(max)=346.3, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=4999, wakeup_us(avg/max)=58.1/346.3, deadline_late_us(max)=346.3, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=5199, wakeup_us(avg/max)=58.7/2735.2, deadline_late_us(max)=2735.2, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=5399, wakeup_us(avg/max)=58.7/2735.2, deadline_late_us(max)=2735.2, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=5599, wakeup_us(avg/max)=59.5/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=584.1, missed_deadlines=0, skipped_periods=0
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=5798, wakeup_us(avg/max)=59.7/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=5998, wakeup_us(avg/max)=59.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=6198, wakeup_us(avg/max)=59.5/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=6398, wakeup_us(avg/max)=59.5/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=6598, wakeup_us(avg/max)=59.5/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=6798, wakeup_us(avg/max)=59.7/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=6998, wakeup_us(avg/max)=59.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=7198, wakeup_us(avg/max)=59.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=7398, wakeup_us(avg/max)=59.5/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=7598, wakeup_us(avg/max)=59.5/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=7798, wakeup_us(avg/max)=59.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=7998, wakeup_us(avg/max)=59.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=8198, wakeup_us(avg/max)=59.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=8398, wakeup_us(avg/max)=59.7/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=8597, wakeup_us(avg/max)=59.8/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=8797, wakeup_us(avg/max)=59.8/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=8997, wakeup_us(avg/max)=59.8/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=9197, wakeup_us(avg/max)=59.7/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=9397, wakeup_us(avg/max)=59.7/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=9597, wakeup_us(avg/max)=59.8/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=9797, wakeup_us(avg/max)=59.8/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=9997, wakeup_us(avg/max)=59.8/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=10197, wakeup_us(avg/max)=59.9/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=10397, wakeup_us(avg/max)=59.9/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=10597, wakeup_us(avg/max)=60.0/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=10797, wakeup_us(avg/max)=60.0/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=10997, wakeup_us(avg/max)=60.1/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=11197, wakeup_us(avg/max)=60.3/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=11397, wakeup_us(avg/max)=60.4/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=11597, wakeup_us(avg/max)=60.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=11797, wakeup_us(avg/max)=60.7/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=11997, wakeup_us(avg/max)=60.8/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=12197, wakeup_us(avg/max)=60.9/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=12397, wakeup_us(avg/max)=60.9/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=12597, wakeup_us(avg/max)=61.0/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] 
+[rl_real_LW-2] [NOTE]    [FSM] Switch from RLFSMStateGetUp_Leg to RLFSMStateRLLocomotion_Leg
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=12797, wakeup_us(avg/max)=61.1/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=12997, wakeup_us(avg/max)=61.6/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=13197, wakeup_us(avg/max)=61.9/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=13396, wakeup_us(avg/max)=63.0/3565.2, deadline_late_us(max)=3565.2, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=13597, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=13797, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] 
+[rl_real_LW-2] [NOTE]    [FSM] Switch from RLFSMStateRLLocomotion_Leg to RLFSMStateRL_LegToWheel
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=2.4%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=5.3%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=8.3%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=11.2%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=14.2%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=17.1%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=20.1%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=23.1%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=26.0%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=13997, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=29.0%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=31.9%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=34.9%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=37.8%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=40.8%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=43.7%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=46.7%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=49.7%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=52.6%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=55.6%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=14197, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=58.5%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=61.5%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=64.4%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=67.4%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=70.3%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=73.3%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=76.3%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=79.2%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=82.2%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=85.1%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=14397, wakeup_us(avg/max)=64.2/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=88.1%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=91.0%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=94.0%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=96.9%
+[rl_real_LW-2] [INFO]    [LW] mode=leg-to-wheel, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=99.9%
+[rl_real_LW-2] 
+[rl_real_LW-2] [INFO]    [FSM] Request switch from RLFSMStateRL_LegToWheel to RLFSMStateRLLocomotion_Wheel
+[rl_real_LW-2] [INFO]    [LW] mode=wheel-locomotion, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] 
+[rl_real_LW-2] [NOTE]    [FSM] Switch from RLFSMStateRLLocomotion_Wheel to RLFSMStateGetDown
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=0.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=3.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=7.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=10.5%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=14597, wakeup_us(avg/max)=64.3/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=13.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=17.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=20.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=23.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=27.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=30.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=33.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=37.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=40.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=43.8%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=14797, wakeup_us(avg/max)=64.2/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=47.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=50.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=53.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=57.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=60.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=63.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=67.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=70.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=73.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=77.2%
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=14997, wakeup_us(avg/max)=64.2/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=80.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=83.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=87.2%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=90.5%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=93.8%
+[rl_real_LW-2] [INFO]    [LW] mode=get-down, x=0.000, y=0.000, yaw=0.000, gait=1.250, progress=97.2%
+[rl_real_LW-2] 
+[rl_real_LW-2] [NOTE]    [FSM] Switch from RLFSMStateGetDown to RLFSMStatePassive
+[rl_real_LW-2] [INFO]    [LW] mode=passive, x=0.000, y=0.000, yaw=0.000, gait=1.250
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=15197, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=15397, wakeup_us(avg/max)=64.2/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=15597, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=15797, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=15997, wakeup_us(avg/max)=64.1/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[rl_real_LW-2] [INFO]    [Timing] loop_control cycles=16197, wakeup_us(avg/max)=64.0/4719.7, deadline_late_us(max)=4719.7, execution_us(max)=8202.7, missed_deadlines=1, skipped_periods=1
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[ahrs_driver_node-1] [INFO] [1791635529.668998833] [rclcpp]: signal_handler(signum=2)
+[rl_real_LW-2] [INFO] [1791635529.669001073] [rclcpp]: signal_handler(signum=2)
+[rl_real_LW-2] [INFO]    [Loop] Loop end - name: loop_control
+[rl_real_LW-2] [INFO]    [Loop] Loop end - name: loop_rl
+[rl_real_LW-2] [INFO]    [Loop] Loop end - name: loop_joystick
+[ahrs_driver_node-1] [INFO] [1791635529.670913665] [ahrs_bringup]: ahrsBringup::processLoop: stop
+[rl_real_LW-2] [INFO]    RL_Real exit
+[INFO] [ahrs_driver_node-1]: process has finished cleanly [pid 5553]
+[INFO] [rl_real_LW-2]: process has finished cleanly [pid 5555]

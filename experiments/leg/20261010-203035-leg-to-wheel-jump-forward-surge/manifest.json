@@ -1,0 +1,244 @@
+{
+  "experiment_id": "20261010-203035-leg-to-wheel-jump-forward-surge",
+  "mode": "leg",
+  "scenario": "leg_to_wheel_transition",
+  "outcome": "forward_surge_after_landing_rope_catch_getdown",
+  "archived_at": "2026-10-10",
+  "original_message_count": 4055,
+  "test_time_source_commit": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+  "deployment_tag_confirmed_by_operator": null,
+  "test_time_binary_independently_verified": false,
+  "raw_metadata_present": true,
+  "operator_and_recording_conditions": {
+    "initial_sequence_reported": "Rope slack; human assisted initial Leg pose and released shortly before Leg policy; zero forward/yaw commands; airborne LegToWheel transition, forward surge after wheel landing, rope caught robot before GetDown.",
+    "zero_commands_during_active_policies": true,
+    "startup_passive_nonzero_command_samples": 113,
+    "all_published_commands_exactly_zero": false,
+    "rope_slack_before_policy_reported": true,
+    "human_released_before_leg_policy_reported": true,
+    "rope_caught_after_landing_before_getdown_reported": true,
+    "landing_timestamp_s": null,
+    "rope_catch_timestamp_s": null,
+    "firmware_version": null,
+    "synchronized_video_available": false
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20261010-203035/lw_real_20261010-203035_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261010-203035/lw_real_20261010-203035_0.db3",
+      "bytes": 5648384,
+      "sha256": "743435466892ede0a16155e9cf5da2adca7056dba0cb1bd2bd84ab517f231fce"
+    },
+    {
+      "path": "raw/lw_real_20261010-203035/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261010-203035/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "ccf5d498e55a30525472a564c4d24564832b38f432dd4d52c1fd2e3cf738cfc4"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/assessment.md",
+      "bytes": 10817,
+      "sha256": "30933cd34b0a042d649c41d75511d7fbff04eb5ac124cff56b6b0462c9701275"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/decoded.npz",
+      "bytes": 447065,
+      "sha256": "4794a3086801fceffc95b9bf67e5cb540dc10a469da59165526629ecad7e5589"
+    },
+    {
+      "path": "analysis/deployment-provenance.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/deployment-provenance.json",
+      "bytes": 3219,
+      "sha256": "0aea30347f6be64bc6e7e0a2732d9f77bc97b03e6549543f775fb6e499dcb985"
+    },
+    {
+      "path": "analysis/joint_reference_tracking.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/joint_reference_tracking.png",
+      "bytes": 520109,
+      "sha256": "8b741ffbd8006198d3b4cd248ef29446f334b708e0dc6d6b4c15ede24869c813"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/metrics.json",
+      "bytes": 9415,
+      "sha256": "5f7f5b295e5788c74f81c8e8a57d29008bc6478e7d96337b1701a8fe7a5aef85"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/source.json",
+      "bytes": 1076,
+      "sha256": "99aa20ace7095a34d49d1d6b486a4e3bd13588271587de8f2f942ca3f53414f7"
+    },
+    {
+      "path": "analysis/terminal.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/terminal.log",
+      "bytes": 37372,
+      "sha256": "9811194b3f3505bed521e8bc5896596f223f463e31d32cf34f6234dcc0d96966"
+    },
+    {
+      "path": "analysis/transition_overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/transition_overview.png",
+      "bytes": 286551,
+      "sha256": "1e3033018e2b23a19209603f238c6ef7aa4d779c80278619451e05e9ae693fba"
+    },
+    {
+      "path": "analysis/wheel_handoff_zoom.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261010-readonly/wheel_handoff_zoom.png",
+      "bytes": 286657,
+      "sha256": "cbb20acd6721a19e0f8821b09e4f6a2e0f24eabb5991a796a7c2741f279f1564"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/.ros/log/2026-10-10-20-30-47-955202-nvidia-desktop-5532/launch.log",
+      "bytes": 616,
+      "sha256": "5cbf7f1702103e8ccfc785fb3151585f765ddd3657adaec175fdb9de23d41350"
+    },
+    {
+      "path": "analysis/logs/rl_real.log",
+      "source_path": "/home/nvidia/.ros/log/rl_real_LW_5555_1791635448258.log",
+      "bytes": 65,
+      "sha256": "9cfe127ebfcd96f09ea41de36f0d6ea60ad495a71bb6163a9fcc16b930832e42"
+    },
+    {
+      "path": "analysis/logs/ahrs.log",
+      "source_path": "/home/nvidia/.ros/log/ahrs_driver_node_5553_1791635448085.log",
+      "bytes": 270,
+      "sha256": "48cb9351fb0bda61e10863e051d701585e6ac10297ded8ccc7271ed06eaa1795"
+    },
+    {
+      "path": "analysis/logs/recorder.log",
+      "source_path": "/home/nvidia/.ros/log/python3_5460_1791635435994.log",
+      "bytes": 927,
+      "sha256": "9e3e4ca1e9340a1625ad0a579cbdf783b9d726b186f37f71757fa85de2d96db9"
+    },
+    {
+      "path": "context/bundle_snapshot/manifest.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/manifest.yaml",
+      "bytes": 4156,
+      "sha256": "a8da151296d7643f4b4d204a0c28c3b92a1dcf9fcdc57a9d03077ad7cdbc007d"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/base.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/base.yaml",
+      "bytes": 4522,
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/robot_lab/leg_loco/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/config.yaml",
+      "bytes": 2247,
+      "sha256": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/robot_lab/leg_loco/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/policy.onnx",
+      "bytes": 820880,
+      "sha256": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "bytes": 2363,
+      "sha256": "f4f1634ababd25a7206554a6f72c49fc7fb444b3058d9b2bf7d8f29fe375a355"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "bytes": 1873976,
+      "sha256": "9a809a0f122e56da6d1cc84503bffcd0c1d3ebc67be99d6d7fff90bfedc9e4f7"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "bytes": 2230,
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "bytes": 816544,
+      "sha256": "bda4ed7bf090b8e3d554d9243a3652d626016ca70343190d8abb4638bc4f8df9"
+    },
+    {
+      "path": "context/bundle_snapshot/policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "bytes": 32671,
+      "sha256": "ef3ced90bda48a949c21e20cdc4e35cd105198746773471c424af171c1d7f4ad"
+    },
+    {
+      "path": "context/geometry/LW.urdf",
+      "source_path": "/home/nvidia/rl_sar/src/rl_sar_zoo/LW_description/urdf/LW.urdf",
+      "bytes": 11871,
+      "sha256": "e416fdf3568b6a25b42c5e73e67d15b03762bf20e870d0a205e389af9dc6861e"
+    }
+  ],
+  "deployment_context": {
+    "source_commit": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+    "bundle_id": "a5736756b397",
+    "path": "context/bundle_snapshot",
+    "launch_time_bundle_integrity_verified_log": true,
+    "resources_match_own_manifest": true,
+    "existing_bundle_binary_matches_manifest": true,
+    "test_time_binary_independently_verified": false,
+    "scope": "Partial snapshot: base/Leg/LegToWheel/Wheel resources and deployment manifest, without executable, runtime libraries, or WheelToLeg resources.",
+    "leg_to_wheel_archive": "2026-10-09-12-49-52"
+  },
+  "summary": {
+    "state_sequence": [
+      "Leg",
+      "LegToWheel",
+      "Wheel",
+      "GetDown",
+      "Passive"
+    ],
+    "motion_policy_steps_estimate": 170,
+    "wheel_policy_steps_estimate": 8,
+    "wheel_distinct_output_samples": 8,
+    "wheel_duration_s": 0.15999083100000178,
+    "exact_step_count_verified": false,
+    "step_count_limitation": "No FSM id, policy generation/frame or inference counter in the 50 Hz bag; 8 distinct outputs observed, exact total inference count has boundary uncertainty.",
+    "surge_root_cause_uniquely_identified": false
+  },
+  "geometry_context": {
+    "path": "context/geometry/LW.urdf",
+    "physical_geometry_independently_verified": false,
+    "training_asset_independently_verified": false
+  },
+  "provenance_note": "Raw bag, prior reports, full terminal output, decode, figures, source logs and partial deployment resources preserved byte-for-byte. Contact and rope-catch timestamps unknown; approximately 8 Wheel policy steps inferred, not an exact logged counter.",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5689,
+      "sha256": "8787d688ef1a174f1938eb6a75021a0d639e75a08b6d0df5b1117854c9a893f1"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 4926490,
+      "sha256": "ba5d3553e173b916d6f0a56ff9cc495e9dc26817ec5703423a4d8dd2c093abc5"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1203,
+      "sha256": "00fdedb77ef2d2b1fd2508d12baddf756f863b7de328cc98d37a29d8e22c886b"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 2990,
+      "sha256": "ff7e72935a9e2b3f1393de22cae32678b9cae83482cac61307d6e872a252a557"
+    },
+    {
+      "path": "context/README.md",
+      "bytes": 1052,
+      "sha256": "61780403d5f49512f09f77a13735a5c90d6ebd4efb9ba84589fdaefe0d0ad3fe"
+    },
+    {
+      "path": "analysis/archive-provenance.json",
+      "bytes": 9030,
+      "sha256": "ddcfb1f35b4eccc2c2332a3927d0f59a67387600c093ad9217014b794860bf22"
+    }
+  ]
+}

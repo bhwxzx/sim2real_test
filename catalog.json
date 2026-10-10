@@ -438,8 +438,75 @@
         "documentation": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/README.md",
         "validation": "experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/validation.json"
       }
+    },
+    {
+      "id": "20261010-203035-leg-to-wheel-jump-forward-surge",
+      "mode": "leg",
+      "scenario": "leg_to_wheel_transition",
+      "outcome": "forward_surge_after_landing_rope_catch_getdown",
+      "path": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge",
+      "readme": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/README.md",
+      "manifest": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/manifest.json",
+      "message_count": 4055,
+      "archived_file_count": 25,
+      "archived_bytes": 10825026,
+      "archive_date": "2026-10-10",
+      "test_time_source_commit": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "initial_sequence_reported": "Rope slack; human assisted initial Leg pose and released shortly before Leg policy; zero forward/yaw commands; airborne LegToWheel transition, forward surge after wheel landing, rope caught robot before GetDown.",
+        "zero_commands_during_active_policies": true,
+        "startup_passive_nonzero_command_samples": 113,
+        "all_published_commands_exactly_zero": false,
+        "rope_slack_before_policy_reported": true,
+        "human_released_before_leg_policy_reported": true,
+        "rope_caught_after_landing_before_getdown_reported": true,
+        "landing_timestamp_s": null,
+        "rope_catch_timestamp_s": null,
+        "firmware_version": null,
+        "synchronized_video_available": false
+      },
+      "deployment_context": {
+        "source_commit": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+        "bundle_id": "a5736756b397",
+        "path": "context/bundle_snapshot",
+        "launch_time_bundle_integrity_verified_log": true,
+        "resources_match_own_manifest": true,
+        "existing_bundle_binary_matches_manifest": true,
+        "test_time_binary_independently_verified": false,
+        "scope": "Partial snapshot: base/Leg/LegToWheel/Wheel resources and deployment manifest, without executable, runtime libraries, or WheelToLeg resources.",
+        "leg_to_wheel_archive": "2026-10-09-12-49-52"
+      },
+      "summary": {
+        "state_sequence": [
+          "Leg",
+          "LegToWheel",
+          "Wheel",
+          "GetDown",
+          "Passive"
+        ],
+        "motion_policy_steps_estimate": 170,
+        "wheel_policy_steps_estimate": 8,
+        "wheel_distinct_output_samples": 8,
+        "wheel_duration_s": 0.15999083100000178,
+        "exact_step_count_verified": false,
+        "step_count_limitation": "No FSM id, policy generation/frame or inference counter in the 50 Hz bag; 8 distinct outputs observed, exact total inference count has boundary uncertainty.",
+        "surge_root_cause_uniquely_identified": false
+      },
+      "context": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/context/README.md",
+      "assessment": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/analysis/assessment.md",
+      "full_csv": {
+        "path": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/joint_states.csv",
+        "rows": 4055,
+        "columns": 85,
+        "bytes": 4926490,
+        "sha256": "ba5d3553e173b916d6f0a56ff9cc495e9dc26817ec5703423a4d8dd2c093abc5",
+        "documentation": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/README.md",
+        "validation": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/validation.json"
+      }
     }
   ],
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-10",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

@@ -67,6 +67,7 @@ sha256sum -c SHA256SUMS
 | 双轮 | [20261009-163704](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/README.md) | 1009-01启动后松手自主运动，短时未复现剧烈髋抖动；双髋缓慢外偏、目标跟踪误差与报告力矩增大 |
 | 双足 | [20260918-113020](experiments/leg/20260918-113020-forward-backward/README.md) | 用户确认对应前进、后退完成测试；保留末尾反馈异常与失稳分析，不标为整场稳定性验收通过 |
 | 双足 | [20261009-194732](experiments/leg/20261009-194732-zero-command-standing-pd-policy/README.md) | 1009-01无辅助零指令站立平稳；膝踝承载静差、IMU航向慢变、悬空轮非零目标仍待核查 |
+| 双足→双轮 | [20261010-203035](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/README.md) | a5736756腿转轮跳跃，落地前冲后吊绳拽住并GetDown；转换大轮速、末端姿态偏差及约8步Wheel接管，原因未唯一确定 |
 
 ## 无 ROS 2 读取全量数据
 
@@ -86,5 +87,6 @@ sha256sum -c SHA256SUMS
 | 1003-01双轮运动与髋偏斜 | [joint_states.csv](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/joint_states.csv) | 8892 | [字段说明](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/README.md)、[验证结果](experiments/wheel/20261003-155617-stable-motion-hip-bias/exports/validation.json) |
 | 1009-01自主双轮运动与髋外偏 | [joint_states.csv](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/joint_states.csv) | 5179 | [字段说明](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/README.md)、[验证结果](experiments/wheel/20261009-163704-autonomous-motion-hip-outward-drift/exports/validation.json) |
 | 1009-01双足零指令站立 | [joint_states.csv](experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/joint_states.csv) | 4277 | [字段说明](experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/README.md)、[验证结果](experiments/leg/20261009-194732-zero-command-standing-pd-policy/exports/validation.json) |
+| 腿转轮跳跃与落地前冲 | [joint_states.csv](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/joint_states.csv) | 4055 | [字段说明](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/README.md)、[验证结果](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/validation.json) |
 
 CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。
