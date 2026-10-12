@@ -1,0 +1,5 @@
+# 当前参考部署资源
+
+来源为归档时现有a5736756b397部署包，逐文件与其manifest核对。保留base配置、Leg/LegToWheel/Wheel配置和ONNX、腿转轮动作CSV以及部署清单，用于解释本次分析的参考轨迹和PD参数。
+
+这不是两轮实测版本的独立证明。没有本次完整模型加载stdout或测试进程文件捕获，不能用当前源码HEAD替代实测版本。未归档可执行文件、运行库或WheelToLeg资源，不能作为完整部署包运行。对缺失版本证据的说明见上级deployment-reference.json。

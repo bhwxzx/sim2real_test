@@ -504,9 +504,155 @@
         "sha256": "ba5d3553e173b916d6f0a56ff9cc495e9dc26817ec5703423a4d8dd2c093abc5",
         "documentation": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/README.md",
         "validation": "experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/validation.json"
+      },
+      "followup_operator_confirmation": {
+        "date": "2026-10-12",
+        "operator_confirmed_cause": "rope_pull_during_test",
+        "source": "docs/reports/20261012-leg-to-wheel-no-rope/README.md",
+        "precise_force_onset_not_recorded": true,
+        "earlier_assessment_preserved_as_historical": true
+      }
+    },
+    {
+      "id": "20261012-151931-leg-to-wheel-no-rope-zero-command",
+      "mode": "leg",
+      "scenario": "leg_to_wheel_transition",
+      "outcome": "no_rope_zero_command_transition_short_wheel_balance",
+      "path": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command",
+      "readme": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/README.md",
+      "manifest": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/manifest.json",
+      "message_count": 8195,
+      "archived_file_count": 13,
+      "archived_bytes": 13211122,
+      "archive_date": "2026-10-12",
+      "test_time_source_commit": null,
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "sequence_reported": "Same initial Leg pose and release procedure as Oct10; operator confirmed no rope interference during policies; wheels grounded and feet clear after transition; no unwanted forward surge; manual GetDown, then tipped/placed onto ground.",
+        "no_rope_interference_during_test_reported": true,
+        "no_unwanted_forward_surge_reported": true,
+        "wheels_grounded_feet_clear_reported": true,
+        "manual_getdown_reported": true,
+        "final_tipped_and_placed_ground_reported": true,
+        "intentional_forward_input_reported": false,
+        "all_published_commands_exactly_zero": true,
+        "nonzero_forward_command_samples": 0,
+        "nonzero_forward_command_intervals": [],
+        "landing_timestamp_s": null,
+        "placement_or_external_force_timestamp_s": null,
+        "firmware_version": null,
+        "synchronized_video_archived": false
+      },
+      "deployment_context": {
+        "test_time_source_commit": null,
+        "test_time_binary_independently_verified": false,
+        "reference_source_commit": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+        "reference_bundle_id": "a5736756b397",
+        "reference_snapshot": "docs/reports/20261012-leg-to-wheel-no-rope/context-reference",
+        "resources_match_reference_manifest": true,
+        "scope": "Current-reference resources only; actual test process/model version not independently captured.",
+        "documentation": "docs/reports/20261012-leg-to-wheel-no-rope/deployment-reference.json"
+      },
+      "summary": {
+        "motion_output_samples": 170,
+        "wheel_output_samples": 246,
+        "wheel_duration_s": 4.9199670769999955,
+        "exact_step_count_verified": false,
+        "pd_position_error_is_not_motion_tracking_error": true,
+        "no_unwanted_forward_surge_reported": true
+      },
+      "context": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/context/README.md",
+      "assessment": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/analysis/archive-view.md",
+      "original_assessment": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/analysis/assessment.md",
+      "shared_assessment": "docs/reports/20261012-leg-to-wheel-no-rope/README.md",
+      "full_csv": {
+        "path": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/joint_states.csv",
+        "rows": 8195,
+        "columns": 85,
+        "bytes": 9867173,
+        "sha256": "00531a5cbfc626cbc221b8edd3bef776092225265a4ab135eeb91898ae66de16",
+        "documentation": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/README.md",
+        "validation": "experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/validation.json"
+      }
+    },
+    {
+      "id": "20261012-152441-leg-to-wheel-no-rope-forward-input",
+      "mode": "leg",
+      "scenario": "leg_to_wheel_transition",
+      "outcome": "no_rope_transition_forward_input_ankle_transient",
+      "path": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input",
+      "readme": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/README.md",
+      "manifest": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/manifest.json",
+      "message_count": 4443,
+      "archived_file_count": 13,
+      "archived_bytes": 7855093,
+      "archive_date": "2026-10-12",
+      "test_time_source_commit": null,
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "sequence_reported": "Same initial Leg pose and release procedure as Oct10; operator confirmed no rope interference during policies; wheels grounded and feet clear after transition; no unwanted forward surge; manual GetDown, then tipped/placed onto ground.",
+        "no_rope_interference_during_test_reported": true,
+        "no_unwanted_forward_surge_reported": true,
+        "wheels_grounded_feet_clear_reported": true,
+        "manual_getdown_reported": true,
+        "final_tipped_and_placed_ground_reported": true,
+        "intentional_forward_input_reported": true,
+        "all_published_commands_exactly_zero": false,
+        "nonzero_forward_command_samples": 140,
+        "nonzero_forward_command_intervals": [
+          {
+            "first_t": 44.615370283,
+            "last_t": 46.13518617,
+            "samples": 77,
+            "maximum_raw_value": 0.2814483642578125
+          },
+          {
+            "first_t": 46.475224866,
+            "last_t": 47.715095022,
+            "samples": 63,
+            "maximum_raw_value": 0.303109735250473
+          }
+        ],
+        "landing_timestamp_s": null,
+        "placement_or_external_force_timestamp_s": null,
+        "firmware_version": null,
+        "synchronized_video_archived": false
+      },
+      "deployment_context": {
+        "test_time_source_commit": null,
+        "test_time_binary_independently_verified": false,
+        "reference_source_commit": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+        "reference_bundle_id": "a5736756b397",
+        "reference_snapshot": "docs/reports/20261012-leg-to-wheel-no-rope/context-reference",
+        "resources_match_reference_manifest": true,
+        "scope": "Current-reference resources only; actual test process/model version not independently captured.",
+        "documentation": "docs/reports/20261012-leg-to-wheel-no-rope/deployment-reference.json"
+      },
+      "summary": {
+        "motion_output_samples": 170,
+        "wheel_output_samples": 403,
+        "wheel_duration_s": 8.065611401999995,
+        "exact_step_count_verified": false,
+        "pd_position_error_is_not_motion_tracking_error": true,
+        "no_unwanted_forward_surge_reported": true
+      },
+      "context": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/context/README.md",
+      "assessment": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/analysis/archive-view.md",
+      "original_assessment": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/analysis/assessment.md",
+      "shared_assessment": "docs/reports/20261012-leg-to-wheel-no-rope/README.md",
+      "full_csv": {
+        "path": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/joint_states.csv",
+        "rows": 4443,
+        "columns": 85,
+        "bytes": 5326423,
+        "sha256": "0aefeac851ebaa4c7489b076137540be05ac028f8f63436906f98f7afdf893c5",
+        "documentation": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/README.md",
+        "validation": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/validation.json"
       }
     }
   ],
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-12",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

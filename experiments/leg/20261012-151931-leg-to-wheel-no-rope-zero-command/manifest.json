@@ -1,0 +1,165 @@
+{
+  "experiment_id": "20261012-151931-leg-to-wheel-no-rope-zero-command",
+  "mode": "leg",
+  "scenario": "leg_to_wheel_transition",
+  "outcome": "no_rope_zero_command_transition_short_wheel_balance",
+  "archived_at": "2026-10-12",
+  "original_message_count": 8195,
+  "test_time_source_commit": null,
+  "test_time_binary_independently_verified": false,
+  "raw_metadata_present": true,
+  "operator_and_recording_conditions": {
+    "sequence_reported": "Same initial Leg pose and release procedure as Oct10; operator confirmed no rope interference during policies; wheels grounded and feet clear after transition; no unwanted forward surge; manual GetDown, then tipped/placed onto ground.",
+    "no_rope_interference_during_test_reported": true,
+    "no_unwanted_forward_surge_reported": true,
+    "wheels_grounded_feet_clear_reported": true,
+    "manual_getdown_reported": true,
+    "final_tipped_and_placed_ground_reported": true,
+    "intentional_forward_input_reported": false,
+    "all_published_commands_exactly_zero": true,
+    "nonzero_forward_command_samples": 0,
+    "nonzero_forward_command_intervals": [],
+    "landing_timestamp_s": null,
+    "placement_or_external_force_timestamp_s": null,
+    "firmware_version": null,
+    "synchronized_video_archived": false
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20261012-151931/lw_real_20261012-151931_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261012-151931/lw_real_20261012-151931_0.db3",
+      "bytes": 11386880,
+      "sha256": "6d4f88a3cb7831fbfa8af70620df1c6fdeb914eca0039d6a43d96e701e5f0bc2"
+    },
+    {
+      "path": "raw/lw_real_20261012-151931/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261012-151931/metadata.yaml",
+      "bytes": 1025,
+      "sha256": "c7a4ccacf87a2ed0f3f7f20637954eb2e7dccf6487bb9677377372ebdeec3ad9"
+    },
+    {
+      "path": "analysis/active_policy_overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/active_policy_overview.png",
+      "bytes": 393318,
+      "sha256": "b6e13d12f21b563c414257c9bae39fdbc9cf316a500de37268abac760434564a"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/assessment.md",
+      "bytes": 2578,
+      "sha256": "bd8b42ea2e5a22bae188fb4db1d7f47a7bff1ab8d07446414c22acbec865a966"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/decoded.npz",
+      "bytes": 726693,
+      "sha256": "d08717fe31779fd6e4836efd26eae004b729a8adc8f1466fd18e154dc6e8590a"
+    },
+    {
+      "path": "analysis/getdown_context.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/getdown_context.png",
+      "bytes": 190127,
+      "sha256": "20b1ebe692f24aba04ca4e16ed2818fae50c3e00ba4aaa130507c085268c63e6"
+    },
+    {
+      "path": "analysis/joint_reference_tracking.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/joint_reference_tracking.png",
+      "bytes": 479260,
+      "sha256": "a36a3c41fe8a9370b534209c98105778c960e5a5e9d017ba458113ac983e7eb1"
+    },
+    {
+      "path": "analysis/logs/ahrs.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/logs/ahrs.log",
+      "bytes": 270,
+      "sha256": "0994aef373b2ec0886cc5d83f7b1df63e74c98ed1687b1715ea272071b5fb7d1"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/logs/launch.log",
+      "bytes": 616,
+      "sha256": "e9180d8291179f3b87480f3b0241a26aa4c7d6f77c229f3a3714b281a67c6527"
+    },
+    {
+      "path": "analysis/logs/recorder.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/logs/recorder.log",
+      "bytes": 927,
+      "sha256": "308c1bd0f03061fcf681674314f8efa2766df589eed9588d826b920e0d6fc24d"
+    },
+    {
+      "path": "analysis/logs/rl_real.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/logs/rl_real.log",
+      "bytes": 65,
+      "sha256": "5accf5e2befacd4c026ef6b42936cb0d4ec3f881acb4591ebb882709a88a2b67"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/metrics.json",
+      "bytes": 27693,
+      "sha256": "782ef271725189e9b469498b0fca29c62798321278a18fff17d6df75abc96e13"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-151931/source.json",
+      "bytes": 1670,
+      "sha256": "4805869e89b2d338b67e52cb356ca46139ed7da6d27618290b7004b98178df1e"
+    }
+  ],
+  "deployment_context": {
+    "test_time_source_commit": null,
+    "test_time_binary_independently_verified": false,
+    "reference_source_commit": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+    "reference_bundle_id": "a5736756b397",
+    "reference_snapshot": "docs/reports/20261012-leg-to-wheel-no-rope/context-reference",
+    "resources_match_reference_manifest": true,
+    "scope": "Current-reference resources only; actual test process/model version not independently captured.",
+    "documentation": "docs/reports/20261012-leg-to-wheel-no-rope/deployment-reference.json"
+  },
+  "summary": {
+    "motion_output_samples": 170,
+    "wheel_output_samples": 246,
+    "wheel_duration_s": 4.9199670769999955,
+    "exact_step_count_verified": false,
+    "pd_position_error_is_not_motion_tracking_error": true,
+    "no_unwanted_forward_surge_reported": true
+  },
+  "shared_assessment": "docs/reports/20261012-leg-to-wheel-no-rope/README.md",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5649,
+      "sha256": "ff6124a106004bac9dd927b69871a3876ef3d123fd5c7c7294775acc3feea498"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 9867173,
+      "sha256": "00531a5cbfc626cbc221b8edd3bef776092225265a4ab135eeb91898ae66de16"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1204,
+      "sha256": "019c6baefc3dc05fcfeabe9e860225f7f00423cc7165d8e3b17f15341e45de3f"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 1887,
+      "sha256": "822966eccd18c75db009a17aaccb859d127f7d4cacba225cd98ebaacd405e022"
+    },
+    {
+      "path": "context/README.md",
+      "bytes": 752,
+      "sha256": "f8d3f036e4f34b468cfe5d655dc836f0b50272fd3decec37bb4eb05777242e31"
+    },
+    {
+      "path": "analysis/archive-view.md",
+      "bytes": 2901,
+      "sha256": "41bc803e6d121d685a43c9ba2eab922c8e1fda631064f0a5b84cb5d50d2e22df"
+    },
+    {
+      "path": "analysis/archive-provenance.json",
+      "bytes": 4941,
+      "sha256": "6122787d672b12a03cc24c7d8575ebc24b4b228eeaeeb03764fe17878894753d"
+    }
+  ]
+}

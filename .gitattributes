@@ -6,3 +6,7 @@ experiments/**/context/** -text -whitespace
 
 # Preserve verbatim pasted terminal logs, including original CRLF and spacing.
 experiments/**/analysis/terminal.log -whitespace
+
+# Preserve reference assets and historical report revisions byte-for-byte.
+docs/reports/**/context-reference/** -text -whitespace
+docs/reports/**/report-revisions/** -text -whitespace

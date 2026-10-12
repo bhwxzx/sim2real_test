@@ -1,0 +1,116 @@
+{
+  "archive_date": "2026-10-12",
+  "source_copies_byte_identical": true,
+  "source_files": [
+    {
+      "path": "raw/lw_real_20261012-152441/lw_real_20261012-152441_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261012-152441/lw_real_20261012-152441_0.db3",
+      "bytes": 6184960,
+      "sha256": "65ad6d55595343ac5743e26b5910382a084a65d7f975bb728aab544464a549d3"
+    },
+    {
+      "path": "raw/lw_real_20261012-152441/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261012-152441/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "6639a2a595d1a44fa91d34dcf414e171be5d0e1562c7ab1ba6673cae87ba46d5"
+    },
+    {
+      "path": "analysis/active_policy_overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/active_policy_overview.png",
+      "bytes": 464542,
+      "sha256": "8c6be56a6f70d8357b4f3a4522bea3acb966abd53d45a03c8e2a80ea5ca651df"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/assessment.md",
+      "bytes": 3216,
+      "sha256": "b9fccd07bce242bb7ea5698a792a9a45972d7a51b4ceae0487fa92e1282f4571"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/decoded.npz",
+      "bytes": 470837,
+      "sha256": "ad9f783f4517b8734197605976a5e559913c2505ddff909efc73d6cbc175b79b"
+    },
+    {
+      "path": "analysis/getdown_context.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/getdown_context.png",
+      "bytes": 194480,
+      "sha256": "5d161e23c6f3d7b42a19d7deb581c646e39f18bf16d897b217ad31aa73f1a745"
+    },
+    {
+      "path": "analysis/joint_reference_tracking.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/joint_reference_tracking.png",
+      "bytes": 504485,
+      "sha256": "f6ccb2cb2cbb288bcc9f9becea0e9a6cd8749b7c976e0937d80f2fdb0a575836"
+    },
+    {
+      "path": "analysis/logs/ahrs.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/logs/ahrs.log",
+      "bytes": 270,
+      "sha256": "1b5a9b5545905144ed879a1e70c094cbfbcb813e16fa2aa62789bb3c9c9982da"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/logs/launch.log",
+      "bytes": 616,
+      "sha256": "6388a3cfdf9000a517d5e8f536cc32625233f2bc9efceff2b227d73b555e83e4"
+    },
+    {
+      "path": "analysis/logs/recorder.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/logs/recorder.log",
+      "bytes": 927,
+      "sha256": "07eeb4455cd96aad3f501578cc05929f280662ca6d13342ea309b1a84a9fa0bb"
+    },
+    {
+      "path": "analysis/logs/rl_real.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/logs/rl_real.log",
+      "bytes": 65,
+      "sha256": "df4d829fc4d6808686ba3916c59c62987a9f45c6cee05d99b0ae3028910f861f"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/metrics.json",
+      "bytes": 28004,
+      "sha256": "48befa2de210d9147d3e3829c935cef5b7a72b0cebc78056e4e11d7fc5d299a1"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/lw_real_20261012-152441/source.json",
+      "bytes": 1668,
+      "sha256": "2dae8ae3abadc1ecb203498bacae26a35d4a9c725813dd81bdcbc9d98e67ebf7"
+    }
+  ],
+  "numeric_export_exact": true,
+  "pd_semantics_correction_included": true,
+  "rendered_report_only_changes_internal_link": true,
+  "operator_and_recording_conditions": {
+    "sequence_reported": "Same initial Leg pose and release procedure as Oct10; operator confirmed no rope interference during policies; wheels grounded and feet clear after transition; no unwanted forward surge; manual GetDown, then tipped/placed onto ground.",
+    "no_rope_interference_during_test_reported": true,
+    "no_unwanted_forward_surge_reported": true,
+    "wheels_grounded_feet_clear_reported": true,
+    "manual_getdown_reported": true,
+    "final_tipped_and_placed_ground_reported": true,
+    "intentional_forward_input_reported": true,
+    "all_published_commands_exactly_zero": false,
+    "nonzero_forward_command_samples": 140,
+    "nonzero_forward_command_intervals": [
+      {
+        "first_t": 44.615370283,
+        "last_t": 46.13518617,
+        "samples": 77,
+        "maximum_raw_value": 0.2814483642578125
+      },
+      {
+        "first_t": 46.475224866,
+        "last_t": 47.715095022,
+        "samples": 63,
+        "maximum_raw_value": 0.303109735250473
+      }
+    ],
+    "landing_timestamp_s": null,
+    "placement_or_external_force_timestamp_s": null,
+    "firmware_version": null,
+    "synchronized_video_archived": false
+  }
+}

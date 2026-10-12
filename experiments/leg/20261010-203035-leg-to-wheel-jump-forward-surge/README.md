@@ -41,3 +41,7 @@ sha256sum -c SHA256SUMS
 # 加载ROS后仅检查元数据，不回放或启动硬件
 ros2 bag info experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/raw/lw_real_20261010-203035
 ```
+
+## 2026-10-12 现场确认补充
+
+用户现已明确确认本场异常由测试中途吊绳拉拽导致。上文和analysis/assessment.md保留初次归档时的现场描述及推断过程，不能作为当前“原因未定”的结论。最新[无吊绳对照与PD力矩控制语义修订](../../../docs/reports/20261012-leg-to-wheel-no-rope/README.md)为后续补充；原bag、终端日志、指标和资源文件不改动。精确受力时刻仍未同步录制。

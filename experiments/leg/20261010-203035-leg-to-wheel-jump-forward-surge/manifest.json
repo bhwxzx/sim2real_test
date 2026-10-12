@@ -227,8 +227,8 @@
   "generated_documents": [
     {
       "path": "README.md",
-      "bytes": 2990,
-      "sha256": "ff7e72935a9e2b3f1393de22cae32678b9cae83482cac61307d6e872a252a557"
+      "bytes": 3460,
+      "sha256": "e304a6e5fa03365ccdfd734609ad44eb192d57502855871a173bd0fa16ceb394"
     },
     {
       "path": "context/README.md",
@@ -240,5 +240,12 @@
       "bytes": 9030,
       "sha256": "ddcfb1f35b4eccc2c2332a3927d0f59a67387600c093ad9217014b794860bf22"
     }
-  ]
+  ],
+  "followup_operator_confirmation": {
+    "date": "2026-10-12",
+    "operator_confirmed_cause": "rope_pull_during_test",
+    "source": "docs/reports/20261012-leg-to-wheel-no-rope/README.md",
+    "precise_force_onset_not_recorded": true,
+    "earlier_assessment_preserved_as_historical": true
+  }
 }

@@ -1,0 +1,130 @@
+{
+  "archive_date": "2026-10-12",
+  "source_copies_byte_identical": true,
+  "source_files": [
+    {
+      "path": "assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/assessment.md",
+      "bytes": 13403,
+      "sha256": "f1c46adf1d40ecc5abe9668bf3e505837937e98383f72cda42e9103f82225fa2"
+    },
+    {
+      "path": "comparison-metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/comparison-metrics.json",
+      "bytes": 65792,
+      "sha256": "27be86429b5143295eb4b5ba3596021781e37324248e2d2472de734db19b2e43"
+    },
+    {
+      "path": "deployment-reference.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/deployment-reference.json",
+      "bytes": 2230,
+      "sha256": "3f974e7d87102fa895b4a8c621d77158bc1ffb265e5d7fae4ae8e0ce56263b96"
+    },
+    {
+      "path": "three_trial_transition_comparison.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/three_trial_transition_comparison.png",
+      "bytes": 346686,
+      "sha256": "63259951831fe578f13248c178011a5709431cc39aa66db249f19240816acc24"
+    },
+    {
+      "path": "two_trial_handoff_comparison.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/two_trial_handoff_comparison.png",
+      "bytes": 260185,
+      "sha256": "6155bce4216bae006bdde013046fed1a37793c9c1eaf7bc3632fa50916a6bd96"
+    },
+    {
+      "path": "report-revisions/20261012-161806-before-pd-semantics-correction/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/report-revisions/20261012-161806-before-pd-semantics-correction/assessment.md",
+      "bytes": 11895,
+      "sha256": "ab7b5a8efdefd58e284568de9a50655b1a9129bd21f16517af7767ece27dbc57"
+    },
+    {
+      "path": "report-revisions/20261012-161806-before-pd-semantics-correction/comparison-metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/report-revisions/20261012-161806-before-pd-semantics-correction/comparison-metrics.json",
+      "bytes": 64166,
+      "sha256": "9c1f0d71c5fc603107c399d61b5a73ffc2476ab9b438eb61b81113947721ec4d"
+    },
+    {
+      "path": "report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-151931/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-151931/assessment.md",
+      "bytes": 2343,
+      "sha256": "df03a845f5b82dbb18f580454fa0e72e9e110228f58d7fdc081b8dfcf5d6ff00"
+    },
+    {
+      "path": "report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-151931/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-151931/metrics.json",
+      "bytes": 27175,
+      "sha256": "ad7504db33c195e36255d49571683b7588f3ab457ed40fd1ada787ff30be0734"
+    },
+    {
+      "path": "report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-152441/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-152441/assessment.md",
+      "bytes": 2904,
+      "sha256": "ed85e75fb649246344672298e38032593e47f8d9303e107b9b9229b3761c5251"
+    },
+    {
+      "path": "report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-152441/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transition-20261012-readonly/report-revisions/20261012-161806-before-pd-semantics-correction/lw_real_20261012-152441/metrics.json",
+      "bytes": 27486,
+      "sha256": "a0c514b8bde7959f723ce5b0c8607afd638b30e495b9a95248af05a643cad826"
+    },
+    {
+      "path": "context-reference/manifest.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/manifest.yaml",
+      "bytes": 4156,
+      "sha256": "a8da151296d7643f4b4d204a0c28c3b92a1dcf9fcdc57a9d03077ad7cdbc007d"
+    },
+    {
+      "path": "context-reference/policy/LW/base.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/base.yaml",
+      "bytes": 4522,
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_loco/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/config.yaml",
+      "bytes": 2247,
+      "sha256": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_loco/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/policy.onnx",
+      "bytes": 820880,
+      "sha256": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "bytes": 2363,
+      "sha256": "f4f1634ababd25a7206554a6f72c49fc7fb444b3058d9b2bf7d8f29fe375a355"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "bytes": 1873976,
+      "sha256": "9a809a0f122e56da6d1cc84503bffcd0c1d3ebc67be99d6d7fff90bfedc9e4f7"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "bytes": 2230,
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "bytes": 816544,
+      "sha256": "bda4ed7bf090b8e3d554d9243a3652d626016ca70343190d8abb4638bc4f8df9"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "bytes": 32671,
+      "sha256": "ef3ced90bda48a949c21e20cdc4e35cd105198746773471c424af171c1d7f4ad"
+    }
+  ],
+  "current_assessment_includes_pd_semantics_correction": true,
+  "prior_rope_cause_confirmation_included": true,
+  "historical_revisions_retained": true,
+  "root_metadata_backup": "/tmp/sim2real-20261012-z32ywtx7"
+}

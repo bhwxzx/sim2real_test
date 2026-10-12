@@ -1,0 +1,53 @@
+{
+  "current_source_head": "a5736756b397c7343c63b32f8e36749b93bb39f3",
+  "reference_bundle": "/home/nvidia/rl_sar/build/lw_deployments/a5736756b397",
+  "bundle_matches_own_manifest": true,
+  "files": [
+    {
+      "path": "policy/LW/base.yaml",
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9"
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_loco/config.yaml",
+      "sha256": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274"
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_loco/policy.onnx",
+      "sha256": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb"
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "sha256": "f4f1634ababd25a7206554a6f72c49fc7fb444b3058d9b2bf7d8f29fe375a355"
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "sha256": "ef3ced90bda48a949c21e20cdc4e35cd105198746773471c424af171c1d7f4ad"
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "sha256": "9a809a0f122e56da6d1cc84503bffcd0c1d3ebc67be99d6d7fff90bfedc9e4f7"
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_loco/config.yaml",
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92"
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "sha256": "bda4ed7bf090b8e3d554d9243a3652d626016ca70343190d8abb4638bc4f8df9"
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/config.yaml",
+      "sha256": "0dfa594e5c728d7fed2fdac290434d36e861b46b6662bf0afeadaf40a8e73341"
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/policy.onnx",
+      "sha256": "4b5f68d9ec29fa8d328be62de6eef358fc48e7e8c5e1861d59e44e80cd3e97b4"
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/wheel_to_leg_transform_60hz.csv",
+      "sha256": "a305c32e0eca8dc3b39ebbf18128bd019197e6c48ab78c10b76f1c864e66a480"
+    }
+  ],
+  "test_time_binary_or_model_independently_verified": false,
+  "reason": "Launch lifecycle and short ROS logs available; model-loading terminal stdout and test process hashes not supplied or captured. Current bundle used only as a reference, not proof of the actual test process."
+}
