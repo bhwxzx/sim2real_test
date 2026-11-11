@@ -651,8 +651,89 @@
         "documentation": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/README.md",
         "validation": "experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/validation.json"
       }
+    },
+    {
+      "id": "20261111-163120-wheel-to-leg-takeoff-oscillation",
+      "mode": "wheel",
+      "scenario": "wheel_to_leg_transition",
+      "outcome": "takeoff_hip_oscillation_collapse_rope_catch_manual_getdown",
+      "path": "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation",
+      "readme": "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/README.md",
+      "manifest": "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/manifest.json",
+      "message_count": 1410,
+      "archived_file_count": 8,
+      "archived_bytes": 2193936,
+      "archive_date": "2026-11-11",
+      "test_time_source_commit": null,
+      "test_time_binary_independently_verified": false,
+      "raw_metadata_present": true,
+      "operator_and_recording_conditions": {
+        "operator_statement": "发生在起跳阶段，全程零运动指令，抖动过渡运动明显崩溃后立马吊绳拉拽住，然后进入get down",
+        "oscillation_phase_reported": "takeoff",
+        "rope_catch_after_visible_collapse_reported": true,
+        "manual_getdown_reported": true,
+        "rope_intervention_timestamp_s": null,
+        "human_support_before_policy": null,
+        "all_published_commands_exactly_zero": false,
+        "all_transition_commands_zero": true,
+        "pretransition_yaw_intervals_bag_s": [
+          [
+            19.445007132,
+            19.665073814
+          ],
+          [
+            20.065176353,
+            20.405294981
+          ]
+        ],
+        "pretransition_yaw_abs_max": 0.4999847412109375,
+        "firmware_version": null,
+        "synchronized_video_archived": false
+      },
+      "deployment_context": {
+        "test_time_source_commit": null,
+        "test_time_binary_independently_verified": false,
+        "reference_source_commit": "94f9269dba1da2bdc7b33ea404c6880bd64371ab",
+        "reference_bundle_id": "94f9269dba1d",
+        "reference_snapshot": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/context-reference",
+        "resources_match_reference_manifest": true,
+        "scope": "Current-reference resources only, not independently captured test process/version. Partial snapshot excludes executable, runtime libraries, and firmware.",
+        "documentation": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/deployment-reference.json"
+      },
+      "summary": {
+        "state_sequence_inferred": [
+          "Wheel",
+          "WheelToLeg",
+          "GetDown"
+        ],
+        "wheel_to_leg_start_bag_s": 21.105498464,
+        "getdown_start_bag_s": 23.286226659,
+        "transition_duration_s": 2.180728195,
+        "transition_target_samples": 109,
+        "exact_inference_step_count_verified": false,
+        "automatic_leg_handoff_observed": false,
+        "early_hip_oscillation_hz_approx": [
+          9,
+          10
+        ],
+        "shared_mechanism_with_prior_wheel_suspected": true,
+        "identical_root_cause_proven": false,
+        "pd_position_error_alone_is_not_failure_evidence": true
+      },
+      "context": "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/context/README.md",
+      "assessment": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/README.md",
+      "shared_hip_review": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/shared-hip-oscillation-review-archive.md",
+      "full_csv": {
+        "path": "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/joint_states.csv",
+        "rows": 1410,
+        "columns": 85,
+        "bytes": 1704862,
+        "sha256": "3fddcf9e946634abaa67fb9afdc6863383a195202bfe78ffa853c6251437a1d3",
+        "documentation": "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/README.md",
+        "validation": "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/validation.json"
+      }
     }
   ],
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-11-11",
   "initial_archive_metadata_scope": "Top-level archive_date/source_repository_head_at_archive/test_time_source_revision_verified describe the initial 2026-09-19 archive; later experiment provenance is recorded per entry."
 }

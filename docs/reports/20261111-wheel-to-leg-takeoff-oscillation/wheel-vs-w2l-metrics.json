@@ -1,0 +1,49 @@
+{
+  "old_bag_hash_verified": "e55197e714a6dceb579fcd6b2ed7f921e55ec407bc2a77b8b6b53999072c2460",
+  "datasets": {
+    "Wheel Oct02: first burst": {
+      "window_s": [
+        50.8,
+        53.4
+      ],
+      "frames": 130,
+      "hip_target_deg_absmax": [
+        12.49141195414533,
+        15.182164977671853
+      ],
+      "hip_velocity_rad_s_absmax": [
+        4.30402946472168,
+        4.621490478515625
+      ],
+      "spectrum_method": "linear detrend + Hann FFT; 3-20 Hz peak; descriptive transient spectrum, not identified plant resonance",
+      "peaks_hz": {
+        "right_target": 8.458979197381087,
+        "left_target": 8.458979197381087,
+        "right_velocity": 8.458979197381087,
+        "left_velocity": 8.458979197381087
+      }
+    },
+    "W2L Nov11: early growth": {
+      "window_s": [
+        21.305498464,
+        22.205498464
+      ],
+      "frames": 45,
+      "hip_target_deg_absmax": [
+        41.722377884657554,
+        36.968012977005905
+      ],
+      "hip_velocity_rad_s_absmax": [
+        8.699634552001953,
+        9.029304504394531
+      ],
+      "spectrum_method": "linear detrend + Hann FFT; 3-20 Hz peak; descriptive transient spectrum, not identified plant resonance",
+      "peaks_hz": {
+        "right_target": 9.99831578370474,
+        "left_target": 9.99831578370474,
+        "right_velocity": 8.887391807737547,
+        "left_velocity": 9.99831578370474
+      }
+    }
+  }
+}

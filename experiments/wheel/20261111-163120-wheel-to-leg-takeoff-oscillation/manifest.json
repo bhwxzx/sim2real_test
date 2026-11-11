@@ -1,0 +1,153 @@
+{
+  "experiment_id": "20261111-163120-wheel-to-leg-takeoff-oscillation",
+  "mode": "wheel",
+  "scenario": "wheel_to_leg_transition",
+  "outcome": "takeoff_hip_oscillation_collapse_rope_catch_manual_getdown",
+  "archived_at": "2026-11-11",
+  "original_message_count": 1410,
+  "test_time_source_commit": null,
+  "test_time_binary_independently_verified": false,
+  "raw_metadata_present": true,
+  "operator_and_recording_conditions": {
+    "operator_statement": "发生在起跳阶段，全程零运动指令，抖动过渡运动明显崩溃后立马吊绳拉拽住，然后进入get down",
+    "oscillation_phase_reported": "takeoff",
+    "rope_catch_after_visible_collapse_reported": true,
+    "manual_getdown_reported": true,
+    "rope_intervention_timestamp_s": null,
+    "human_support_before_policy": null,
+    "all_published_commands_exactly_zero": false,
+    "all_transition_commands_zero": true,
+    "pretransition_yaw_intervals_bag_s": [
+      [
+        19.445007132,
+        19.665073814
+      ],
+      [
+        20.065176353,
+        20.405294981
+      ]
+    ],
+    "pretransition_yaw_abs_max": 0.4999847412109375,
+    "firmware_version": null,
+    "synchronized_video_archived": false
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20261111-163120/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "9ba03db2ef992c85b60d89c759e68849e8a7bb5cb084ef718d142c8b3dba3f7e",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261111-163120/metadata.yaml"
+    },
+    {
+      "path": "raw/lw_real_20261111-163120/lw_real_20261111-163120_0.db3",
+      "bytes": 1974272,
+      "sha256": "2f229cd7ac2a0f05322d3bebd10d8323bd042bfd593dc11a8f184563ebdff24b",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261111-163120/lw_real_20261111-163120_0.db3"
+    },
+    {
+      "path": "analysis/source.json",
+      "bytes": 979,
+      "sha256": "f231a474accf1ee199bdb85ac2f6af0f7be49ceee3f0b0d970f0ec984bd8c641",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/lw_real_20261111-163120/source.json"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "bytes": 215784,
+      "sha256": "3003d71a6b27e88ce93add9be59b0e23d2748a3e8ac621ca94b07053573c36c3",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/lw_real_20261111-163120/decoded.npz"
+    },
+    {
+      "path": "analysis/logs/recorder.log",
+      "bytes": 927,
+      "sha256": "0bf0ee313039d163545ca64f704d29f06f581cedc4dcc35339ca475e2c29a7da",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/logs/recorder.log"
+    },
+    {
+      "path": "analysis/logs/rl_real.log",
+      "bytes": 65,
+      "sha256": "b677f9611c56cbb90e1a574874cffc2712a4864bb5ec28c34d9d440824b72267",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/logs/rl_real.log"
+    },
+    {
+      "path": "analysis/logs/ahrs.log",
+      "bytes": 270,
+      "sha256": "7b269b501c06a56143c79dfb80f0eda49aff2e97e872b8269427220f109b121e",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/logs/ahrs.log"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "bytes": 616,
+      "sha256": "bd5ad8d296f7697195d965db0dff0164feb66ea0b886548d438932a5400f2e55",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/logs/launch.log"
+    }
+  ],
+  "deployment_context": {
+    "test_time_source_commit": null,
+    "test_time_binary_independently_verified": false,
+    "reference_source_commit": "94f9269dba1da2bdc7b33ea404c6880bd64371ab",
+    "reference_bundle_id": "94f9269dba1d",
+    "reference_snapshot": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/context-reference",
+    "resources_match_reference_manifest": true,
+    "scope": "Current-reference resources only, not independently captured test process/version. Partial snapshot excludes executable, runtime libraries, and firmware.",
+    "documentation": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/deployment-reference.json"
+  },
+  "summary": {
+    "state_sequence_inferred": [
+      "Wheel",
+      "WheelToLeg",
+      "GetDown"
+    ],
+    "wheel_to_leg_start_bag_s": 21.105498464,
+    "getdown_start_bag_s": 23.286226659,
+    "transition_duration_s": 2.180728195,
+    "transition_target_samples": 109,
+    "exact_inference_step_count_verified": false,
+    "automatic_leg_handoff_observed": false,
+    "early_hip_oscillation_hz_approx": [
+      9,
+      10
+    ],
+    "shared_mechanism_with_prior_wheel_suspected": true,
+    "identical_root_cause_proven": false,
+    "pd_position_error_alone_is_not_failure_evidence": true
+  },
+  "shared_assessment": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/README.md",
+  "shared_hip_review": "docs/reports/20261111-wheel-to-leg-takeoff-oscillation/shared-hip-oscillation-review-archive.md",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 5650,
+      "sha256": "a06ca76902dad5282815efaa1e43dead605b26ad0a0e4fb9376001bdbe7e1bea"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 1704862,
+      "sha256": "3fddcf9e946634abaa67fb9afdc6863383a195202bfe78ffa853c6251437a1d3"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1204,
+      "sha256": "4e1fde2c282f2782c7ad370158af0bf2944ec1803fea86ae7ed9c374ce6255bd"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 1926,
+      "sha256": "52609a5db377cc9aa14f5750f297552ba21d180ec003c105a8e355f434ad5755"
+    },
+    {
+      "path": "context/README.md",
+      "bytes": 380,
+      "sha256": "c384d04067b3588d75dddd71dac65403fe35ac95fef450aeac5191ddc75c733a"
+    },
+    {
+      "path": "analysis/archive-provenance.json",
+      "bytes": 3300,
+      "sha256": "0d6a0d3e09080895d77c618688ef493f21f5ebbbf21b5cc8915a93544059f543"
+    }
+  ],
+  "excluded_recordings": [
+    "lw_real_20261111-161746"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "review_id": "20261111-wheel-to-leg-takeoff-oscillation",
+  "archive_date": "2026-11-11",
+  "experiments": [
+    "experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation"
+  ],
+  "files": [
+    {
+      "path": "early_oscillation.png",
+      "bytes": 468768,
+      "sha256": "3c2673415781ef4787f9881f3227740dcc12a39c80c585b8a09cacfdd73e9ef1",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/early_oscillation.png"
+    },
+    {
+      "path": "wheel_vs_w2l_hip_oscillation.png",
+      "bytes": 459289,
+      "sha256": "6cc20c766888ab0370fc71a2d650f662e7d6e72d7d21c6f8f9d508b48d47b1eb",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/wheel_vs_w2l_hip_oscillation.png"
+    },
+    {
+      "path": "latest_run_overview.png",
+      "bytes": 302658,
+      "sha256": "443fb5eb57184ed0b3f28a4f41519a80dbbb48272e8382bea3c5fccf52c02032",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/latest_run_overview.png"
+    },
+    {
+      "path": "comparison-sources.json",
+      "bytes": 4338,
+      "sha256": "8aecd92dce375ab2c9b7c186ba4723aed899e800f603858048561fb7c4682aeb",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/comparison-sources.json"
+    },
+    {
+      "path": "latest-trial-metrics.json",
+      "bytes": 769,
+      "sha256": "1e5e5f4769445c011c3565fb6303621105db9eda20e2c7bc4b7a95077c228fe5",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/latest-trial-metrics.json"
+    },
+    {
+      "path": "current-bundle-manifest.yaml",
+      "bytes": 4156,
+      "sha256": "51a671a9c973c9e4bec7388bff8ffdd7e53b9e06f62afb5df6451e021b2b676a",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/current-bundle-manifest.yaml"
+    },
+    {
+      "path": "comparison_first_2s.png",
+      "bytes": 723618,
+      "sha256": "a2f549f7024044a3d985ba1d5c5b0c54153e5b79414b91acd1b75f6f60d6577e",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/comparison_first_2s.png"
+    },
+    {
+      "path": "shared-hip-oscillation-review.md",
+      "bytes": 6540,
+      "sha256": "25e81e6abb47621286f83a1488680e2f93da6d9cc9a67906e1b6cdeb4124d4e6",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/shared-hip-oscillation-review.md"
+    },
+    {
+      "path": "wheel-vs-w2l-metrics.json",
+      "bytes": 1420,
+      "sha256": "e25d931323b347f1a1d13c575a61ff271bc28304c7c420ffa99e12bd633a0da4",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/wheel-vs-w2l-metrics.json"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 455,
+      "sha256": "1ad04ef3fe7c6dd1e5db8ef060b369b501d303c6a150cb21f24db349b43ab2c8",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/verification.json"
+    },
+    {
+      "path": "comparison-metrics.json",
+      "bytes": 16037,
+      "sha256": "11245835b019280199eee41a9fadae96aa1c875601a693ae52834b0f5ffb234a",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/comparison-metrics.json"
+    },
+    {
+      "path": "assessment.md",
+      "bytes": 12884,
+      "sha256": "594f8bead88eb5bf881317e68b72af04adfed77c100e5d74edfca6dc19a47d83",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/assessment.md"
+    },
+    {
+      "path": "deployment-reference.json",
+      "bytes": 4384,
+      "sha256": "0d809d49963181ea860ab4b6351649fc1cfb1f9ca1d3c951a24629e5c659e543",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261111-readonly/deployment-reference.json"
+    },
+    {
+      "path": "context-reference/policy/LW/base.yaml",
+      "bytes": 4522,
+      "sha256": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/base.yaml"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_loco/config.yaml",
+      "bytes": 2247,
+      "sha256": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/config.yaml"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_loco/policy.onnx",
+      "bytes": 820880,
+      "sha256": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_loco/policy.onnx"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "bytes": 2363,
+      "sha256": "f4f1634ababd25a7206554a6f72c49fc7fb444b3058d9b2bf7d8f29fe375a355",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/config.yaml"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "bytes": 32671,
+      "sha256": "ef3ced90bda48a949c21e20cdc4e35cd105198746773471c424af171c1d7f4ad",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "bytes": 1873976,
+      "sha256": "9a809a0f122e56da6d1cc84503bffcd0c1d3ebc67be99d6d7fff90bfedc9e4f7",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/leg_to_wheel/policy.onnx"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/wheel_loco/config.yaml",
+      "bytes": 2230,
+      "sha256": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/config.yaml"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "bytes": 816544,
+      "sha256": "bda4ed7bf090b8e3d554d9243a3652d626016ca70343190d8abb4638bc4f8df9",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_loco/policy.onnx"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/wheel_to_leg/config.yaml",
+      "bytes": 2334,
+      "sha256": "b435c8bce7994d65520bb94f2fb6baa12534d8a5080ba6cf1467cbddcb57cd27",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_to_leg/config.yaml"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/wheel_to_leg/policy.onnx",
+      "bytes": 1873976,
+      "sha256": "0b2032d78e0f41bc2be5a44fb52251a8af2edd3334d8d36bfd866a1c0249912f",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_to_leg/policy.onnx"
+    },
+    {
+      "path": "context-reference/policy/LW/robot_lab/wheel_to_leg/wheel_to_leg_transform_60hz.csv",
+      "bytes": 32744,
+      "sha256": "791632a4bbd9d19da77fed85b0d291e65a992f941cf7a8484f15e2bb9519df1c",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/policy/LW/robot_lab/wheel_to_leg/wheel_to_leg_transform_60hz.csv"
+    },
+    {
+      "path": "context-reference/manifest.yaml",
+      "bytes": 4156,
+      "sha256": "51a671a9c973c9e4bec7388bff8ffdd7e53b9e06f62afb5df6451e021b2b676a",
+      "source_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW/manifest.yaml"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 13343,
+      "sha256": "ce8e9d0026f0a900630d4e8d5cf22a5498175b31083d65c7efc415a267186005"
+    },
+    {
+      "path": "shared-hip-oscillation-review-archive.md",
+      "bytes": 6905,
+      "sha256": "2cb883a4466cd6279a6cdca94adf5a0977a450b3de81687d24efbf67994a9827"
+    },
+    {
+      "path": "context-reference/README.md",
+      "bytes": 662,
+      "sha256": "5cef7848777633e059d27d666925c05dea7cd6b64628843bd7575df946c06f7a"
+    },
+    {
+      "path": "archive-provenance.json",
+      "bytes": 8304,
+      "sha256": "2bb7ac8e66edf81cb37ad373dda66abf68862df58670a8aed77ef9920510fd3d"
+    }
+  ],
+  "reference_only_not_test_version": true,
+  "excluded_recordings": [
+    "lw_real_20261111-161746"
+  ],
+  "historical_data_reused_without_duplication": true
+}

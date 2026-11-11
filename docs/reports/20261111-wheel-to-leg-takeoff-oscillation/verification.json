@@ -1,0 +1,17 @@
+{
+  "raw_bags": [
+    {
+      "bag": "/home/nvidia/debug_bags/lw_real_20261111-161746/lw_real_20261111-161746_0.db3",
+      "hash_unchanged": true,
+      "metadata_matches": null
+    },
+    {
+      "bag": "/home/nvidia/debug_bags/lw_real_20261111-163120/lw_real_20261111-163120_0.db3",
+      "hash_unchanged": true,
+      "metadata_matches": true
+    }
+  ],
+  "current_bundle_resources_verified": 11,
+  "code_changed": false,
+  "hardware_started": false
+}

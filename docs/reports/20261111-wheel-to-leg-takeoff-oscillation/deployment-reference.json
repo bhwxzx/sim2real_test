@@ -1,0 +1,84 @@
+{
+  "source_commit": "94f9269dba1da2bdc7b33ea404c6880bd64371ab",
+  "bundle_path": "/home/nvidia/rl_sar/build/lw_deployments/94f9269dba1d/share/rl_sar/deployment/LW",
+  "note": "Current deployed bundle reference; launch stdout did not retain executable path or manifest hash, so not an independently proven test-time binding.",
+  "files": [
+    {
+      "path": "policy/LW/base.yaml",
+      "bundle_hash": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9",
+      "manifest_hash": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9",
+      "workspace_hash": "45aa0cfed1797855ab8e23c1a991faf94e62f539012349380c964168cbcfebf9",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_loco/config.yaml",
+      "bundle_hash": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274",
+      "manifest_hash": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274",
+      "workspace_hash": "8a3bf73d822b382fd5dd00d02a2233153ec81c0d166667a606abe3c217cd4274",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_loco/policy.onnx",
+      "bundle_hash": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb",
+      "manifest_hash": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb",
+      "workspace_hash": "c5d94cd109557baaf3b3a57b9e146a95555ea7c323b538fcf8830aea829f42eb",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/config.yaml",
+      "bundle_hash": "f4f1634ababd25a7206554a6f72c49fc7fb444b3058d9b2bf7d8f29fe375a355",
+      "manifest_hash": "f4f1634ababd25a7206554a6f72c49fc7fb444b3058d9b2bf7d8f29fe375a355",
+      "workspace_hash": "f4f1634ababd25a7206554a6f72c49fc7fb444b3058d9b2bf7d8f29fe375a355",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/leg_to_wheel_transform_60hz.csv",
+      "bundle_hash": "ef3ced90bda48a949c21e20cdc4e35cd105198746773471c424af171c1d7f4ad",
+      "manifest_hash": "ef3ced90bda48a949c21e20cdc4e35cd105198746773471c424af171c1d7f4ad",
+      "workspace_hash": "ef3ced90bda48a949c21e20cdc4e35cd105198746773471c424af171c1d7f4ad",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/leg_to_wheel/policy.onnx",
+      "bundle_hash": "9a809a0f122e56da6d1cc84503bffcd0c1d3ebc67be99d6d7fff90bfedc9e4f7",
+      "manifest_hash": "9a809a0f122e56da6d1cc84503bffcd0c1d3ebc67be99d6d7fff90bfedc9e4f7",
+      "workspace_hash": "9a809a0f122e56da6d1cc84503bffcd0c1d3ebc67be99d6d7fff90bfedc9e4f7",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_loco/config.yaml",
+      "bundle_hash": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92",
+      "manifest_hash": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92",
+      "workspace_hash": "22e753d7199ca4deed79570ba116e2fec5e32e79355f7b589063c39d7fb15e92",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_loco/policy.onnx",
+      "bundle_hash": "bda4ed7bf090b8e3d554d9243a3652d626016ca70343190d8abb4638bc4f8df9",
+      "manifest_hash": "bda4ed7bf090b8e3d554d9243a3652d626016ca70343190d8abb4638bc4f8df9",
+      "workspace_hash": "bda4ed7bf090b8e3d554d9243a3652d626016ca70343190d8abb4638bc4f8df9",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/config.yaml",
+      "bundle_hash": "b435c8bce7994d65520bb94f2fb6baa12534d8a5080ba6cf1467cbddcb57cd27",
+      "manifest_hash": "b435c8bce7994d65520bb94f2fb6baa12534d8a5080ba6cf1467cbddcb57cd27",
+      "workspace_hash": "b435c8bce7994d65520bb94f2fb6baa12534d8a5080ba6cf1467cbddcb57cd27",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/policy.onnx",
+      "bundle_hash": "0b2032d78e0f41bc2be5a44fb52251a8af2edd3334d8d36bfd866a1c0249912f",
+      "manifest_hash": "0b2032d78e0f41bc2be5a44fb52251a8af2edd3334d8d36bfd866a1c0249912f",
+      "workspace_hash": "0b2032d78e0f41bc2be5a44fb52251a8af2edd3334d8d36bfd866a1c0249912f",
+      "match": true
+    },
+    {
+      "path": "policy/LW/robot_lab/wheel_to_leg/wheel_to_leg_transform_60hz.csv",
+      "bundle_hash": "791632a4bbd9d19da77fed85b0d291e65a992f941cf7a8484f15e2bb9519df1c",
+      "manifest_hash": "791632a4bbd9d19da77fed85b0d291e65a992f941cf7a8484f15e2bb9519df1c",
+      "workspace_hash": "791632a4bbd9d19da77fed85b0d291e65a992f941cf7a8484f15e2bb9519df1c",
+      "match": true
+    }
+  ]
+}

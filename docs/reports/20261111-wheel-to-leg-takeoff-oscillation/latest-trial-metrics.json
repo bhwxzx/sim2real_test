@@ -1,0 +1,23 @@
+{
+  "user_observation": {
+    "phase": "takeoff",
+    "requested_motion_input": "zero",
+    "rope_intervention": "after obvious oscillation and collapse, then GetDown",
+    "rope_intervention_time": "not recorded"
+  },
+  "phase_boundaries_inferred": {
+    "wheel": 785,
+    "wheel_to_leg": 1055,
+    "getdown": 1164,
+    "getdown_end": 1314
+  },
+  "window_spectral_peaks_hz": {
+    "R_target": 9.99831578370474,
+    "L_target": 9.99831578370474,
+    "R_actual": 8.887391807737547,
+    "L_actual": 9.99831578370474,
+    "R_torque_feedback": 9.99831578370474,
+    "L_torque_feedback": 9.99831578370474
+  },
+  "spectrum_method": "0.2 <= phase time < 1.1 s; linear detrend + Hann + FFT; select peak 3-20Hz; resolution ~1.11Hz; no claim of system resonance identification"
+}

@@ -70,6 +70,7 @@ sha256sum -c SHA256SUMS
 | 双足→双轮 | [20261010-203035](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/README.md) | a5736756腿转轮跳跃；用户10月12日确认异常由中途吊绳拉拽导致，旧分析原文保留，最新补充见场次说明 |
 | 双足→双轮 | [20261012-151931](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/README.md) | 无绳、全程零指令，完成转换及约4.92秒双轮接管，末端衔接较好；均无非预期前冲，主动GetDown |
 | 双足→双轮 | [20261012-152441](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/README.md) | 无绳、含主动前进输入，完成转换及约8.07秒双轮控制，仍有右踝瞬态；均无非预期前冲，主动GetDown |
+| 双轮→双足 | [20261111-163120](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/README.md) | 起跳阶段双髋约9–10Hz振荡并失稳，之后绳拉保护及主动GetDown；转换未完成，与旧双轮抖动有共同机制线索，根因未唯一确定 |
 
 ## 无 ROS 2 读取全量数据
 
@@ -92,7 +93,10 @@ sha256sum -c SHA256SUMS
 | 腿转轮跳跃与落地前冲 | [joint_states.csv](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/joint_states.csv) | 4055 | [字段说明](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/README.md)、[验证结果](experiments/leg/20261010-203035-leg-to-wheel-jump-forward-surge/exports/validation.json) |
 | 1012腿转轮零指令对照 | [joint_states.csv](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/joint_states.csv) | 8195 | [字段说明](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/README.md)、[验证结果](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/validation.json) |
 | 1012腿转轮主动输入测试 | [joint_states.csv](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/joint_states.csv) | 4443 | [字段说明](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/README.md)、[验证结果](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/validation.json) |
+| 1111轮转腿起跳抖动 | [joint_states.csv](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/joint_states.csv) | 1410 | [字段说明](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/README.md)、[验证结果](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/validation.json) |
 
 CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。
 
 2026-10-12 两轮无吊绳干扰腿转轮测试及PD力矩控制解释见[对照总报告](docs/reports/20261012-leg-to-wheel-no-rope/README.md)。PD目标与实际角之差用于生成力矩，不单独作为运动跟踪质量判断；当前参考资源与实测版本证据分开记录。
+
+2026-11-11 轮转腿实测见[完整评估](docs/reports/20261111-wheel-to-leg-takeoff-oscillation/README.md)及[与历史双轮髋抖动的共同机制对照](docs/reports/20261111-wheel-to-leg-takeoff-oscillation/shared-hip-oscillation-review-archive.md)。仅归档163120场次，同日较早准备记录按用户要求未纳入；当前部署资源仅作参考，不冒充测试时版本证据。
