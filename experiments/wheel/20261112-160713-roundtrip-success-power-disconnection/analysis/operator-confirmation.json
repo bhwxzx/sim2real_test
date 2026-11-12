@@ -1,0 +1,15 @@
+{
+  "confirmed_date": "2026-11-12",
+  "source": "user statement in this conversation",
+  "rope_slack": true,
+  "no_human_support": true,
+  "reported_version": null,
+  "executable_bundle_path_recorded": true,
+  "motor_power_cable_disconnected_reported": true,
+  "specific_motor_or_connector_identified_by_user": null,
+  "metadata_finalized_and_available": true,
+  "raw_db_sha256_unchanged_since_analysis": true,
+  "operator_statement": "是电机电源线掉了",
+  "classification": "hardware_power_connection_failure_after_first_successful_roundtrip",
+  "feedback_pipeline_mechanism_resolved": false
+}

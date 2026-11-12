@@ -1,0 +1,14 @@
+{
+  "raw_sha256_after": "d2649f0516797aece62353deb3b3f87b4eb3747a808ff3cff88411866f3d199a",
+  "matches_before": true,
+  "git_status_short_after": "",
+  "plots_visually_reviewed": [
+    "overview.png",
+    "successful_roundtrip.png",
+    "w2l_success_vs_failure.png"
+  ],
+  "historical_analyses_reused": true,
+  "no_code_changes": true,
+  "feedback_freeze_triplet_samples": 313,
+  "limitations": "No per-motor freshness/error-code/raw transport telemetry; causal attribution unresolved."
+}

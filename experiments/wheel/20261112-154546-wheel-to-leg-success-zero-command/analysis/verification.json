@@ -1,0 +1,17 @@
+{
+  "raw_bag_sha256_after": "b11afc104fbf7513bf518b440820fea5d91a88563d55d9e58198d22c4a2d9c8a",
+  "matches_before": true,
+  "git_status_short_after": "",
+  "plot_review": "overview.png and comparison.png visually reviewed",
+  "code_modified": false,
+  "historical_decode_reused": true,
+  "artifacts": [
+    "assessment.md",
+    "comparison.png",
+    "decoded.npz",
+    "logs",
+    "metrics.json",
+    "overview.png",
+    "source.json"
+  ]
+}

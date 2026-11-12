@@ -1,0 +1,116 @@
+{
+  "archive_date": "2026-11-12",
+  "source_copies_byte_identical": true,
+  "source_files": [
+    {
+      "path": "raw/lw_real_20261112-160713/lw_real_20261112-160713_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-160713/lw_real_20261112-160713_0.db3",
+      "bytes": 3055616,
+      "sha256": "d2649f0516797aece62353deb3b3f87b4eb3747a808ff3cff88411866f3d199a"
+    },
+    {
+      "path": "raw/lw_real_20261112-160713/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-160713/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "a3a1f2279655db72e157034b830ec17f12c0de90b92a5b13767f50a17614d02c"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/assessment.md",
+      "bytes": 12035,
+      "sha256": "a616945139a10d37b80d39e81373479b3fd6e195a4dfc56caf9ba19a665075e7"
+    },
+    {
+      "path": "analysis/comparison-metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/comparison-metrics.json",
+      "bytes": 2263,
+      "sha256": "57cc78db034e44a41f01001d9f6d0839f95f35719320c81733872f3183b29796"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/decoded.npz",
+      "bytes": 377162,
+      "sha256": "eeabcaf4fd50dc3b7195ccb95136e61b1887660d0385c59cdc94d2c1436bce8f"
+    },
+    {
+      "path": "analysis/deployment-reference.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/deployment-reference.json",
+      "bytes": 4242,
+      "sha256": "391676b19c7cddce56e6a27553786539fc8d3b3b4870eb8b8137c219bd0a7909"
+    },
+    {
+      "path": "analysis/feedback-freeze.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/feedback-freeze.json",
+      "bytes": 2758,
+      "sha256": "516abc4475783ad70136160c78ce683c5d13bab5bb6511e655d58e004b105062"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/logs/launch.log",
+      "bytes": 874,
+      "sha256": "e0c92ea4f5f97aa98f7d7ab2c1e60f893d7d4808e90d3258e9a55e4841b76d32"
+    },
+    {
+      "path": "analysis/logs/metadata.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/logs/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "a3a1f2279655db72e157034b830ec17f12c0de90b92a5b13767f50a17614d02c"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/metrics.json",
+      "bytes": 29315,
+      "sha256": "d3efa8fc62e9ce8bc582b50ac289be7361877fc623d49d558ed6dec34b08f9fa"
+    },
+    {
+      "path": "analysis/overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/overview.png",
+      "bytes": 546941,
+      "sha256": "d45a98eb8cf52adc466fa7c5672d7ef21f6b2f13dcfe1f8f7c048b4a7388c7f3"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/source.json",
+      "bytes": 1163,
+      "sha256": "3dd1eb657f2aa24ffaf76c00ccde8747b677c63b9c63aae8fdcfe22bd49f6ade"
+    },
+    {
+      "path": "analysis/successful_roundtrip.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/successful_roundtrip.png",
+      "bytes": 359086,
+      "sha256": "9bad482be7efa1ecd982761fc2ec81585491deed828bd2e592d6d1cd82cba914"
+    },
+    {
+      "path": "analysis/verification.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/verification.json",
+      "bytes": 488,
+      "sha256": "7e959a8ec7a997ea6bb288df9ad56ad0343d47e5f69b13acffb249d7f11ee35d"
+    },
+    {
+      "path": "analysis/w2l_success_vs_failure.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/w2l_success_vs_failure.png",
+      "bytes": 492208,
+      "sha256": "b31a72dba9539a21e2f52385311a27dc4de8c3f8f1a14c4de530162c2646706b"
+    }
+  ],
+  "original_reports_preserved": true,
+  "numeric_payload_redecoded": false,
+  "new_assessment_performed": false,
+  "operator_confirmation": {
+    "confirmed_date": "2026-11-12",
+    "source": "user statement in this conversation",
+    "rope_slack": true,
+    "no_human_support": true,
+    "reported_version": null,
+    "executable_bundle_path_recorded": true,
+    "motor_power_cable_disconnected_reported": true,
+    "specific_motor_or_connector_identified_by_user": null,
+    "metadata_finalized_and_available": true,
+    "raw_db_sha256_unchanged_since_analysis": true,
+    "operator_statement": "是电机电源线掉了",
+    "classification": "hardware_power_connection_failure_after_first_successful_roundtrip",
+    "feedback_pipeline_mechanism_resolved": false
+  },
+  "raw_metadata_present_at_archive": true,
+  "raw_db_sha256_unchanged_since_analysis": true
+}

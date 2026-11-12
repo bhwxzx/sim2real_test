@@ -1,0 +1,8 @@
+1794470867.4351053 [INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-11-12-16-07-47-432418-nvidia-desktop-4938
+1794470867.4354610 [INFO] [launch]: Default logging verbosity is set to INFO
+1794470867.5571795 [INFO] [ahrs_driver_node-1]: process started with pid [4967]
+1794470867.5576108 [INFO] [rl_real_LW-2]: process started with pid [4969]
+1794470911.5955801 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1794470911.7254848 [INFO] [ahrs_driver_node-1]: process has finished cleanly [pid 4967]
+1794470911.8574784 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1794470911.8679824 [ERROR] [rl_real_LW-2]: process has died [pid 4969, exit code -2, cmd '/home/nvidia/rl_sar/build/lw_deployments/4f1eba4a3356/lib/rl_sar/rl_real_LW --ros-args -r __node:=rl_real_LW --params-file /tmp/launch_params_psylfyds'].

@@ -1,0 +1,154 @@
+{
+  "experiment_id": "20261112-154546-wheel-to-leg-success-zero-command",
+  "mode": "wheel",
+  "scenario": "wheel_to_leg_transition",
+  "outcome": "wheel_to_leg_success_zero_command",
+  "archived_at": "2026-11-12",
+  "original_message_count": 1946,
+  "raw_metadata_present": true,
+  "test_time_source_commit": null,
+  "test_time_binary_independently_verified": false,
+  "operator_and_recording_conditions": {
+    "confirmed_date": "2026-11-12",
+    "source": "user statement in this conversation",
+    "rope_slack": true,
+    "no_human_support": true,
+    "reported_version": "1112-01",
+    "executable_bundle_path_recorded": false,
+    "motor_power_cable_disconnected_reported": false,
+    "specific_motor_or_connector_identified_by_user": null,
+    "metadata_finalized_and_available": true,
+    "raw_db_sha256_unchanged_since_analysis": true
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20261112-154546/lw_real_20261112-154546_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-154546/lw_real_20261112-154546_0.db3",
+      "bytes": 2727936,
+      "sha256": "b11afc104fbf7513bf518b440820fea5d91a88563d55d9e58198d22c4a2d9c8a"
+    },
+    {
+      "path": "raw/lw_real_20261112-154546/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-154546/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "4cc3a26508ac45d8e421f55b101f8bfa3ee18ebd28ac2b7f0b5f41a232ec8d6c"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/assessment.md",
+      "bytes": 8261,
+      "sha256": "aef3aabeabe57485621b8c2d21254bcb2e7ebe751b21410221db1a8a05926c0d"
+    },
+    {
+      "path": "analysis/comparison.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/comparison.png",
+      "bytes": 520564,
+      "sha256": "9e69b07b7d1f9000f45fe142ddd76fb20d28e958167bf001fb34887abc152795"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/decoded.npz",
+      "bytes": 309027,
+      "sha256": "7526cfec9c71b61d390878f209e79499da9bce29f748e7d7017ad3c025465db6"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/logs/launch.log",
+      "bytes": 616,
+      "sha256": "4fe2b45bde87c5abaf82cf148bf0e77ddba4cc755dec8768961b979da2b5b943"
+    },
+    {
+      "path": "analysis/logs/metadata.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/logs/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "4cc3a26508ac45d8e421f55b101f8bfa3ee18ebd28ac2b7f0b5f41a232ec8d6c"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/metrics.json",
+      "bytes": 26000,
+      "sha256": "a38ded2467944f7e1472f2763987f2283f19bb8ba4384960a61cf7befb664b04"
+    },
+    {
+      "path": "analysis/overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/overview.png",
+      "bytes": 457479,
+      "sha256": "bbddbf2edc80863dd02e3626128fe335dd9809e7166ce61c35ff03730d4c5b9d"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/source.json",
+      "bytes": 1165,
+      "sha256": "b9dfff12faba9dea50412863b9d6cb72bb6615f6fa1aa3f25db611b2c51e4d94"
+    },
+    {
+      "path": "analysis/verification.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/verification.json",
+      "bytes": 440,
+      "sha256": "d127cccacfc78f9554e61efb4a744e60fbedc0c3e11858e3b29cb733f17d0098"
+    }
+  ],
+  "deployment_context": {
+    "reported_version": "1112-01",
+    "reference_source_commit": "4f1eba4a335683991116fda93551a63c5615bd18",
+    "reference_bundle_id": "4f1eba4a3356",
+    "reference_snapshot": "docs/reports/20261112-1112-01-transitions/context-reference",
+    "executable_bundle_path_recorded_in_launch_log": false,
+    "test_time_binary_hash_independently_verified": false,
+    "test_time_model_hash_independently_verified": false,
+    "scope": "Reference resource snapshot; executable path captured for 160713, operator version confirmation for 154546/162712; not a full runtime provenance capture."
+  },
+  "summary": {
+    "wheel_to_leg_successes": 1,
+    "leg_to_wheel_successes": 0,
+    "hardware_power_failure_events": 0,
+    "leg_duration_s": 11.179410499
+  },
+  "assessment": "experiments/wheel/20261112-154546-wheel-to-leg-success-zero-command/analysis/assessment-updated.md",
+  "original_assessment": "experiments/wheel/20261112-154546-wheel-to-leg-success-zero-command/analysis/assessment.md",
+  "shared_assessment": "docs/reports/20261112-1112-01-transitions/README.md",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 2317,
+      "sha256": "5446b2ac8f57f9b540e252413f042f4cf2e325248b4b6e2832626e845f88276b"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 2379132,
+      "sha256": "149208dfa9307971fb379e750f4c9ce6ac1c51057d316a19f270b633137c9658"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1414,
+      "sha256": "6fbf6d1a002ad7329d3a950606d8ec89a43c0f79fc90e044e5716683c728f370"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 1291,
+      "sha256": "071066c2dc711c721f87cb04363b31024e3f556af128eabbe78741138dd29a15"
+    },
+    {
+      "path": "analysis/archive-provenance.json",
+      "bytes": 3816,
+      "sha256": "7ece8c46f0c71a9261f5deacfe7054f6c64097cd503f4083eeec0b4cff20e09e"
+    },
+    {
+      "path": "analysis/assessment-updated.md",
+      "bytes": 8677,
+      "sha256": "16fb0a2cef9d0b24994802f2f73bbb993e1cbf5c4dfdf92ea2c8da2d530147b5"
+    },
+    {
+      "path": "analysis/operator-confirmation.json",
+      "bytes": 419,
+      "sha256": "8d3abf2bc7eb36f41c5df4f312570ff32abef3ed81b4d0a6a0c01a1a27f62231"
+    },
+    {
+      "path": "context/README.md",
+      "bytes": 447,
+      "sha256": "1fd56ed6450bdc57de9c90f4e3ac24da40f132c61d862d9d4165e77f725c9951"
+    }
+  ]
+}

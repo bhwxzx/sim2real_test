@@ -1,0 +1,102 @@
+{
+  "archive_date": "2026-11-12",
+  "source_copies_byte_identical": true,
+  "source_files": [
+    {
+      "path": "raw/lw_real_20261112-162712/lw_real_20261112-162712_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-162712/lw_real_20261112-162712_0.db3",
+      "bytes": 2936832,
+      "sha256": "1855cc8c3fece9a6bdcaa343153f28406afbcd9219351995e33a6c371bd6e163"
+    },
+    {
+      "path": "raw/lw_real_20261112-162712/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-162712/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "e307dc330653f8f53ffe62a4737c1d3c204d10584b4632858c8dbe14dc090c8b"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/assessment.md",
+      "bytes": 8410,
+      "sha256": "70ef263861b351d67f921d5a761b0319a593f9ae169066b47141a28168559051"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/decoded.npz",
+      "bytes": 343916,
+      "sha256": "29e38c9af94a69ff78e002dbe746009ddabcc42a06a3f24730e2e6a325375eba"
+    },
+    {
+      "path": "analysis/deployment-reference.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/deployment-reference.json",
+      "bytes": 1914,
+      "sha256": "0131bacb5d262b035dd69a2461fc5406fdbdbb00b7fd42dbcc42c4aede7ae83f"
+    },
+    {
+      "path": "analysis/logs/ahrs_driver_node_5381_1794472046384.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/logs/ahrs_driver_node_5381_1794472046384.log",
+      "bytes": 270,
+      "sha256": "a7167fcab711f8601a9d92b6d98470a1de01e22bb2900bf5e21c14a577cbe807"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/logs/launch.log",
+      "bytes": 616,
+      "sha256": "cde86b9a6327de5515a690f83faa04450cf38857d0af6e4d90ca84e152f80a5b"
+    },
+    {
+      "path": "analysis/logs/python3_5254_1794472032671.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/logs/python3_5254_1794472032671.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/logs/rl_real_LW_5383_1794472046660.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/logs/rl_real_LW_5383_1794472046660.log",
+      "bytes": 65,
+      "sha256": "06b6579556e42948d32c3e0a87599ef85861d7c6a144129efdff9b6ec4655db7"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/metrics.json",
+      "bytes": 9520,
+      "sha256": "322b7a0f4679307b8d5c1e09b549a6ac77d84f34d599d9a8bb5e52295a1c7d3a"
+    },
+    {
+      "path": "analysis/overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/overview.png",
+      "bytes": 379676,
+      "sha256": "3625cf1574acc1cd47ecb5afccb94a5ab1a21412d203ed051c03847ed73767a6"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/source.json",
+      "bytes": 333,
+      "sha256": "d5922f3d96282d9b2122fa998cdca6c38ebd7625777437953e5562130068e02f"
+    },
+    {
+      "path": "analysis/w2l_comparison.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-readonly/w2l_comparison.png",
+      "bytes": 318015,
+      "sha256": "f623c9b24c873d7072b460e5894c722d8eae3ff8ec0b3f6676d3c426ed20446c"
+    }
+  ],
+  "original_reports_preserved": true,
+  "numeric_payload_redecoded": false,
+  "new_assessment_performed": false,
+  "operator_confirmation": {
+    "confirmed_date": "2026-11-12",
+    "source": "user statement in this conversation",
+    "rope_slack": true,
+    "no_human_support": true,
+    "reported_version": "1112-01",
+    "executable_bundle_path_recorded": false,
+    "motor_power_cable_disconnected_reported": false,
+    "specific_motor_or_connector_identified_by_user": null,
+    "metadata_finalized_and_available": true,
+    "raw_db_sha256_unchanged_since_analysis": true,
+    "metadata_operator_statement": "缺失metadata因为我忘记关闭ros2 bag记录程序了，现在好了"
+  },
+  "raw_metadata_present_at_archive": true,
+  "raw_db_sha256_unchanged_since_analysis": true
+}

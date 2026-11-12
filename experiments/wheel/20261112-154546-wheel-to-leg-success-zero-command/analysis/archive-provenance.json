@@ -1,0 +1,89 @@
+{
+  "archive_date": "2026-11-12",
+  "source_copies_byte_identical": true,
+  "source_files": [
+    {
+      "path": "raw/lw_real_20261112-154546/lw_real_20261112-154546_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-154546/lw_real_20261112-154546_0.db3",
+      "bytes": 2727936,
+      "sha256": "b11afc104fbf7513bf518b440820fea5d91a88563d55d9e58198d22c4a2d9c8a"
+    },
+    {
+      "path": "raw/lw_real_20261112-154546/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-154546/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "4cc3a26508ac45d8e421f55b101f8bfa3ee18ebd28ac2b7f0b5f41a232ec8d6c"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/assessment.md",
+      "bytes": 8261,
+      "sha256": "aef3aabeabe57485621b8c2d21254bcb2e7ebe751b21410221db1a8a05926c0d"
+    },
+    {
+      "path": "analysis/comparison.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/comparison.png",
+      "bytes": 520564,
+      "sha256": "9e69b07b7d1f9000f45fe142ddd76fb20d28e958167bf001fb34887abc152795"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/decoded.npz",
+      "bytes": 309027,
+      "sha256": "7526cfec9c71b61d390878f209e79499da9bce29f748e7d7017ad3c025465db6"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/logs/launch.log",
+      "bytes": 616,
+      "sha256": "4fe2b45bde87c5abaf82cf148bf0e77ddba4cc755dec8768961b979da2b5b943"
+    },
+    {
+      "path": "analysis/logs/metadata.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/logs/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "4cc3a26508ac45d8e421f55b101f8bfa3ee18ebd28ac2b7f0b5f41a232ec8d6c"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/metrics.json",
+      "bytes": 26000,
+      "sha256": "a38ded2467944f7e1472f2763987f2283f19bb8ba4384960a61cf7befb664b04"
+    },
+    {
+      "path": "analysis/overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/overview.png",
+      "bytes": 457479,
+      "sha256": "bbddbf2edc80863dd02e3626128fe335dd9809e7166ce61c35ff03730d4c5b9d"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/source.json",
+      "bytes": 1165,
+      "sha256": "b9dfff12faba9dea50412863b9d6cb72bb6615f6fa1aa3f25db611b2c51e4d94"
+    },
+    {
+      "path": "analysis/verification.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/wheel-to-leg-20261112-154546-readonly/verification.json",
+      "bytes": 440,
+      "sha256": "d127cccacfc78f9554e61efb4a744e60fbedc0c3e11858e3b29cb733f17d0098"
+    }
+  ],
+  "original_reports_preserved": true,
+  "numeric_payload_redecoded": false,
+  "new_assessment_performed": false,
+  "operator_confirmation": {
+    "confirmed_date": "2026-11-12",
+    "source": "user statement in this conversation",
+    "rope_slack": true,
+    "no_human_support": true,
+    "reported_version": "1112-01",
+    "executable_bundle_path_recorded": false,
+    "motor_power_cable_disconnected_reported": false,
+    "specific_motor_or_connector_identified_by_user": null,
+    "metadata_finalized_and_available": true,
+    "raw_db_sha256_unchanged_since_analysis": true
+  },
+  "raw_metadata_present_at_archive": true,
+  "raw_db_sha256_unchanged_since_analysis": true
+}

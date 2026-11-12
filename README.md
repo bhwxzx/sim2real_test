@@ -71,6 +71,9 @@ sha256sum -c SHA256SUMS
 | 双足→双轮 | [20261012-151931](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/README.md) | 无绳、全程零指令，完成转换及约4.92秒双轮接管，末端衔接较好；均无非预期前冲，主动GetDown |
 | 双足→双轮 | [20261012-152441](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/README.md) | 无绳、含主动前进输入，完成转换及约8.07秒双轮控制，仍有右踝瞬态；均无非预期前冲，主动GetDown |
 | 双轮→双足 | [20261111-163120](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/README.md) | 起跳阶段双髋约9–10Hz振荡并失稳，之后绳拉保护及主动GetDown；转换未完成，与旧双轮抖动有共同机制线索，根因未唯一确定 |
+| 双轮→双足 | [20261112-154546](experiments/wheel/20261112-154546-wheel-to-leg-success-zero-command/README.md) | 全程零指令，轮切足约 3.40 秒完成，双足运行约 11.18 秒；接管初期约 1 秒调整后收敛。接管 2 秒后约 9.16 秒较安静站立。 |
+| 双轮→双足→双轮 | [20261112-160713](experiments/wheel/20261112-160713-roundtrip-success-power-disconnection/README.md) | 第一次轮切足、足切轮成功；随后第二次轮切足时倾倒，用户后续确认电机电源线脱落。右小腿三项反馈冻结先于明显侧倾，旧反馈持续传播机制仍待定位；该段归类为硬件电源连接故障条件下的事件，不直接计为策略自身失败。 |
+| 双轮→双足→双轮 | [20261112-162712](experiments/wheel/20261112-162712-bidirectional-transition-success/README.md) | 轮切足、足切轮均成功，返回双轮后继续运行约 5.14 秒；双足阶段仅约 1.04 秒。录制程序关闭后 metadata.yaml 已实际生成并核对，数据库哈希未变。 |
 
 ## 无 ROS 2 读取全量数据
 
@@ -94,9 +97,16 @@ sha256sum -c SHA256SUMS
 | 1012腿转轮零指令对照 | [joint_states.csv](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/joint_states.csv) | 8195 | [字段说明](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/README.md)、[验证结果](experiments/leg/20261012-151931-leg-to-wheel-no-rope-zero-command/exports/validation.json) |
 | 1012腿转轮主动输入测试 | [joint_states.csv](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/joint_states.csv) | 4443 | [字段说明](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/README.md)、[验证结果](experiments/leg/20261012-152441-leg-to-wheel-no-rope-forward-input/exports/validation.json) |
 | 1111轮转腿起跳抖动 | [joint_states.csv](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/joint_states.csv) | 1410 | [字段说明](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/README.md)、[验证结果](experiments/wheel/20261111-163120-wheel-to-leg-takeoff-oscillation/exports/validation.json) |
+| 1112-01 154546 零指令轮切足成功及双足站立 | [joint_states.csv](experiments/wheel/20261112-154546-wheel-to-leg-success-zero-command/exports/joint_states.csv) | 1946 | [字段说明](experiments/wheel/20261112-154546-wheel-to-leg-success-zero-command/exports/README.md)、[验证结果](experiments/wheel/20261112-154546-wheel-to-leg-success-zero-command/exports/validation.json) |
+| 1112-01 160713 成功往返及电源线脱落倾倒 | [joint_states.csv](experiments/wheel/20261112-160713-roundtrip-success-power-disconnection/exports/joint_states.csv) | 2182 | [字段说明](experiments/wheel/20261112-160713-roundtrip-success-power-disconnection/exports/README.md)、[验证结果](experiments/wheel/20261112-160713-roundtrip-success-power-disconnection/exports/validation.json) |
+| 1112-01 162712 双向切换成功 | [joint_states.csv](experiments/wheel/20261112-162712-bidirectional-transition-success/exports/joint_states.csv) | 2098 | [字段说明](experiments/wheel/20261112-162712-bidirectional-transition-success/exports/README.md)、[验证结果](experiments/wheel/20261112-162712-bidirectional-transition-success/exports/validation.json) |
 
-CSV 从原 bag 直接解码生成，已逐行与 bag 及既有 NPZ 交叉核对；不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。
+历史场次 CSV 从原 bag 直接解码并与 NPZ 交叉核对；2026-11-12 三场为避免重复解码，复用已有 NPZ 数值，逐值核对 CSV 位模式，并单独读取原 bag 时间与消息头校验。各场具体方法见 validation.json；均不重采样、不插值、不滤波。bag、NPZ 和既有专题 CSV 均保留。[导出脚本](tools/export_joint_states_csv.py)的转换端需要 ROS 2，读取已导出的 CSV 不需要。
 
 2026-10-12 两轮无吊绳干扰腿转轮测试及PD力矩控制解释见[对照总报告](docs/reports/20261012-leg-to-wheel-no-rope/README.md)。PD目标与实际角之差用于生成力矩，不单独作为运动跟踪质量判断；当前参考资源与实测版本证据分开记录。
 
 2026-11-11 轮转腿实测见[完整评估](docs/reports/20261111-wheel-to-leg-takeoff-oscillation/README.md)及[与历史双轮髋抖动的共同机制对照](docs/reports/20261111-wheel-to-leg-takeoff-oscillation/shared-hip-oscillation-review-archive.md)。仅归档163120场次，同日较早准备记录按用户要求未纳入；当前部署资源仅作参考，不冒充测试时版本证据。
+
+## 2026-11-12 归档补充
+
+[1112-01 三场总览](docs/reports/20261112-1112-01-transitions/README.md)：15:46 零指令轮切足成功、16:08 成功往返后电源线脱落倾倒、16:27 双向切换成功。三份 bag 共 6226 帧，均已包含真实 metadata.yaml；16:08 现场故障补充和 16:27 录制关闭后的元数据补充已写入更新版报告，分析时原文仍保留。

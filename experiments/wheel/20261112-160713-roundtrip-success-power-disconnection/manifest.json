@@ -1,0 +1,190 @@
+{
+  "experiment_id": "20261112-160713-roundtrip-success-power-disconnection",
+  "mode": "wheel",
+  "scenario": "bidirectional_transitions",
+  "outcome": "roundtrip_success_then_motor_power_disconnection_fall",
+  "archived_at": "2026-11-12",
+  "original_message_count": 2182,
+  "raw_metadata_present": true,
+  "test_time_source_commit": null,
+  "test_time_binary_independently_verified": false,
+  "operator_and_recording_conditions": {
+    "confirmed_date": "2026-11-12",
+    "source": "user statement in this conversation",
+    "rope_slack": true,
+    "no_human_support": true,
+    "reported_version": null,
+    "executable_bundle_path_recorded": true,
+    "motor_power_cable_disconnected_reported": true,
+    "specific_motor_or_connector_identified_by_user": null,
+    "metadata_finalized_and_available": true,
+    "raw_db_sha256_unchanged_since_analysis": true,
+    "operator_statement": "是电机电源线掉了",
+    "classification": "hardware_power_connection_failure_after_first_successful_roundtrip",
+    "feedback_pipeline_mechanism_resolved": false
+  },
+  "files": [
+    {
+      "path": "raw/lw_real_20261112-160713/lw_real_20261112-160713_0.db3",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-160713/lw_real_20261112-160713_0.db3",
+      "bytes": 3055616,
+      "sha256": "d2649f0516797aece62353deb3b3f87b4eb3747a808ff3cff88411866f3d199a"
+    },
+    {
+      "path": "raw/lw_real_20261112-160713/metadata.yaml",
+      "source_path": "/home/nvidia/debug_bags/lw_real_20261112-160713/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "a3a1f2279655db72e157034b830ec17f12c0de90b92a5b13767f50a17614d02c"
+    },
+    {
+      "path": "analysis/assessment.md",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/assessment.md",
+      "bytes": 12035,
+      "sha256": "a616945139a10d37b80d39e81373479b3fd6e195a4dfc56caf9ba19a665075e7"
+    },
+    {
+      "path": "analysis/comparison-metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/comparison-metrics.json",
+      "bytes": 2263,
+      "sha256": "57cc78db034e44a41f01001d9f6d0839f95f35719320c81733872f3183b29796"
+    },
+    {
+      "path": "analysis/decoded.npz",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/decoded.npz",
+      "bytes": 377162,
+      "sha256": "eeabcaf4fd50dc3b7195ccb95136e61b1887660d0385c59cdc94d2c1436bce8f"
+    },
+    {
+      "path": "analysis/deployment-reference.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/deployment-reference.json",
+      "bytes": 4242,
+      "sha256": "391676b19c7cddce56e6a27553786539fc8d3b3b4870eb8b8137c219bd0a7909"
+    },
+    {
+      "path": "analysis/feedback-freeze.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/feedback-freeze.json",
+      "bytes": 2758,
+      "sha256": "516abc4475783ad70136160c78ce683c5d13bab5bb6511e655d58e004b105062"
+    },
+    {
+      "path": "analysis/logs/launch.log",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/logs/launch.log",
+      "bytes": 874,
+      "sha256": "e0c92ea4f5f97aa98f7d7ab2c1e60f893d7d4808e90d3258e9a55e4841b76d32"
+    },
+    {
+      "path": "analysis/logs/metadata.yaml",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/logs/metadata.yaml",
+      "bytes": 1023,
+      "sha256": "a3a1f2279655db72e157034b830ec17f12c0de90b92a5b13767f50a17614d02c"
+    },
+    {
+      "path": "analysis/metrics.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/metrics.json",
+      "bytes": 29315,
+      "sha256": "d3efa8fc62e9ce8bc582b50ac289be7361877fc623d49d558ed6dec34b08f9fa"
+    },
+    {
+      "path": "analysis/overview.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/overview.png",
+      "bytes": 546941,
+      "sha256": "d45a98eb8cf52adc466fa7c5672d7ef21f6b2f13dcfe1f8f7c048b4a7388c7f3"
+    },
+    {
+      "path": "analysis/source.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/source.json",
+      "bytes": 1163,
+      "sha256": "3dd1eb657f2aa24ffaf76c00ccde8747b677c63b9c63aae8fdcfe22bd49f6ade"
+    },
+    {
+      "path": "analysis/successful_roundtrip.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/successful_roundtrip.png",
+      "bytes": 359086,
+      "sha256": "9bad482be7efa1ecd982761fc2ec81585491deed828bd2e592d6d1cd82cba914"
+    },
+    {
+      "path": "analysis/verification.json",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/verification.json",
+      "bytes": 488,
+      "sha256": "7e959a8ec7a997ea6bb288df9ad56ad0343d47e5f69b13acffb249d7f11ee35d"
+    },
+    {
+      "path": "analysis/w2l_success_vs_failure.png",
+      "source_path": "/home/nvidia/rl_sar/build/lw_diagnostics/transitions-20261112-160713-readonly/w2l_success_vs_failure.png",
+      "bytes": 492208,
+      "sha256": "b31a72dba9539a21e2f52385311a27dc4de8c3f8f1a14c4de530162c2646706b"
+    }
+  ],
+  "deployment_context": {
+    "reported_version": null,
+    "reference_source_commit": "4f1eba4a335683991116fda93551a63c5615bd18",
+    "reference_bundle_id": "4f1eba4a3356",
+    "reference_snapshot": "docs/reports/20261112-1112-01-transitions/context-reference",
+    "executable_bundle_path_recorded_in_launch_log": true,
+    "test_time_binary_hash_independently_verified": false,
+    "test_time_model_hash_independently_verified": false,
+    "scope": "Reference resource snapshot; executable path captured for 160713, operator version confirmation for 154546/162712; not a full runtime provenance capture."
+  },
+  "summary": {
+    "wheel_to_leg_successes": 1,
+    "leg_to_wheel_successes": 1,
+    "hardware_power_failure_events": 1,
+    "second_w2l_failed_under_power_disconnection": true,
+    "leg_duration_s": 1.6000403419999998,
+    "right_shank_feedback_frozen_samples": 313,
+    "right_shank_feedback_freeze_duration_s": 6.239935303999999,
+    "feedback_pipeline_mechanism_resolved": false
+  },
+  "assessment": "experiments/wheel/20261112-160713-roundtrip-success-power-disconnection/analysis/assessment-updated.md",
+  "original_assessment": "experiments/wheel/20261112-160713-roundtrip-success-power-disconnection/analysis/assessment.md",
+  "shared_assessment": "docs/reports/20261112-1112-01-transitions/README.md",
+  "derived_exports": [
+    {
+      "path": "exports/README.md",
+      "bytes": 2317,
+      "sha256": "5060646ea5a5eeda6eb139e56411c9e9d6d89bd08800de5ba748455230b15d34"
+    },
+    {
+      "path": "exports/joint_states.csv",
+      "bytes": 2669204,
+      "sha256": "84b2fabe207d9053c169b5fb029635c5f696b37c7c26a9403b9ef8f9b7bf6786"
+    },
+    {
+      "path": "exports/validation.json",
+      "bytes": 1416,
+      "sha256": "3e2682d3b6f30659943a4741625a9602b63d5badb224c2eab1403929512bc1b5"
+    }
+  ],
+  "generated_documents": [
+    {
+      "path": "README.md",
+      "bytes": 1588,
+      "sha256": "efdbff8e7392d78961a5bc4c78c732e6ff42de4705f040c4fcfb14c999d91efb"
+    },
+    {
+      "path": "analysis/archive-provenance.json",
+      "bytes": 5196,
+      "sha256": "6bfc193f68be66c54c04b20f155a87926ace9ccb8c37d1574c7d25db31245f1d"
+    },
+    {
+      "path": "analysis/assessment-updated.md",
+      "bytes": 12830,
+      "sha256": "24cd9482f0f8b9bc73e49bb8f2a26dd00fe3738e86e9b49df95e700845085fe0"
+    },
+    {
+      "path": "analysis/operator-confirmation.json",
+      "bytes": 603,
+      "sha256": "6e2f7d26f947e6880d3e58d09f8408e29961529407e9feeed510b25ab12f853b"
+    },
+    {
+      "path": "analysis/operator-confirmation.md",
+      "bytes": 798,
+      "sha256": "56d884af999036b4f306a53689ca1e18bb0e2673450ee802ec8eec9102cb9043"
+    },
+    {
+      "path": "context/README.md",
+      "bytes": 478,
+      "sha256": "10c2c5824b8bd570dd25875d02b48d381ad72833628918008122b35fe650f783"
+    }
+  ]
+}

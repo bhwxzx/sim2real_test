@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-11-12T17:18:35.057463+08:00",
+  "rows": 2182,
+  "columns": 85,
+  "numeric_channels": 78,
+  "numeric_values_compared": 170196,
+  "float64_bitwise_roundtrip_vs_existing_npz": true,
+  "negative_zero_values_preserved": 830,
+  "timestamps_exact_vs_bag": true,
+  "frame_ids_exact_vs_bag_header": true,
+  "bag_message_count_matches": true,
+  "metadata_message_count_matches": true,
+  "metadata_status": "present_and_matches",
+  "numeric_payload_redecoded": false,
+  "method": "Numeric columns reused from existing decoded.npz; only CDR Header sec/nanosec/frame_id and SQLite timestamp read from bag. CSV reread and compared bitwise to NPZ. No new trajectory assessment.",
+  "resampling": false,
+  "filtering": false,
+  "inputs": {
+    "bag": {
+      "path": "raw/lw_real_20261112-160713/lw_real_20261112-160713_0.db3",
+      "sha256": "d2649f0516797aece62353deb3b3f87b4eb3747a808ff3cff88411866f3d199a"
+    },
+    "npz": {
+      "path": "analysis/decoded.npz",
+      "sha256": "eeabcaf4fd50dc3b7195ccb95136e61b1887660d0385c59cdc94d2c1436bce8f"
+    }
+  },
+  "output": {
+    "path": "exports/joint_states.csv",
+    "bytes": 2669204,
+    "sha256": "84b2fabe207d9053c169b5fb029635c5f696b37c7c26a9403b9ef8f9b7bf6786"
+  },
+  "schema_reference": {
+    "path": "tools/export_joint_states_csv.py",
+    "sha256": "0d0603d92477282d5de3e56dd53b1109d1e928d94eea7068fa1710487467af90"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "confirmed_date": "2026-11-12",
+  "source": "user statement in this conversation",
+  "rope_slack": true,
+  "no_human_support": true,
+  "reported_version": "1112-01",
+  "executable_bundle_path_recorded": false,
+  "motor_power_cable_disconnected_reported": false,
+  "specific_motor_or_connector_identified_by_user": null,
+  "metadata_finalized_and_available": true,
+  "raw_db_sha256_unchanged_since_analysis": true,
+  "metadata_operator_statement": "缺失metadata因为我忘记关闭ros2 bag记录程序了，现在好了"
+}

@@ -1,0 +1,53 @@
+{
+  "bag": "/home/nvidia/debug_bags/lw_real_20261112-154546/lw_real_20261112-154546_0.db3",
+  "sha256": "b11afc104fbf7513bf518b440820fea5d91a88563d55d9e58198d22c4a2d9c8a",
+  "count": 1946,
+  "duration_s": 38.897341723,
+  "first_ns": 1794469565578388974,
+  "last_ns": 1794469604475730697,
+  "max_gap_ms": 20.196772,
+  "median_gap_ms": 19.997445,
+  "finite": true,
+  "integrity_check": [
+    [
+      "ok"
+    ]
+  ],
+  "topics": [
+    [
+      1,
+      "/LW_joint_states",
+      "sensor_msgs/msg/JointState"
+    ]
+  ],
+  "names": [
+    "right_hip_now",
+    "left_hip_now",
+    "right_thigh_now",
+    "left_thigh_now",
+    "right_shank_now",
+    "left_shank_now",
+    "right_foot_now",
+    "left_foot_now",
+    "right_wheel_now",
+    "left_wheel_now",
+    "right_hip_target",
+    "left_hip_target",
+    "right_thigh_target",
+    "left_thigh_target",
+    "right_shank_target",
+    "left_shank_target",
+    "right_foot_target",
+    "left_foot_target",
+    "right_wheel_target",
+    "left_wheel_target",
+    "imu_ang_vel",
+    "imu_quat_w",
+    "imu_quat_x",
+    "imu_quat_y",
+    "imu_quat_z",
+    "cmd_vel"
+  ],
+  "header_monotonic": true,
+  "timestamp_monotonic": true
+}

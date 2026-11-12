@@ -1,0 +1,132 @@
+{
+  "right_hip_now": {
+    "tail_position_unique": 191,
+    "tail_velocity_unique": 105,
+    "tail_effort_unique": 150,
+    "q_range_deg": [
+      -50.89387052478605,
+      3.0271944816630114
+    ],
+    "velocity_range": [
+      -3.998779296875,
+      4.450550079345703
+    ]
+  },
+  "left_hip_now": {
+    "tail_position_unique": 218,
+    "tail_velocity_unique": 97,
+    "tail_effort_unique": 136,
+    "q_range_deg": [
+      -12.316361035907073,
+      10.130700501502993
+    ],
+    "velocity_range": [
+      -2.960927963256836,
+      3.510377883911133
+    ]
+  },
+  "right_thigh_now": {
+    "tail_position_unique": 265,
+    "tail_velocity_unique": 108,
+    "tail_effort_unique": 146,
+    "q_range_deg": [
+      -71.26455455451224,
+      -6.371309740814614
+    ],
+    "velocity_range": [
+      -3.9865684509277344,
+      4.133089065551758
+    ]
+  },
+  "left_thigh_now": {
+    "tail_position_unique": 247,
+    "tail_velocity_unique": 116,
+    "tail_effort_unique": 124,
+    "q_range_deg": [
+      -23.244827632467555,
+      49.23276851863895
+    ],
+    "velocity_range": [
+      -4.780220031738281,
+      4.096458435058594
+    ]
+  },
+  "right_shank_now": {
+    "tail_position_unique": 1,
+    "tail_velocity_unique": 1,
+    "tail_effort_unique": 1,
+    "q_range_deg": [
+      -68.11714874345701,
+      -68.11714874345701
+    ],
+    "velocity_range": [
+      -2.7167282104492188,
+      -2.7167282104492188
+    ]
+  },
+  "left_shank_now": {
+    "tail_position_unique": 294,
+    "tail_velocity_unique": 108,
+    "tail_effort_unique": 139,
+    "q_range_deg": [
+      14.93920831870533,
+      123.15290062245215
+    ],
+    "velocity_range": [
+      -4.890110015869141,
+      4.743589401245117
+    ]
+  },
+  "right_foot_now": {
+    "tail_position_unique": 223,
+    "tail_velocity_unique": 95,
+    "tail_effort_unique": 157,
+    "q_range_deg": [
+      -95.19791989683044,
+      1.715743519507203
+    ],
+    "velocity_range": [
+      -7.741147994995117,
+      3.882783889770508
+    ]
+  },
+  "left_foot_now": {
+    "tail_position_unique": 197,
+    "tail_velocity_unique": 78,
+    "tail_effort_unique": 126,
+    "q_range_deg": [
+      2.5463491640941136,
+      82.89243252208203
+    ],
+    "velocity_range": [
+      -3.7264957427978516,
+      4.390720367431641
+    ]
+  },
+  "right_wheel_now": {
+    "tail_position_unique": 1,
+    "tail_velocity_unique": 53,
+    "tail_effort_unique": 63,
+    "q_range_deg": [
+      0.0,
+      0.0
+    ],
+    "velocity_range": [
+      -1.0879135131835938,
+      3.9890098571777344
+    ]
+  },
+  "left_wheel_now": {
+    "tail_position_unique": 1,
+    "tail_velocity_unique": 35,
+    "tail_effort_unique": 32,
+    "q_range_deg": [
+      0.0,
+      0.0
+    ],
+    "velocity_range": [
+      -2.5164833068847656,
+      0.1868133544921875
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "bag": "/home/nvidia/debug_bags/lw_real_20261112-162712/lw_real_20261112-162712_0.db3",
+  "sha256": "1855cc8c3fece9a6bdcaa343153f28406afbcd9219351995e33a6c371bd6e163",
+  "count": 2098,
+  "duration_s": 41.942759558,
+  "first_ns": 1794472046843872921,
+  "last_ns": 1794472088786632479,
+  "max_gap_ms": 24.944603,
+  "finite": true
+}
